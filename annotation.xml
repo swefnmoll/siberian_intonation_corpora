@@ -1,2 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<data></data>
+<data>
+  <file id="ААР_1">
+    <syntagm time="0.01908223463881306">
+      <syllabe time="0.01908223463881306" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="1.3713682854046607">син қайтмастың ма ӱӱгӓ<syllabe time="0.5177092691975772" pitch="N" intensity="N">ɣʌjt</syllabe>
+      <syllabe time="0.7285591709498201" pitch="N" intensity="N">mʌs</syllabe>
+      <syllabe time="0.8040998837823167" pitch="N" intensity="N">tɯ</syllabe>
+      <syllabe time="1.0107991969173895" pitch="N" intensity="N">mɛ</syllabe>
+      <syllabe time="1.121215230605658" pitch="L!" intensity="N">ʉ</syllabe>
+      <syllabe time="1.3713682854046607" pitch="N" intensity="L">gɛ</syllabe>
+    </syntagm>
+  </file>
+</data>

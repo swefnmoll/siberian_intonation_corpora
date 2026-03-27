@@ -74,5 +74,12 @@ class Subtypes(Base):
     id = Column(Integer, primary_key=True)
     subtype = Column(Text)
 
+class GraphicsData(Base):
+    __tablename__ = 'graphics_data'
+
+    id = Column(Integer, primary_key=True)
+    file = Column(Text, ForeignKey('files.file'))
+    pitch = Column(Text)
+    intensity = Column(Text)
 
 Base.metadata.create_all(engine)
