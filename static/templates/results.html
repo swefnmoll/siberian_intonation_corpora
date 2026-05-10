@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Главная</title>
+  <link rel="stylesheet" href="../static/styles.css">
+  <script src="https://unpkg.com/wavesurfer.js@7"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  {% include "top.html" %}
+  <div class="title">Результаты поиска</div>
+  <div class="main">
+    {% for file, dictor, type, subtype, text, translation, pitch, intensity in result: %}
+    <div class="res-elem-two">
+      Текст: {{ text }}<br>
+      Перевод: {{ translation }}<br>
+      (Диктор: {{ dictor }}) <br>
+      <div class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#static/audio/{{file}}.wav">Разметка и звук</div>
+        <div class="collapse" id="static/audio/{{file}}.wav">
+          <input type="button" id="btn-play_{{file}}" value="Play"/>
+          <input type="button" id="btn-pause_{{file}}" value="Pause"/>
+          <input type="button" id="btn-stop_{{file}}" value="Stop"/>
+          <div class="waveform" id="waveform_{{file}}" style="width: 640px;"></div>
+          <div><canvas id='pitch_{{file}}' height="256" width="640"></canvas></div>
+          <div><canvas id='intensity_{{file}}' height="256" width="640"></canvas></div>
+          <script>
+            var wv = WaveSurfer.create({
+            container: decodeURIComponent('#waveform_{{ file }}'),
+            waveColor: 'black',
+            progressColor: 'blue',
+            url: decodeURIComponent('static/audio/{{ file }}.wav')
+            });
+            
+            var buttons = {
+            play: document.getElementById(decodeURIComponent("btn-play_{{ file }}")),
+            pause: document.getElementById(decodeURIComponent("btn-pause_{{ file }}")),
+            stop: document.getElementById(decodeURIComponent("btn-stop_{{ file }}"))
+            };
+
+            buttons.play.addEventListener("click", function(){
+              wv.play();
+
+              buttons.stop.disabled = false;
+              buttons.pause.disabled = false;
+              buttons.play.disabled = true;
+              }, false);
+
+          buttons.pause.addEventListener("click", function(){
+              wv.pause();
+
+              buttons.pause.disabled = true;
+              buttons.play.disabled = false;
+          }, false);
+
+
+          buttons.stop.addEventListener("click", function(){
+              wv.stop();
+              buttons.pause.disabled = true;
+              buttons.play.disabled = false;
+              buttons.stop.disabled = true;
+          }, false);
+
+          wv.on('ready', function () {
+              var spectrogram = Object.create(WaveSurfer.Spectrogram);
+              spectrogram.init({
+                wavesurfer: ws,
+                container: decodeURIComponent("#spectrogram_{{ file }}"),
+                fftSamples: 1024,
+                labels: true
+              });
+          });
+          wv.load(decodeURIComponent('static/audio/{{ file }}.wav'));
+          </script>
+          <script>
+          pitch_labels = []
+          intensity_labels = []
+          pitch_data = []
+          intensity_data = []
+          '{{ pitch }}'.slice(1, -1).split(', ').forEach(
+            function(i) {
+              pitch_labels.push(i)
+              pitch_data.push(parseInt(i))})
+          '{{ intensity }}'.slice(1, -1).split(', ').forEach(
+            function(i) {
+              intensity_labels.push(i)
+              intensity_data.push(parseInt(i))})
+          var chartTooltip_pitch = document.getElementById("pitch_{{ file }}").getContext("2d");
+          var chartTooltip_intensity = document.getElementById("intensity_{{ file }}").getContext("2d");
+          var toolTip = new Chart(chartTooltip_pitch, {
+            type: "line",
+            data: {
+              labels: pitch_labels,
+                datasets: [{
+                  label: 'Pitch',
+                  data: pitch_data,
+                  borderWidth: 3,
+                  borderColor: 'blue'
+                }],
+            },
+            options: {
+                  responsive: false,
+                  elements: {
+                    point: {
+                      radius: 0
+                    }
+                  },
+                  scales: {
+                    x: {
+                      display: false,
+                      ticks: {
+                        display: false
+                      }
+                    }
+                  }  
+                }
+            });
+            var toolTip = new Chart(chartTooltip_intensity, {
+            type: "line",
+            data: {
+              labels: intensity_labels,
+                datasets: [{
+                  label: 'Intensity',
+                  data: intensity_data,
+                  borderWidth: 3,
+                  borderColor: 'green'
+                }],
+            },
+            options: {
+                  responsive: false,
+                  elements: {
+                    point: {
+                      radius: 0
+                    }
+                  },
+                  scales: {
+                    x: {
+                      display: false,
+                      ticks: {
+                        display: false
+                      }},
+                  }
+                  }});
+          </script>
+        </div>
+    </div>
+  {% endfor %}
+  </div>
+
+</body>
+</html>

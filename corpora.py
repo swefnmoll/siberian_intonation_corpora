@@ -118,6 +118,7 @@ class Upload():
         self.upload_data()
         self.upload_metadata()
         self.upload_graphics_data()
+        snd.save('static/audio/' + self.filename + '.wav', 'WAV')
 
     def upload_data(self):
         tree = ET.parse('annotation.xml')
@@ -158,5 +159,4 @@ class Upload():
         session.add(graphic)
         session.commit()
 
-path = input('Имя файла: ')
-upl = Upload(path)
+upl = Upload('G:\Мой диск\Интонационная БД\Барабинцы\Звуковые файлы по высказываниям\Загружено\ААР_модал_2.TextGrid')

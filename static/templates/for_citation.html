@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Для цитирования</title>
+    <link rel="stylesheet" href="../static/styles.css">
+</head>
+<body>
+{% include "top.html" %}
+<div class="title">Для цитирования</div>
+<div class="main">
+    <p>Если Вы используете данные Корпуса в своём исследовании, воспользуйтесь следующей ссылкой:</p>
+    <p><font size="2">Рыжикова Т.Р., Добрынина А.А., Шиндрова К.В., Григорьева А.С., Якимец Н.В., Манаков Ю.А. База данных “Интонация диалогической речи миноритарных народов Новосибирской области и сопредельных регионов”. Новосибирск, 2025. (Доступно онлайн по адресу: intonation.philology.nsc.ru/, дата обращения <span id="date"></span></span>)</font></p>
+</div>
+<script type="text/javascript">
+    n =  new Date();
+    y = n.getFullYear();
+    m = n.getMonth() + 1;
+    d = n.getDate();
+    if (m < 10) {m = '0' + m};
+    document.getElementById("date").innerHTML = d + "." + m + "." + y + ".";
+</script>
+</body>
+</html>

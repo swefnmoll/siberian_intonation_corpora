@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+{% include "top.html" %}
+<div class="title">Поиск по фразам</div><br>
+<form class="form" method="get" action="{{ url_for('results') }}">
+<div>
+    <label class="form-label">Язык</label>
+    <select name="lang">
+        <option></option>
+        {% for lang in languages: %}
+            <option>{{ lang }}</option>
+        {% endfor %}
+    </select><br>
+    Тип фразы:
+    <select name="type">
+        <option></option>
+        {% for type in types: %}
+            <option>{{ type }}</option>
+        {% endfor %}
+    </select><br>
+    Подтип фразы:
+    <select name="subtype">
+        <option></option>
+        {% for subtype in subtypes: %}
+            <option>{{ subtype }}</option>
+        {% endfor %}
+    </select><br>
+    Образование:
+    <select name="education">
+        <option></option>
+        {% for level in levels: %}
+            <option>{{ level }}</option>
+        {% endfor %}
+    </select><br>
+    Населённый пункт:
+    <select name="settlement">
+        <option></option>
+        {% for settlement in settlements: %}
+            <option>{{ settlement }}</option>
+        {% endfor %}
+    </select><br>
+    Диктор:
+    <select name="dictor">
+        <option></option>
+        {% for dictor in dictors: %}
+            <option>{{ dictor }}</option>
+        {% endfor %}
+    </select><br>
+    Пол:
+    <select name="gender">
+        <option></option>
+        <option>м</option>
+        <option>ж</option>
+    </select><br>
+    Год рождения:
+    <div id="dobslider" class="dobslider"</div>
+    <input type="hidden" name="dob" id="dob" /><br>
+    <span id="result"></span><br>
+    <button type="submit" class="btn btn-primary">Поиск</button><br>
+<script type="text/javascript">
+    $("#dobslider").slider({
+        animate: "slow",
+        range: "true",
+        min: 1900,
+        max: 2020,
+        values: [ 1950,2000 ],
+        slide : function(event, ui) {
+            $("#result").text( "от " + ui.values[ 0 ] + " до " + ui.values[ 1 ] );
+            $("#result").text(ui.values);
+            $("#dob").val(ui.values);
+        }
+    });
+    $( "#result" ).text("от " + $("#dobslider").slider("values", 0) + " до " + $("#dobslider").slider("values", 1));
+    $("#result").text($("#dobslider").slider("value"));
+    $("#dob").val($("#dobslider").slider("value"));
+</script><br>
+</div><br><br>
+</form><br>
+<div class="title">Поиск по диалогам</div><br>
+<form class="form" form method="get" action="{{ url_for('results_dialogs') }}">
+    <div>
+    <label class="form-label">Язык</label>
+    <select name="lang">
+        <option></option>
+        {% for lang in languages: %}
+            <option>{{ lang }}</option>
+        {% endfor %}
+    </select><br>
+    <label class="form-label">Тема</label>
+    <select name="theme">
+        <option></option>
+        {% for theme in themes: %}
+            <option>{{ theme }}</option>
+        {% endfor %}
+    </select><br>
+    <button type="submit" class="btn btn-primary">Поиск</button>
+    </div>
+</form>
+</body>
+</html>

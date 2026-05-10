@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Главная</title>
+  <link rel="stylesheet" href="../static/styles.css">
+</head>
+<body>
+  {% include "top.html" %}
+  <div class="title">Результаты поиска</div>
+  <div class="pagination justify-content-center">
+    {{ pagination.links }}<br>
+  </div>
+  <div class="main">
+  {% for lang, theme, text, transl, index, id in result: %}
+  {% if index % 2 == 0 %}
+  <div class="res-elem-one">
+    <audio controls>
+        <source src="static/full_dialogs/wav/{{id}}.wav" type="audio/wav">
+    </audio><br>
+    Язык: {{ lang }}; Тема: {{ theme }}<br>
+    <div class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#{{ 'text_' + id }}">Текст</div>
+    <div class="collapse" id="{{ 'text_' + id }}">
+        {% for str in text %}
+            {{ str }}<br>
+        {% endfor %}
+    </div>
+    <br>
+    <div class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#{{ 'translation_' + id }}">Перевод</div>
+    <div class="collapse" id="{{ 'translation_' + id }}">
+        {% for str in transl %}
+            {{ str }}<br>
+        {% endfor %}
+    </div>
+  </div>
+  {% else %}
+  <div class="res-elem-two">
+    <audio controls>
+        <source src="static/full_dialogs/wav/{{id}}.wav" type="audio/wav">
+    </audio><br>
+    Язык: {{ lang }}; Тема: {{ theme }}<br>
+    <div class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#{{ 'text_' + id }}">Текст</div>
+    <div class="collapse" id="{{ 'text_' + id }}">
+        {% for str in text %}
+            {{ str }}<br>
+        {% endfor %}
+    </div>
+    <br>
+    <div class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#{{ 'translation_' + id }}">Перевод</div>
+    <div class="collapse" id="{{ 'translation_' + id }}">
+        {% for str in transl %}
+            {{ str }}<br>
+        {% endfor %}
+    </div>
+  </div>
+    {% endif %}
+    {% endfor %}
+  <ul class="pagination justify-content-center">
+    {{ pagination.links }}
+  </ul>
+</body>
+</html>

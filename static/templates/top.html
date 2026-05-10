@@ -1,0 +1,52 @@
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Поиск</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="static/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</head>
+<body>
+{% block navbar %}
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <span class="navbar-brand">Корпус "Интонация диалогической речи миноритарных народов Новосибирской области и сопредельных регионов"</span><br>
+        <div class="container-fluid">
+            <ul class="navbar-nav d-flex flex-row align-items-center justify-content-between w-100">
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('main_page') }}">Главная</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('search') }}">Поиск по корпусу</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('methods') }}">Методика и материал</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('authors') }}">Составители</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('contacts') }}">Контакты</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('for_citation') }}">Для цитирования</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="Info" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Информация о языках
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="Info">
+                        <li><a class="dropdown-item" href="{{ url_for('info_barab') }}">Барабинский язык</a></li>
+                        <li><a class="dropdown-item" href="{{ url_for('info_chat') }}">Чатский язык</a></li>
+                        <li><a class="dropdown-item" href="{{ url_for('info_kumand') }}">Кумандинский язык</a></li>
+                        <li><a class="dropdown-item" href="{{ url_for('info_plotd') }}">Плотдич</a></li>
+                        <li><a class="dropdown-item" href="{{ url_for('info_teleut') }}">Телеутский язык</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+{% endblock %}
