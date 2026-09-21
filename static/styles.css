@@ -74,3 +74,6 @@ color: black;
 .navbar .navbar-nav > li > a {
     color: rgb(99, 99, 99);
 }
+table {
+  font-size: 10;
+}

@@ -6,87 +6,82 @@
   <link rel="stylesheet" href="../static/styles.css">
   <script src="https://unpkg.com/wavesurfer.js@7"></script>
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script>
+    let wv = {}
+    let buttons = {}
+  </script>
 </head>
 <body>
   {% include "top.html" %}
   <div class="title">Результаты поиска</div>
   <div class="main">
-    {% for file, dictor, type, subtype, text, translation, pitch, intensity in result: %}
+    {% for elem in result %}
     <div class="res-elem-two">
-      Текст: {{ text }}<br>
-      Перевод: {{ translation }}<br>
-      (Диктор: {{ dictor }}) <br>
-      <div class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#static/audio/{{file}}.wav">Разметка и звук</div>
-        <div class="collapse" id="static/audio/{{file}}.wav">
-          <input type="button" id="btn-play_{{file}}" value="Play"/>
-          <input type="button" id="btn-pause_{{file}}" value="Pause"/>
-          <input type="button" id="btn-stop_{{file}}" value="Stop"/>
-          <div class="waveform" id="waveform_{{file}}" style="width: 640px;"></div>
-          <div><canvas id='pitch_{{file}}' height="256" width="640"></canvas></div>
-          <div><canvas id='intensity_{{file}}' height="256" width="640"></canvas></div>
+      Текст: {{ elem[4] }}<br>
+      Перевод: {{ elem[5] }}<br>
+      (Диктор: {{ elem[1] }}) <br>
+      <div class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#static/audio/{{elem[0]}}.wav">Разметка и звук</div>
+        <div class="collapse" id="static/audio/{{elem[0]}}.wav">
+          <input class="btn btn-primary" type="button" id="btn-play_{{elem[0]}}" value="Play"/>
+          <input class="btn btn-primary" type="button" id="btn-pause_{{elem[0]}}" value="Pause"/>
+          <input class="btn btn-primary" type="button" id="btn-stop_{{elem[0]}}" value="Stop"/>
+          <div class="waveform" id="waveform_{{elem[0]}}" style="width: 1024px;"></div>
+          <div><canvas id='pitch_{{elem[0]}}' height="128" width="1024"></canvas></div>
+          <div><canvas id='intensity_{{elem[0]}}' height="128" width="1024"></canvas></div>
           <script>
-            var wv = WaveSurfer.create({
-            container: decodeURIComponent('#waveform_{{ file }}'),
+            wv['{{ elem[0] }}'] = WaveSurfer.create({
+            container: decodeURIComponent('#waveform_{{ elem[0] }}'),
             waveColor: 'black',
             progressColor: 'blue',
-            url: decodeURIComponent('static/audio/{{ file }}.wav')
+            url: decodeURIComponent('static/audio/{{ elem[0] }}.wav')
             });
             
-            var buttons = {
-            play: document.getElementById(decodeURIComponent("btn-play_{{ file }}")),
-            pause: document.getElementById(decodeURIComponent("btn-pause_{{ file }}")),
-            stop: document.getElementById(decodeURIComponent("btn-stop_{{ file }}"))
+            buttons['{{ elem[0] }}'] = {
+            play: document.getElementById(decodeURIComponent("btn-play_{{ elem[0] }}")),
+            pause: document.getElementById(decodeURIComponent("btn-pause_{{ elem[0] }}")),
+            stop: document.getElementById(decodeURIComponent("btn-stop_{{ elem[0] }}"))
             };
 
-            buttons.play.addEventListener("click", function(){
-              wv.play();
+            buttons['{{ elem[0] }}'].play.addEventListener("click", function(){
+              wv['{{ elem[0] }}'].play();
 
-              buttons.stop.disabled = false;
-              buttons.pause.disabled = false;
-              buttons.play.disabled = true;
+              buttons['{{ elem[0] }}'].stop.disabled = false;
+              buttons['{{ elem[0] }}'].pause.disabled = false;
+              buttons['{{ elem[0] }}'].play.disabled = true;
               }, false);
 
-          buttons.pause.addEventListener("click", function(){
-              wv.pause();
+          buttons['{{ elem[0] }}'].pause.addEventListener("click", function(){
+              wv['{{ elem[0] }}'].pause();
 
-              buttons.pause.disabled = true;
-              buttons.play.disabled = false;
+              buttons['{{ elem[0] }}'].pause.disabled = true;
+              buttons['{{ elem[0] }}'].play.disabled = false;
           }, false);
 
 
-          buttons.stop.addEventListener("click", function(){
-              wv.stop();
-              buttons.pause.disabled = true;
-              buttons.play.disabled = false;
-              buttons.stop.disabled = true;
+          buttons['{{ elem[0] }}'].stop.addEventListener("click", function(){
+              wv['{{ elem[0] }}'].stop();
+              buttons['{{ elem[0] }}'].pause.disabled = true;
+              buttons['{{ elem[0] }}'].play.disabled = false;
+              buttons['{{ elem[0] }}'].stop.disabled = true;
           }, false);
 
-          wv.on('ready', function () {
-              var spectrogram = Object.create(WaveSurfer.Spectrogram);
-              spectrogram.init({
-                wavesurfer: ws,
-                container: decodeURIComponent("#spectrogram_{{ file }}"),
-                fftSamples: 1024,
-                labels: true
-              });
-          });
-          wv.load(decodeURIComponent('static/audio/{{ file }}.wav'));
+          wv['{{ elem[0] }}'].load(decodeURIComponent('static/audio/{{ elem[0] }}.wav'));
           </script>
           <script>
           pitch_labels = []
           intensity_labels = []
           pitch_data = []
           intensity_data = []
-          '{{ pitch }}'.slice(1, -1).split(', ').forEach(
+          '{{ elem[6] }}'.slice(1, -1).split(', ').forEach(
             function(i) {
               pitch_labels.push(i)
               pitch_data.push(parseInt(i))})
-          '{{ intensity }}'.slice(1, -1).split(', ').forEach(
+          '{{ elem[7] }}'.slice(1, -1).split(', ').forEach(
             function(i) {
               intensity_labels.push(i)
               intensity_data.push(parseInt(i))})
-          var chartTooltip_pitch = document.getElementById("pitch_{{ file }}").getContext("2d");
-          var chartTooltip_intensity = document.getElementById("intensity_{{ file }}").getContext("2d");
+          var chartTooltip_pitch = document.getElementById("pitch_{{ elem[0] }}").getContext("2d");
+          var chartTooltip_intensity = document.getElementById("intensity_{{ elem[0] }}").getContext("2d");
           var toolTip = new Chart(chartTooltip_pitch, {
             type: "line",
             data: {
@@ -110,8 +105,11 @@
                       display: false,
                       ticks: {
                         display: false
-                      }
-                    }
+                      }},
+                    y: {
+                      ticks: {
+                        display: false
+                    }}
                   }  
                 }
             });
@@ -139,8 +137,83 @@
                       ticks: {
                         display: false
                       }},
+                    y: {
+                      ticks: {
+                        display: false
+                    }}
                   }
                   }});
+          </script>
+          <div id="{{elem[0]}}_synt_tier"></div>
+          <div id="{{elem[0]}}_syll_tier"></div>
+          <script>
+            syntbnd = '{{ elem[10] }}'.slice(1, -1).split(', ')
+            synttxt = decodeURI('{{ elem[11] }}').slice(1, -1).split(', ')
+            syllbnd = '{{ elem[8] }}'.slice(1, -1).split(', ')
+            sylltxt = decodeURI('{{ elem[9] }}').slice(1, -1).split(', ')
+            function syntTableCreate() {
+            var syntbody = document.getElementById('{{ elem[0] }}_synt_tier');
+            var synttbl = document.createElement('table');
+            synttbl.style.width = '1024px';
+            synttbl.setAttribute('border', '1');
+            synttbl.style.border = '1px solid black';
+            const synt_tier = synttbl.insertRow();
+            for (let i = 1; i <= synttxt.length; i++) {
+              const td = synt_tier.insertCell();
+              td.appendChild(document.createTextNode(synttxt[i - 1].slice(5, -5)));
+              td.style.border = '1px solid black';
+              td.style.width = ((syntbnd[i] - syntbnd[i - 1]) * 1024).toString() + 'px'
+
+            }
+            syntbody.appendChild(synttbl);
+          };
+            function syllTableCreate() {
+            var syllbody = document.getElementById('{{ elem[0] }}_syll_tier');
+            var sylltbl = document.createElement('table');
+            sylltbl.style.width = '1024px';
+            sylltbl.setAttribute('border', '1');
+            sylltbl.style.border = '1px solid black';
+            sylltbl.style.fontSize = '10px';
+            const syll_tier = sylltbl.insertRow();
+            for (let i = 1; i <= sylltxt.length; i++) {
+              const td = syll_tier.insertCell();
+              td.appendChild(document.createTextNode(sylltxt[i - 1].slice(5, -5)));
+              td.style.border = '1px solid black';
+              td.style.width = ((syllbnd[i] - syllbnd[i - 1]) * 1024).toString() + 'px'
+            };
+            
+            syllbody.appendChild(sylltbl);
+          };
+            function annTableCreate() {
+            var annbody = document.getElementById('{{ elem[0] }}_syll_tier');
+            var anntbl = document.createElement('table');
+            anntbl.style.width = '1024px';
+            anntbl.setAttribute('border', '1');
+            anntbl.style.border = '1px solid black';
+            anntbl.style.fontSize = '11px';
+            const pitch_tier = anntbl.insertRow();
+            for (let i = 1; i < syllbnd.length; i++) {
+              pitch = '{{elem[12]}}'.slice(1, -1).split(', ')
+              const td = pitch_tier.insertCell();
+              td.appendChild(document.createTextNode(pitch[i - 1].slice(5, -5) + 'P '));
+              td.style.border = '1px solid black';
+              td.style.width = ((syllbnd[i] - syllbnd[i - 1]) * 1024).toString() + 'px'
+            };
+            const intens_tier = anntbl.insertRow();
+            for (let i = 1; i < syllbnd.length; i++) {
+              intens = '{{elem[13]}}'.slice(1, -1).split(', ')
+              const td = intens_tier.insertCell();
+              td.appendChild(document.createTextNode(intens[i - 1].slice(5, -5) + 'I '));
+              td.style.border = '1px solid black';
+              td.style.width = ((syllbnd[i] - syllbnd[i - 1]) * 1024).toString() + 'px'
+            };
+            
+            annbody.appendChild(anntbl);
+          };
+                    
+          syntTableCreate();
+          syllTableCreate();
+          annTableCreate();
           </script>
         </div>
     </div>
