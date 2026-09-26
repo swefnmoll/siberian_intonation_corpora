@@ -8,9 +8,6 @@
 <body>
   {% include "top.html" %}
   <div class="title">Результаты поиска</div>
-  <div class="pagination justify-content-center">
-    {{ pagination.links }}<br>
-  </div>
   <div class="main">
   {% for lang, theme, text, transl, index, id in result: %}
   {% if index % 2 == 0 %}
@@ -55,8 +52,5 @@
   </div>
     {% endif %}
     {% endfor %}
-  <ul class="pagination justify-content-center">
-    {{ pagination.links }}
-  </ul>
 </body>
 </html>

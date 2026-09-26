@@ -60,7 +60,8 @@ def results():
             annotations.append([syll_bound, syll_texts, synt_bound, synt_texts, pitch_marks, intens_marks])
     for i, result in enumerate(raw_results):
         results.append(list(result) + annotations[i])
-    resp = make_response(render_template('results.html', result=results))
+    result_page = results
+    resp = make_response(render_template('results.html', result=result_page))
     return resp
 
 @app.after_request
@@ -92,7 +93,6 @@ def info_plotd():
 @app.route('/info_teleut')
 def info_teleut():
     return render_template('info_teleut.html')
-
 
 @app.route('/methods')
 def methods():
