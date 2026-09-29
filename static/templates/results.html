@@ -15,6 +15,9 @@
   {% include "top.html" %}
   <div class="title">Результаты поиска</div>
   <div class="main">
+    <div class="pagination justify-content-center">
+      {{ pagination.links }}<br>
+    </div>
     {% for elem in result %}
     <div class="res-elem-two">
       Текст: {{ elem[4] }}<br>

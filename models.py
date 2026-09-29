@@ -28,7 +28,6 @@ class Files(Base):
     __tablename__ = 'files'
     
     id = Column(Integer, primary_key=True, autoincrement=True)
-    file = Column(Text)
     dictor = Column(Integer, ForeignKey('dictors.id'))
     type = Column(Integer, ForeignKey('types.id'))
     subtype = Column(Integer, ForeignKey('types.id'))
@@ -78,7 +77,6 @@ class GraphicsData(Base):
     __tablename__ = 'graphics_data'
 
     id = Column(Integer, primary_key=True)
-    file = Column(Text, ForeignKey('files.file'))
     pitch = Column(Text)
     intensity = Column(Text)
 

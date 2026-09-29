@@ -60,18 +60,16 @@
     $("#dobslider").slider({
         animate: "slow",
         range: "true",
+        values: [1900, 2020],
         min: 1900,
         max: 2020,
-        values: [ 1950,2000 ],
         slide : function(event, ui) {
-            $("#result").text( "от " + ui.values[ 0 ] + " до " + ui.values[ 1 ] );
-            $("#result").text(ui.values);
+            $("#result").text( 'от ' + ui.values[0] + ' до ' + ui.values[1] );
             $("#dob").val(ui.values);
         }
     });
     $( "#result" ).text("от " + $("#dobslider").slider("values", 0) + " до " + $("#dobslider").slider("values", 1));
-    $("#result").text($("#dobslider").slider("value"));
-    $("#dob").val($("#dobslider").slider("value"));
+    $("#dob").val($("#dobslider").slider("values"));
 </script><br>
 </div><br><br>
 </form><br>

@@ -1,188 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <data>
-  <file id="СРС_4">
-    <syntagm time="0.16864274919881578" text="">
-      <syllabe time="0.16864274919881578" pitch="H" intensity="H" />
-    </syntagm>
-    <syntagm time="0.6888076053226188" text="ааа">
-      <syllabe time="0.6888076053226188" pitch="H" intensity="H">ɛː</syllabe>
-    </syntagm>
-    <syntagm time="1.39008668039431" text="öстä">
-      <syllabe time="0.9578752113605002" pitch="N" intensity="N">ʏsʲ</syllabe>
-      <syllabe time="1.39008668039431" pitch="L" intensity="H!">tʲø</syllabe>
-    </syntagm>
-    <syntagm time="1.8326215727313113" text="-">
-      <syllabe time="1.8326215727313113" pitch="H" intensity="H!">-</syllabe>
-    </syntagm>
-    <syntagm time="2.6826123720371378" text="ммм" />
-    <syntagm time="2.944355570553535" text="-">
-      <syllabe time="2.944355570553535" pitch="H" intensity="H">-</syllabe>
-    </syntagm>
-    <syntagm time="3.9384856306937617" text="мостик қатында ">
-      <syllabe time="3.260891541127176" pitch="N" intensity="H">mɔsʲ</syllabe>
-      <syllabe time="3.439250749675014" pitch="N" intensity="N">tʲik</syllabe>
-      <syllabe time="3.6267827175195984" pitch="N" intensity="N">qʌ</syllabe>
-      <syllabe time="3.793930775815858" pitch="N" intensity="N">tɯn</syllabe>
-      <syllabe time="3.9384856306937617" pitch="N" intensity="N">dʌ</syllabe>
-    </syntagm>
-    <syntagm time="4.834774940178099" text="кымнар йöрып йады?">
-      <syllabe time="4.072927268971039" pitch="N" intensity="N">qɯm</syllabe>
-      <syllabe time="4.26657440968012" pitch="L!" intensity="H">nʲɛrʲ</syllabe>
-      <syllabe time="4.620235240343548" pitch="N" intensity="L!">jørʲpʲ</syllabe>
-      <syllabe time="4.739481111201245" pitch="L!" intensity="N">jʌ</syllabe>
-      <syllabe time="4.834774940178099" pitch="N" intensity="N">dɯ</syllabe>
-    </syntagm>
-    <syntagm time="5.264354196404363" text="" />
-  </file>
-  <file id="СРС_1">
-    <syntagm time="0.16864274919881578" text="">
-      <syllabe time="0.16864274919881578" pitch="H" intensity="H" />
-    </syntagm>
-    <syntagm time="0.6888076053226188" text="ааа">
-      <syllabe time="0.6888076053226188" pitch="H" intensity="H">ɛː</syllabe>
-    </syntagm>
-    <syntagm time="1.39008668039431" text="öстä">
-      <syllabe time="0.9578752113605002" pitch="N" intensity="N">ʏsʲ</syllabe>
-      <syllabe time="1.39008668039431" pitch="L" intensity="H!">tʲø</syllabe>
-    </syntagm>
-    <syntagm time="1.8326215727313113" text="-">
-      <syllabe time="1.8326215727313113" pitch="H" intensity="H!">-</syllabe>
-    </syntagm>
-    <syntagm time="2.6826123720371378" text="ммм" />
-    <syntagm time="2.944355570553535" text="-">
-      <syllabe time="2.944355570553535" pitch="H" intensity="H">-</syllabe>
-    </syntagm>
-    <syntagm time="3.9384856306937617" text="мостик қатында ">
-      <syllabe time="3.260891541127176" pitch="N" intensity="H">mɔsʲ</syllabe>
-      <syllabe time="3.439250749675014" pitch="N" intensity="N">tʲik</syllabe>
-      <syllabe time="3.6267827175195984" pitch="N" intensity="N">qʌ</syllabe>
-      <syllabe time="3.793930775815858" pitch="N" intensity="N">tɯn</syllabe>
-      <syllabe time="3.9384856306937617" pitch="N" intensity="N">dʌ</syllabe>
-    </syntagm>
-    <syntagm time="4.834774940178099" text="кымнар йöрып йады?">
-      <syllabe time="4.072927268971039" pitch="N" intensity="N">qɯm</syllabe>
-      <syllabe time="4.26657440968012" pitch="L!" intensity="H">nʲɛrʲ</syllabe>
-      <syllabe time="4.620235240343548" pitch="N" intensity="L!">jørʲpʲ</syllabe>
-      <syllabe time="4.739481111201245" pitch="L!" intensity="N">jʌ</syllabe>
-      <syllabe time="4.834774940178099" pitch="N" intensity="N">dɯ</syllabe>
-    </syntagm>
-    <syntagm time="5.264354196404363" text="" />
-  </file>
-  <file id="СРС_2">
-    <syntagm time="0.16864274919881578" text="">
-      <syllabe time="0.16864274919881578" pitch="H" intensity="H" />
-    </syntagm>
-    <syntagm time="0.6888076053226188" text="ааа">
-      <syllabe time="0.6888076053226188" pitch="H" intensity="H">ɛː</syllabe>
-    </syntagm>
-    <syntagm time="1.39008668039431" text="öстä">
-      <syllabe time="0.9578752113605002" pitch="N" intensity="N">ʏsʲ</syllabe>
-      <syllabe time="1.39008668039431" pitch="L" intensity="H!">tʲø</syllabe>
-    </syntagm>
-    <syntagm time="1.8326215727313113" text="-">
-      <syllabe time="1.8326215727313113" pitch="H" intensity="H!">-</syllabe>
-    </syntagm>
-    <syntagm time="2.6826123720371378" text="ммм">
-      <syllabe time="2.6826123720371378" pitch="H!" intensity="H">mː</syllabe>
-    </syntagm>
-    <syntagm time="2.944355570553535" text="-">
-      <syllabe time="2.944355570553535" pitch="H" intensity="H">-</syllabe>
-    </syntagm>
-    <syntagm time="3.9384856306937617" text="мостик қатында ">
-      <syllabe time="3.260891541127176" pitch="N" intensity="H">mɔsʲ</syllabe>
-      <syllabe time="3.439250749675014" pitch="N" intensity="N">tʲik</syllabe>
-      <syllabe time="3.6267827175195984" pitch="N" intensity="N">qʌ</syllabe>
-      <syllabe time="3.793930775815858" pitch="N" intensity="N">tɯn</syllabe>
-      <syllabe time="3.9384856306937617" pitch="N" intensity="N">dʌ</syllabe>
-    </syntagm>
-    <syntagm time="4.834774940178099" text="кымнар йöрып йады?">
-      <syllabe time="4.072927268971039" pitch="N" intensity="N">qɯm</syllabe>
-      <syllabe time="4.26657440968012" pitch="L!" intensity="H">nʲɛrʲ</syllabe>
-      <syllabe time="4.620235240343548" pitch="N" intensity="L!">jørʲpʲ</syllabe>
-      <syllabe time="4.739481111201245" pitch="L!" intensity="N">jʌ</syllabe>
-      <syllabe time="4.834774940178099" pitch="N" intensity="N">dɯ</syllabe>
-    </syntagm>
-    <syntagm time="5.264354196404363" text="">
-      <syllabe time="5.264354196404363" pitch="H" intensity="H!" />
-    </syntagm>
-  </file>
-  <file id="СРС_3">
-    <syntagm time="0.1686" text="">
-      <syllabe time="0.1686" pitch="H" intensity="H" />
-    </syntagm>
-    <syntagm time="0.6888" text="ааа">
-      <syllabe time="0.6888" pitch="H" intensity="H">ɛː</syllabe>
-    </syntagm>
-    <syntagm time="1.39" text="öстä">
-      <syllabe time="0.9578" pitch="N" intensity="N">ʏsʲ</syllabe>
-      <syllabe time="1.39" pitch="L" intensity="H!">tʲø</syllabe>
-    </syntagm>
-    <syntagm time="1.8326" text="-">
-      <syllabe time="1.8326" pitch="H" intensity="H!">-</syllabe>
-    </syntagm>
-    <syntagm time="2.6826" text="ммм">
-      <syllabe time="2.6826" pitch="H!" intensity="H">mː</syllabe>
-    </syntagm>
-    <syntagm time="2.9443" text="-">
-      <syllabe time="2.9443" pitch="H" intensity="H">-</syllabe>
-    </syntagm>
-    <syntagm time="3.9384" text="мостик қатында ">
-      <syllabe time="3.2608" pitch="N" intensity="H">mɔsʲ</syllabe>
-      <syllabe time="3.4392" pitch="N" intensity="N">tʲik</syllabe>
-      <syllabe time="3.6267" pitch="N" intensity="N">qʌ</syllabe>
-      <syllabe time="3.7939" pitch="N" intensity="N">tɯn</syllabe>
-      <syllabe time="3.9384" pitch="N" intensity="N">dʌ</syllabe>
-    </syntagm>
-    <syntagm time="4.8347" text="кымнар йöрып йады?">
-      <syllabe time="4.0729" pitch="N" intensity="N">qɯm</syllabe>
-      <syllabe time="4.2665" pitch="L!" intensity="H">nʲɛrʲ</syllabe>
-      <syllabe time="4.6202" pitch="N" intensity="L!">jørʲpʲ</syllabe>
-      <syllabe time="4.7394" pitch="L!" intensity="N">jʌ</syllabe>
-      <syllabe time="4.8347" pitch="N" intensity="N">dɯ</syllabe>
-    </syntagm>
-    <syntagm time="5.2643" text="">
-      <syllabe time="5.2643" pitch="H" intensity="H!" />
-    </syntagm>
-  </file>
-  <file id="СРС_4">
-    <syntagm time="0.1686" text="">
-      <syllabe time="0.1686" pitch="H" intensity="H" />
-    </syntagm>
-    <syntagm time="0.6888" text="ааа">
-      <syllabe time="0.6888" pitch="H" intensity="H">ɛː</syllabe>
-    </syntagm>
-    <syntagm time="1.39" text="öстä">
-      <syllabe time="0.9578" pitch="N" intensity="N">ʏsʲ</syllabe>
-      <syllabe time="1.39" pitch="L" intensity="H!">tʲø</syllabe>
-    </syntagm>
-    <syntagm time="1.8326" text="-">
-      <syllabe time="1.8326" pitch="H" intensity="H!">-</syllabe>
-    </syntagm>
-    <syntagm time="2.6826" text="ммм">
-      <syllabe time="2.6826" pitch="H!" intensity="H">mː</syllabe>
-    </syntagm>
-    <syntagm time="2.9443" text="-">
-      <syllabe time="2.9443" pitch="H" intensity="H">-</syllabe>
-    </syntagm>
-    <syntagm time="3.9384" text="мостик қатында ">
-      <syllabe time="3.2608" pitch="N" intensity="H">mɔsʲ</syllabe>
-      <syllabe time="3.4392" pitch="N" intensity="N">tʲik</syllabe>
-      <syllabe time="3.6267" pitch="N" intensity="N">qʌ</syllabe>
-      <syllabe time="3.7939" pitch="N" intensity="N">tɯn</syllabe>
-      <syllabe time="3.9384" pitch="N" intensity="N">dʌ</syllabe>
-    </syntagm>
-    <syntagm time="4.8347" text="кымнар йöрып йады?">
-      <syllabe time="4.0729" pitch="N" intensity="N">qɯm</syllabe>
-      <syllabe time="4.2665" pitch="L!" intensity="H">nʲɛrʲ</syllabe>
-      <syllabe time="4.6202" pitch="N" intensity="L!">jørʲpʲ</syllabe>
-      <syllabe time="4.7394" pitch="L!" intensity="N">jʌ</syllabe>
-      <syllabe time="4.8347" pitch="N" intensity="N">dɯ</syllabe>
-    </syntagm>
-    <syntagm time="5.2643" text="">
-      <syllabe time="5.2643" pitch="H" intensity="H!" />
-    </syntagm>
-  </file>
-  <file id="ААР_1">
+  <file id="1">
     <syntagm time="0.2403" text="">
       <syllabe time="0.2403" pitch="H" intensity="H" />
     </syntagm>
@@ -201,6 +19,3468 @@
     </syntagm>
     <syntagm time="2.0671" text="">
       <syllabe time="2.0671" pitch="H" intensity="H!" />
+    </syntagm>
+  </file>
+  <file id="2">
+    <syntagm time="0.019" text="">
+      <syllabe time="0.019" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="1.3713" text="син қайтмастың ма ӱӱгӓ">
+      <syllabe time="0.267" pitch="N" intensity="H!">sʲin</syllabe>
+      <syllabe time="0.5177" pitch="N" intensity="N">ɣʌjt</syllabe>
+      <syllabe time="0.7285" pitch="N" intensity="N">mʌs</syllabe>
+      <syllabe time="0.804" pitch="N" intensity="N">tɯ</syllabe>
+      <syllabe time="1.0107" pitch="N" intensity="N">mɛ</syllabe>
+      <syllabe time="1.1212" pitch="L!" intensity="N">ʉ</syllabe>
+      <syllabe time="1.3713" pitch="N" intensity="L">gɛ</syllabe>
+    </syntagm>
+  </file>
+  <file id="3">
+    <syntagm time="0.0364" text="">
+      <syllabe time="0.0364" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="1.4369" text="Садикқа йöргӓң йоқ ма син">
+      <syllabe time="0.285" pitch="N" intensity="H!">sʌ</syllabe>
+      <syllabe time="0.4359" pitch="N" intensity="N">dʲik</syllabe>
+      <syllabe time="0.5747" pitch="N" intensity="N">kɘ</syllabe>
+      <syllabe time="0.6992" pitch="N" intensity="N">jør</syllabe>
+      <syllabe time="0.8679" pitch="N" intensity="N">gʌŋ</syllabe>
+      <syllabe time="1.0092" pitch="N" intensity="N">jɵq</syllabe>
+      <syllabe time="1.17" pitch="N" intensity="N">mʌ</syllabe>
+      <syllabe time="1.4369" pitch="N" intensity="N">sʲɪn</syllabe>
+    </syntagm>
+    <syntagm time="2.1492" text="кӱчӱ чақта">
+      <syllabe time="1.522" pitch="N" intensity="N">kʲʏ</syllabe>
+      <syllabe time="1.6266" pitch="N" intensity="N">tʃʏ</syllabe>
+      <syllabe time="1.8241" pitch="N" intensity="N">tʃʌ</syllabe>
+      <syllabe time="1.9895" pitch="N" intensity="H">ʁɯn</syllabe>
+      <syllabe time="2.1492" pitch="H" intensity="L">dʌ</syllabe>
+    </syntagm>
+    <syntagm time="2.339" text="">
+      <syllabe time="2.339" pitch="H" intensity="H!" />
+    </syntagm>
+  </file>
+  <file id="4">
+    <syntagm time="0.0628" text="">
+      <syllabe time="0.0628" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="1.8222" text="тауҕа аҕынып пақтың ма йады">
+      <syllabe time="0.3269" pitch="N" intensity="N">ʔɘː</syllabe>
+      <syllabe time="0.5499" pitch="N" intensity="H!">tʌʉ</syllabe>
+      <syllabe time="0.7145" pitch="N" intensity="N">ʁʌ</syllabe>
+      <syllabe time="0.776" pitch="N" intensity="N">ʌ</syllabe>
+      <syllabe time="0.9234" pitch="N" intensity="N">ɢɯŋ</syllabe>
+      <syllabe time="1.1548" pitch="N" intensity="N">bʌɣ</syllabe>
+      <syllabe time="1.3722" pitch="N" intensity="N">tɯŋ</syllabe>
+      <syllabe time="1.5081" pitch="N" intensity="N">mʲɘj</syllabe>
+      <syllabe time="1.8222" pitch="N" intensity="L">dɘp</syllabe>
+    </syntagm>
+    <syntagm time="2.0404" text="">
+      <syllabe time="2.0404" pitch="H" intensity="H!" />
+    </syntagm>
+  </file>
+  <file id="5">
+    <syntagm time="0.0083" text="">
+      <syllabe time="0.0083" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="0.5535" text="қараҕайҕа">
+      <syllabe time="0.1393" pitch="N" intensity="N">qʌ</syllabe>
+      <syllabe time="0.2602" pitch="N!" intensity="H!">rʌ</syllabe>
+      <syllabe time="0.4353" pitch="N" intensity="H!">ɣʌj</syllabe>
+      <syllabe time="0.5535" pitch="N" intensity="N">ɣʌ</syllabe>
+    </syntagm>
+    <syntagm time="1.4326" text="бардың ма йады">
+      <syllabe time="0.7738" pitch="N" intensity="H">bʌr</syllabe>
+      <syllabe time="0.9189" pitch="N" intensity="N">dɯŋ</syllabe>
+      <syllabe time="1.0852" pitch="N" intensity="N">mʲɛj</syllabe>
+      <syllabe time="1.4326" pitch="L" intensity="N">dɘ</syllabe>
+    </syntagm>
+    <syntagm time="1.7356" text="-">
+      <syllabe time="1.7356" pitch="H" intensity="H">-</syllabe>
+    </syntagm>
+    <syntagm time="2.2915" text="теге йылна">
+      <syllabe time="1.8226" pitch="N" intensity="N">tɯ</syllabe>
+      <syllabe time="1.9474" pitch="N" intensity="N">ɣɘ</syllabe>
+      <syllabe time="2.0961" pitch="L!" intensity="N">jʌl</syllabe>
+      <syllabe time="2.2915" pitch="N" intensity="N">nʌ</syllabe>
+    </syntagm>
+    <syntagm time="2.5131" text="">
+      <syllabe time="2.5131" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="6">
+    <syntagm time="0.0236" text="">
+      <syllabe time="0.0236" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="0.6123" text="магазингӓ ">
+      <syllabe time="0.209" pitch="N" intensity="N">mʌ</syllabe>
+      <syllabe time="0.3724" pitch="N" intensity="H!">ɣʌ</syllabe>
+      <syllabe time="0.5048" pitch="N" intensity="N">zʲɪn</syllabe>
+      <syllabe time="0.6123" pitch="L" intensity="N">ɣʌ</syllabe>
+    </syntagm>
+    <syntagm time="1.6709" text="китмӓксең мӓ бöгӱн">
+      <syllabe time="0.8056" pitch="N" intensity="H">ɣʌjt</syllabe>
+      <syllabe time="0.9465" pitch="N" intensity="H">mʌq</syllabe>
+      <syllabe time="1.1607" pitch="N" intensity="N">sɯŋ</syllabe>
+      <syllabe time="1.3046" pitch="N" intensity="N">mʌ</syllabe>
+      <syllabe time="1.4036" pitch="N" intensity="N">pʉ</syllabe>
+      <syllabe time="1.6709" pitch="N" intensity="L">ɣʉn</syllabe>
+    </syntagm>
+    <syntagm time="1.7044" text="">
+      <syllabe time="1.7044" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="7">
+    <syntagm time="0.0106" text="">
+      <syllabe time="0.0106" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="0.7932" text="школҕа">
+      <syllabe time="0.3252" pitch="H!" intensity="N">ʃqɵ</syllabe>
+      <syllabe time="0.7932" pitch="L" intensity="H!">ɣʌ</syllabe>
+    </syntagm>
+    <syntagm time="1.2211" text="-">
+      <syllabe time="1.2211" pitch="H" intensity="H!">-</syllabe>
+    </syntagm>
+    <syntagm time="2.9379" text="школны пропускать итедегӓң мӓ">
+      <syllabe time="1.56" pitch="N" intensity="H">ʃqol</syllabe>
+      <syllabe time="1.681" pitch="N" intensity="N">nɯ</syllabe>
+      <syllabe time="1.8619" pitch="N" intensity="N">prʌ</syllabe>
+      <syllabe time="2.0224" pitch="N" intensity="N">pʉs</syllabe>
+      <syllabe time="2.2455" pitch="N" intensity="N">kʌj</syllabe>
+      <syllabe time="2.4317" pitch="N" intensity="N">dɘd</syllabe>
+      <syllabe time="2.686" pitch="L" intensity="N">ɣʌn</syllabe>
+      <syllabe time="2.7975" pitch="N" intensity="N">mʌj</syllabe>
+      <syllabe time="2.9379" pitch="N" intensity="N">dʌ</syllabe>
+    </syntagm>
+    <syntagm time="2.9673" text="">
+      <syllabe time="2.9673" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="8">
+    <syntagm time="0.1514" text="">
+      <syllabe time="0.1514" pitch="H" intensity="H!" />
+    </syntagm>
+    <syntagm time="1.6701" text="син болдың ма таўҕада">
+      <syllabe time="0.3894" pitch="N" intensity="N!">sʲɪn</syllabe>
+      <syllabe time="0.5512" pitch="N" intensity="N">bol</syllabe>
+      <syllabe time="0.6952" pitch="N" intensity="N">dɯŋ</syllabe>
+      <syllabe time="0.8916" pitch="N" intensity="N">mɘ</syllabe>
+      <syllabe time="1.1743" pitch="N" intensity="N">tʌw</syllabe>
+      <syllabe time="1.4064" pitch="N" intensity="N">ʁʌ</syllabe>
+      <syllabe time="1.6701" pitch="L!" intensity="L">dʌ</syllabe>
+    </syntagm>
+    <syntagm time="1.7572" text="">
+      <syllabe time="1.7572" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="9">
+    <syntagm time="0.1066" text="">
+      <syllabe time="0.1066" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="1.5034" text="Руслан йöредегӓн иде мӓ">
+      <syllabe time="0.3617" pitch="N" intensity="N">rʉs</syllabe>
+      <syllabe time="0.5763" pitch="H!" intensity="N">lʌn</syllabe>
+      <syllabe time="0.657" pitch="N" intensity="N">jʏ</syllabe>
+      <syllabe time="0.8486" pitch="N" intensity="H!">rɛ</syllabe>
+      <syllabe time="0.9213" pitch="N" intensity="N">dɯ</syllabe>
+      <syllabe time="1.1049" pitch="N" intensity="N">gɘn</syllabe>
+      <syllabe time="1.2896" pitch="N" intensity="N">mʲej</syllabe>
+      <syllabe time="1.5034" pitch="N" intensity="N">dɘ</syllabe>
+    </syntagm>
+    <syntagm time="2.3319" text="рыбалкаҕа">
+      <syllabe time="1.6703" pitch="N" intensity="H">rɯ</syllabe>
+      <syllabe time="1.8965" pitch="N" intensity="H">bʌl</syllabe>
+      <syllabe time="2.0661" pitch="N" intensity="N">qʌ</syllabe>
+      <syllabe time="2.3319" pitch="N" intensity="N">ɣʌ</syllabe>
+    </syntagm>
+    <syntagm time="2.7802" text="-">
+      <syllabe time="2.7802" pitch="H" intensity="H">-</syllabe>
+    </syntagm>
+    <syntagm time="3.2878" text="қышқыда">
+      <syllabe time="2.9408" pitch="H" intensity="N">qɯʃ</syllabe>
+      <syllabe time="3.0732" pitch="N" intensity="L">χʌ</syllabe>
+      <syllabe time="3.2878" pitch="N" intensity="H">tʌ</syllabe>
+    </syntagm>
+    <syntagm time="3.4651" text="">
+      <syllabe time="3.4651" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="10">
+    <syntagm time="0.0937" text="">
+      <syllabe time="0.0937" pitch="H" intensity="H!" />
+    </syntagm>
+    <syntagm time="1.0992" text="син тойындың ма">
+      <syllabe time="0.3336" pitch="N" intensity="N">sʲɪn</syllabe>
+      <syllabe time="0.4755" pitch="N" intensity="N">tɵ</syllabe>
+      <syllabe time="0.6515" pitch="N" intensity="N">ɯn</syllabe>
+      <syllabe time="0.8339" pitch="H!" intensity="N">dɯŋ</syllabe>
+      <syllabe time="1.0992" pitch="L" intensity="L">mʌ</syllabe>
+    </syntagm>
+    <syntagm time="1.2705" text="">
+      <syllabe time="1.2705" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="11">
+    <syntagm time="0.3743" text="">
+      <syllabe time="0.3743" pitch="H" intensity="H!" />
+    </syntagm>
+    <syntagm time="0.9843" text="Ӱӱэндä ">
+      <syllabe time="0.5364" pitch="N" intensity="L">u:</syllabe>
+      <syllabe time="0.6955" pitch="N" intensity="N">ʌn</syllabe>
+      <syllabe time="0.9843" pitch="H!" intensity="H!">dɜ</syllabe>
+    </syntagm>
+    <syntagm time="1.0951" text="-">
+      <syllabe time="1.0951" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="1.6383" text="тäрäзäдä ">
+      <syllabe time="1.2168" pitch="H" intensity="N">tə</syllabe>
+      <syllabe time="1.3543" pitch="N" intensity="N">rʲɛ</syllabe>
+      <syllabe time="1.5277" pitch="N" intensity="L">zʲɘ</syllabe>
+      <syllabe time="1.6383" pitch="N" intensity="H">dʌ</syllabe>
+    </syntagm>
+    <syntagm time="2.1953" text="ним(е) анда">
+      <syllabe time="1.8061" pitch="H" intensity="N">nʲim</syllabe>
+      <syllabe time="1.9972" pitch="N" intensity="N">ʌn</syllabe>
+      <syllabe time="2.1953" pitch="N" intensity="H">dʌ</syllabe>
+    </syntagm>
+    <syntagm time="2.5923" text="">
+      <syllabe time="2.5923" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="12">
+    <syntagm time="0.1928" text="">
+      <syllabe time="0.1928" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="0.3248" text="ниме">
+      <syllabe time="0.3248" pitch="H" intensity="H">nʲim</syllabe>
+    </syntagm>
+    <syntagm time="0.5732" text="ешле ">
+      <syllabe time="0.4198" pitch="N" intensity="N">ɯʃ</syllabe>
+      <syllabe time="0.5732" pitch="N" intensity="L">lɘ</syllabe>
+    </syntagm>
+    <syntagm time="0.8962" text="анда">
+      <syllabe time="0.7605" pitch="N" intensity="H">ʌn</syllabe>
+      <syllabe time="0.8962" pitch="H" intensity="N">dʌ</syllabe>
+    </syntagm>
+    <syntagm time="1.2261" text="">
+      <syllabe time="1.2261" pitch="H" intensity="H!" />
+    </syntagm>
+  </file>
+  <file id="13">
+    <syntagm time="0.0948" text="">
+      <syllabe time="0.0948" pitch="H" intensity="H!" />
+    </syntagm>
+    <syntagm time="0.3385" text="кем">
+      <syllabe time="0.3385" pitch="H!" intensity="H!">kɘm</syllabe>
+    </syntagm>
+    <syntagm time="0.4204" text="">
+      <syllabe time="0.4204" pitch="H" intensity="H!" />
+    </syntagm>
+  </file>
+  <file id="14">
+    <syntagm time="0.2281" text="">
+      <syllabe time="0.2281" pitch="H" intensity="H!" />
+    </syntagm>
+    <syntagm time="0.7939" text="берегта">
+      <syllabe time="0.5039" pitch="N" intensity="H!">bʲe</syllabe>
+      <syllabe time="0.6588" pitch="H!" intensity="N">rʲik</syllabe>
+      <syllabe time="0.7939" pitch="L" intensity="N">tɘ</syllabe>
+    </syntagm>
+    <syntagm time="1.322" text=" кем анда">
+      <syllabe time="0.9687" pitch="N" intensity="N">qɯm</syllabe>
+      <syllabe time="1.1365" pitch="N" intensity="N">ɔn</syllabe>
+      <syllabe time="1.322" pitch="N" intensity="N">dʌ</syllabe>
+    </syntagm>
+    <syntagm time="1.5664" text="">
+      <syllabe time="1.5664" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="15">
+    <syntagm time="0.3228" text="">
+      <syllabe time="0.3228" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="1.1583" text="техника бойында ">
+      <syllabe time="0.5134" pitch="N" intensity="H!">tʲeχ</syllabe>
+      <syllabe time="0.6318" pitch="N" intensity="N">nʲi</syllabe>
+      <syllabe time="0.7408" pitch="N" intensity="L">kɘ</syllabe>
+      <syllabe time="0.889" pitch="N" intensity="N">bɵ</syllabe>
+      <syllabe time="1.0181" pitch="N" intensity="N">ɪn</syllabe>
+      <syllabe time="1.1583" pitch="L" intensity="N">dʌ</syllabe>
+    </syntagm>
+    <syntagm time="1.6642" text="кым анда">
+      <syllabe time="1.3573" pitch="N" intensity="H">qɯm</syllabe>
+      <syllabe time="1.5094" pitch="N" intensity="N">ʌn</syllabe>
+      <syllabe time="1.6642" pitch="N" intensity="N">dʌ</syllabe>
+    </syntagm>
+    <syntagm time="2.0318" text="">
+      <syllabe time="2.0318" pitch="H" intensity="H!" />
+    </syntagm>
+  </file>
+  <file id="16">
+    <syntagm time="0.0535" text="">
+      <syllabe time="0.0535" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="1.3676" text="беректа мында кым">
+      <syllabe time="0.2392" pitch="N" intensity="N">pʲe</syllabe>
+      <syllabe time="0.4443" pitch="H!" intensity="H!">rʲek</syllabe>
+      <syllabe time="0.5559" pitch="N" intensity="N">tɘ</syllabe>
+      <syllabe time="0.8181" pitch="N" intensity="N">mɘn</syllabe>
+      <syllabe time="1.0177" pitch="N" intensity="N">dʌ</syllabe>
+      <syllabe time="1.3676" pitch="N" intensity="H!">qɯm</syllabe>
+    </syntagm>
+    <syntagm time="1.5501" text="">
+      <syllabe time="1.5501" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="17">
+    <syntagm time="0.1398" text="">
+      <syllabe time="0.1398" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="0.7082" text="Ним(е) еш(л)еде ">
+      <syllabe time="0.3243" pitch="N" intensity="N">nʲim</syllabe>
+      <syllabe time="0.7082" pitch="H!" intensity="L/H!">ʃɯlʲ</syllabe>
+    </syntagm>
+    <syntagm time="1.306" text="-">
+      <syllabe time="1.306" pitch="H" intensity="H">-</syllabe>
+    </syntagm>
+    <syntagm time="1.7157" text="кöгäль">
+      <syllabe time="1.4387" pitch="H" intensity="H">ko</syllabe>
+      <syllabe time="1.7157" pitch="L" intensity="L">gʌlʲ</syllabe>
+    </syntagm>
+    <syntagm time="1.8567" text="">
+      <syllabe time="1.8567" pitch="H" intensity="H!" />
+    </syntagm>
+  </file>
+  <file id="18">
+    <syntagm time="0.119" text="">
+      <syllabe time="0.119" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="0.8391" text="Ӱӱ тäбäзендä">
+      <syllabe time="0.2706" pitch="N" intensity="N">ʔʉ</syllabe>
+      <syllabe time="0.3898" pitch="N" intensity="N">tʲø</syllabe>
+      <syllabe time="0.5474" pitch="N" intensity="N">βɛ</syllabe>
+      <syllabe time="0.7305" pitch="N" intensity="N">zɪn</syllabe>
+      <syllabe time="0.8391" pitch="N" intensity="N">dʌ</syllabe>
+    </syntagm>
+    <syntagm time="1.0038" text="анда">
+      <syllabe time="1.0038" pitch="H" intensity="H">nʌ</syllabe>
+    </syntagm>
+    <syntagm time="1.5009" text="чирдакта">
+      <syllabe time="1.2311" pitch="H" intensity="H">tʃɪr</syllabe>
+      <syllabe time="1.4076" pitch="N" intensity="N">dʌq</syllabe>
+      <syllabe time="1.5009" pitch="N" intensity="N">tɘ</syllabe>
+    </syntagm>
+    <syntagm time="1.6161" text="ним(ä)">
+      <syllabe time="1.6161" pitch="H" intensity="H">nʲim</syllabe>
+    </syntagm>
+    <syntagm time="2.307" text="ешлäп едылар">
+      <syllabe time="1.7496" pitch="N" intensity="N">ɪʃ</syllabe>
+      <syllabe time="1.9439" pitch="N" intensity="N">lʲɛp</syllabe>
+      <syllabe time="2.1175" pitch="L" intensity="N">jʌ</syllabe>
+      <syllabe time="2.307" pitch="N" intensity="N">dɯr</syllabe>
+    </syntagm>
+    <syntagm time="2.4902" text="">
+      <syllabe time="2.4902" pitch="H" intensity="H!" />
+    </syntagm>
+  </file>
+  <file id="19">
+    <syntagm time="0.0646" text="">
+      <syllabe time="0.0646" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="0.9796" text="Кем анда тäрäзä отысып йады">
+      <syllabe time="0.2299" pitch="H!" intensity="H!">qɯm</syllabe>
+      <syllabe time="0.3708" pitch="N" intensity="N">ʌn</syllabe>
+      <syllabe time="0.4779" pitch="N" intensity="N">də</syllabe>
+      <syllabe time="0.6007" pitch="N" intensity="N">tɘ</syllabe>
+      <syllabe time="0.7559" pitch="N" intensity="N">rɘs</syllabe>
+      <syllabe time="0.8139" pitch="N" intensity="N">o</syllabe>
+      <syllabe time="0.9796" pitch="N" intensity="L">tsup</syllabe>
+    </syntagm>
+    <syntagm time="1.1071" text="">
+      <syllabe time="1.1071" pitch="H" intensity="H!" />
+    </syntagm>
+  </file>
+  <file id="20">
+    <syntagm time="0.1686" text="">
+      <syllabe time="0.1686" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="0.6888" text="ааа">
+      <syllabe time="0.6888" pitch="H" intensity="H">ɛː</syllabe>
+    </syntagm>
+    <syntagm time="1.39" text="öстä">
+      <syllabe time="0.9578" pitch="N" intensity="N">ʏsʲ</syllabe>
+      <syllabe time="1.39" pitch="L" intensity="H!">tʲø</syllabe>
+    </syntagm>
+    <syntagm time="1.8326" text="-">
+      <syllabe time="1.8326" pitch="H" intensity="H!">-</syllabe>
+    </syntagm>
+    <syntagm time="2.6826" text="ммм">
+      <syllabe time="2.6826" pitch="H!" intensity="H">mː</syllabe>
+    </syntagm>
+    <syntagm time="2.9443" text="-">
+      <syllabe time="2.9443" pitch="H" intensity="H">-</syllabe>
+    </syntagm>
+    <syntagm time="3.9384" text="мостик қатында ">
+      <syllabe time="3.2608" pitch="N" intensity="H">mɔsʲ</syllabe>
+      <syllabe time="3.4392" pitch="N" intensity="N">tʲik</syllabe>
+      <syllabe time="3.6267" pitch="N" intensity="N">qʌ</syllabe>
+      <syllabe time="3.7939" pitch="N" intensity="N">tɯn</syllabe>
+      <syllabe time="3.9384" pitch="N" intensity="N">dʌ</syllabe>
+    </syntagm>
+    <syntagm time="4.8347" text="кымнар йöрып йады?">
+      <syllabe time="4.0729" pitch="N" intensity="N">qɯm</syllabe>
+      <syllabe time="4.2665" pitch="L!" intensity="H">nʲɛrʲ</syllabe>
+      <syllabe time="4.6202" pitch="N" intensity="L!">jørʲpʲ</syllabe>
+      <syllabe time="4.7394" pitch="L!" intensity="N">jʌ</syllabe>
+      <syllabe time="4.8347" pitch="N" intensity="N">dɯ</syllabe>
+    </syntagm>
+    <syntagm time="5.2643" text="">
+      <syllabe time="5.2643" pitch="H" intensity="H!" />
+    </syntagm>
+  </file>
+  <file id="21">
+    <syntagm time="0.3396" text="">
+      <syllabe time="0.3396" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="1.1824" text="ниме болып йады">
+      <syllabe time="0.4409" pitch="N" intensity="H!">nʲi</syllabe>
+      <syllabe time="0.6261" pitch="N" intensity="N">mɛ</syllabe>
+      <syllabe time="0.7074" pitch="N" intensity="N">βɵ</syllabe>
+      <syllabe time="0.986" pitch="N" intensity="L">lʉpʲ</syllabe>
+      <syllabe time="1.1106" pitch="N" intensity="N">jʌ</syllabe>
+      <syllabe time="1.1824" pitch="N" intensity="N">dɯ</syllabe>
+    </syntagm>
+  </file>
+  <file id="22">
+    <syntagm time="0.3309" text="">
+      <syllabe time="0.3309" pitch="H" intensity="H!" />
+    </syntagm>
+    <syntagm time="0.7929" text="(м)ына бу">
+      <syllabe time="0.428" pitch="N!" intensity="N">mʲɘ</syllabe>
+      <syllabe time="0.5356" pitch="N" intensity="N">nʲɛ</syllabe>
+      <syllabe time="0.7929" pitch="L" intensity="H">bʉ</syllabe>
+    </syntagm>
+    <syntagm time="1.0077" text="кижи">
+      <syllabe time="0.8913" pitch="N" intensity="N">qɯ</syllabe>
+      <syllabe time="1.0077" pitch="N" intensity="N">ʒɪ</syllabe>
+    </syntagm>
+    <syntagm time="1.7845" text="нимӓ тотып қойҕан ">
+      <syllabe time="1.1054" pitch="N" intensity="N">nʲi</syllabe>
+      <syllabe time="1.2293" pitch="N" intensity="H">mʲɛ</syllabe>
+      <syllabe time="1.3217" pitch="N" intensity="N">tʉ</syllabe>
+      <syllabe time="1.4862" pitch="H!" intensity="N">tɯp</syllabe>
+      <syllabe time="1.5893" pitch="N" intensity="N">qɔj</syllabe>
+      <syllabe time="1.7845" pitch="N!" intensity="N">ɣʌŋ</syllabe>
+    </syntagm>
+    <syntagm time="1.8305" text="-">
+      <syllabe time="1.8305" pitch="H" intensity="H">-</syllabe>
+    </syntagm>
+    <syntagm time="2.5251" text="узун бауда">
+      <syllabe time="1.9157" pitch="N" intensity="N">ʉ</syllabe>
+      <syllabe time="2.1083" pitch="N" intensity="N">zʉn</syllabe>
+      <syllabe time="2.3003" pitch="N" intensity="N">bau</syllabe>
+      <syllabe time="2.5251" pitch="N" intensity="H">dʌ</syllabe>
+    </syntagm>
+    <syntagm time="2.9193" text="">
+      <syllabe time="2.9193" pitch="H" intensity="H!" />
+    </syntagm>
+  </file>
+  <file id="23">
+    <syntagm time="0.0788" text="">
+      <syllabe time="0.0788" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="1.6846" text="cин сöйлӓштең мӓ кöрше мына">
+      <syllabe time="0.1637" pitch="N" intensity="N">ʔɛ</syllabe>
+      <syllabe time="0.4198" pitch="N" intensity="H!">zʲinʲ</syllabe>
+      <syllabe time="0.5899" pitch="N" intensity="N">sʲʏlʲ</syllabe>
+      <syllabe time="0.7812" pitch="N" intensity="N">lʲɛʃ</syllabe>
+      <syllabe time="0.9827" pitch="N" intensity="N">tɪŋ</syllabe>
+      <syllabe time="1.1074" pitch="N" intensity="N">mʉ</syllabe>
+      <syllabe time="1.2138" pitch="N" intensity="N">gɵr</syllabe>
+      <syllabe time="1.3959" pitch="N" intensity="N">ʃɪ</syllabe>
+      <syllabe time="1.4964" pitch="N" intensity="N">mʲɪ</syllabe>
+      <syllabe time="1.6846" pitch="L!" intensity="N">nʲɛ</syllabe>
+    </syntagm>
+    <syntagm time="1.9097" text="">
+      <syllabe time="1.9097" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="24">
+    <syntagm time="0.0225" text="">
+      <syllabe time="0.0225" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="0.5833" text="отпускаҕа">
+      <syllabe time="0.1847" pitch="N" intensity="H!">ʔot</syllabe>
+      <syllabe time="0.3269" pitch="N" intensity="N">pʉs</syllabe>
+      <syllabe time="0.5078" pitch="N" intensity="N">qʌ</syllabe>
+      <syllabe time="0.5833" pitch="N" intensity="N">ʌ</syllabe>
+    </syntagm>
+    <syntagm time="1.4003" text="чықмақсың ма">
+      <syllabe time="0.7628" pitch="L" intensity="N">tʃʌχ</syllabe>
+      <syllabe time="0.9235" pitch="N" intensity="N">mɯq</syllabe>
+      <syllabe time="1.1247" pitch="H" intensity="N">sɯŋ</syllabe>
+      <syllabe time="1.4003" pitch="N" intensity="H">mʌ</syllabe>
+    </syntagm>
+    <syntagm time="1.4992" text="">
+      <syllabe time="1.4992" pitch="H" intensity="H!" />
+    </syntagm>
+  </file>
+  <file id="25">
+    <syntagm time="0.0679" text="">
+      <syllabe time="0.0679" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="0.6532" text="син обычно">
+      <syllabe time="0.2432" pitch="N" intensity="H!">sʲin</syllabe>
+      <syllabe time="0.3514" pitch="N" intensity="N">ʌ</syllabe>
+      <syllabe time="0.5645" pitch="N" intensity="N">bɯtʃ</syllabe>
+      <syllabe time="0.6532" pitch="N" intensity="N">nɘ</syllabe>
+    </syntagm>
+    <syntagm time="1.684" text="йöрӓдең мӓ клубқа">
+      <syllabe time="0.7657" pitch="N" intensity="N">jʏ</syllabe>
+      <syllabe time="0.8964" pitch="N" intensity="H">rʌ</syllabe>
+      <syllabe time="1.0369" pitch="H" intensity="N">dɯŋ</syllabe>
+      <syllabe time="1.1758" pitch="N" intensity="N">mʉ</syllabe>
+      <syllabe time="1.4533" pitch="N" intensity="L">qlʉp</syllabe>
+      <syllabe time="1.684" pitch="L!" intensity="L">χʌ</syllabe>
+    </syntagm>
+    <syntagm time="1.7418" text="">
+      <syllabe time="1.7418" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="26">
+    <syntagm time="0.1264" text="">
+      <syllabe time="0.1264" pitch="H" intensity="H!" />
+    </syntagm>
+    <syntagm time="0.6706" text="шӓhӓргӓ ">
+      <syllabe time="0.3661" pitch="N" intensity="H!">ʃʲɛ</syllabe>
+      <syllabe time="0.557" pitch="N" intensity="N">hʌr</syllabe>
+      <syllabe time="0.6706" pitch="N" intensity="H!">ɣʌ</syllabe>
+    </syntagm>
+    <syntagm time="1.7661" text="китмӓгӓн едиң мӓ">
+      <syllabe time="0.8802" pitch="N" intensity="L">gʲɪt</syllabe>
+      <syllabe time="1.0831" pitch="N" intensity="H!">mʲɛ</syllabe>
+      <syllabe time="1.2025" pitch="N" intensity="N">ɣʲɪ</syllabe>
+      <syllabe time="1.3716" pitch="N" intensity="N">dɪŋ</syllabe>
+      <syllabe time="1.7661" pitch="L!" intensity="N">mʌ</syllabe>
+    </syntagm>
+    <syntagm time="1.8691" text="">
+      <syllabe time="1.8691" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="27">
+    <syntagm time="0.0643" text="">
+      <syllabe time="0.0643" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="1.7504" text="магазинҕа киткӓле ойладың ма">
+      <syllabe time="0.2138" pitch="N" intensity="H!">mʌ</syllabe>
+      <syllabe time="0.3381" pitch="N" intensity="N">ɣʌ</syllabe>
+      <syllabe time="0.5314" pitch="N" intensity="N">zʲɪn</syllabe>
+      <syllabe time="0.7155" pitch="N" intensity="N">ɣʌ</syllabe>
+      <syllabe time="0.8658" pitch="N" intensity="N">kʲit</syllabe>
+      <syllabe time="1.0108" pitch="N" intensity="H!">kʲɛ</syllabe>
+      <syllabe time="1.0882" pitch="N" intensity="N">lʲø</syllabe>
+      <syllabe time="1.1511" pitch="N" intensity="N">øj</syllabe>
+      <syllabe time="1.3237" pitch="N" intensity="H!">lʲɘ</syllabe>
+      <syllabe time="1.4631" pitch="N" intensity="N">tɘŋ</syllabe>
+      <syllabe time="1.7504" pitch="L!" intensity="N">mʌ</syllabe>
+    </syntagm>
+    <syntagm time="1.8428" text="">
+      <syllabe time="1.8428" pitch="H" intensity="H!" />
+    </syntagm>
+  </file>
+  <file id="28">
+    <syntagm time="0.1082" text="">
+      <syllabe time="0.1082" pitch="H" intensity="H!" />
+    </syntagm>
+    <syntagm time="2.4837" text="школдаҕа кöнде сайын йöрӓдегӓн эди мӓ">
+      <syllabe time="0.4325" pitch="N" intensity="L">ʃqol</syllabe>
+      <syllabe time="0.5131" pitch="N" intensity="N">dʌ</syllabe>
+      <syllabe time="0.7014" pitch="N" intensity="N">ʁʌ</syllabe>
+      <syllabe time="0.8918" pitch="N" intensity="N">ʁʌ</syllabe>
+      <syllabe time="1.0511" pitch="N" intensity="H!">gʏn</syllabe>
+      <syllabe time="1.1595" pitch="N" intensity="N">dʌ</syllabe>
+      <syllabe time="1.482" pitch="N" intensity="N">sʌjn</syllabe>
+      <syllabe time="1.5946" pitch="N" intensity="N">jʏ</syllabe>
+      <syllabe time="1.7701" pitch="N" intensity="N">rʌ</syllabe>
+      <syllabe time="1.8655" pitch="N" intensity="N">dɘ</syllabe>
+      <syllabe time="2.0836" pitch="N" intensity="N">gɘn</syllabe>
+      <syllabe time="2.2401" pitch="N" intensity="N">mʲɪ</syllabe>
+      <syllabe time="2.4837" pitch="L!" intensity="N">dɘn</syllabe>
+    </syntagm>
+    <syntagm time="2.5799" text="">
+      <syllabe time="2.5799" pitch="H" intensity="H!" />
+    </syntagm>
+  </file>
+  <file id="29">
+    <syntagm time="0.0647" text="">
+      <syllabe time="0.0647" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="0.57" text="кичӓӱн ">
+      <syllabe time="0.2156" pitch="N" intensity="N">kʲi</syllabe>
+      <syllabe time="0.3928" pitch="N!" intensity="N">tʃɛ</syllabe>
+      <syllabe time="0.57" pitch="L" intensity="H!">ʉn</syllabe>
+    </syntagm>
+    <syntagm time="2.2657" text="кöршелӓр мына сöйлӓштең еди ма">
+      <syllabe time="0.7149" pitch="N" intensity="H">qɵr</syllabe>
+      <syllabe time="0.884" pitch="N" intensity="N">ʃɘ</syllabe>
+      <syllabe time="1.0704" pitch="N" intensity="N">lʲɛr</syllabe>
+      <syllabe time="1.1629" pitch="N" intensity="N">mɘ</syllabe>
+      <syllabe time="1.2688" pitch="N" intensity="N">nɘ</syllabe>
+      <syllabe time="1.4379" pitch="N" intensity="N">sʏj</syllabe>
+      <syllabe time="1.6621" pitch="N" intensity="N">lʲɛʃ</syllabe>
+      <syllabe time="1.8244" pitch="N" intensity="N">tɘŋ</syllabe>
+      <syllabe time="2.004" pitch="H" intensity="N">mʲej</syllabe>
+      <syllabe time="2.2657" pitch="L" intensity="N">dʲɛ</syllabe>
+    </syntagm>
+    <syntagm time="2.3693" text="">
+      <syllabe time="2.3693" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="30">
+    <syntagm time="0.1039" text="">
+      <syllabe time="0.1039" pitch="H" intensity="H!" />
+    </syntagm>
+    <syntagm time="0.7089" text="болтыр">
+      <syllabe time="0.3516" pitch="L" intensity="N">pʉl</syllabe>
+      <syllabe time="0.7089" pitch="N!" intensity="H">tʉrʰ</syllabe>
+    </syntagm>
+    <syntagm time="1.0638" text="-">
+      <syllabe time="1.0638" pitch="H" intensity="H">-</syllabe>
+    </syntagm>
+    <syntagm time="1.8941" text="йӓйгӓде">
+      <syllabe time="1.3058" pitch="H" intensity="N">jɛj</syllabe>
+      <syllabe time="1.4243" pitch="N" intensity="N">ɣɪ</syllabe>
+      <syllabe time="1.545" pitch="N" intensity="N">ɣɪ</syllabe>
+      <syllabe time="1.8941" pitch="N" intensity="H!">dɛ</syllabe>
+    </syntagm>
+    <syntagm time="2.0325" text="-">
+      <syllabe time="2.0325" pitch="H" intensity="H">-</syllabe>
+    </syntagm>
+    <syntagm time="3.2324" text="йелӓккӓ йӧрдең еди мӓ">
+      <syllabe time="2.1447" pitch="N" intensity="N">ʔɪ</syllabe>
+      <syllabe time="2.3525" pitch="N" intensity="H">lʲɛk</syllabe>
+      <syllabe time="2.4827" pitch="N" intensity="N">kɛ</syllabe>
+      <syllabe time="2.6948" pitch="N" intensity="N">jʏr</syllabe>
+      <syllabe time="2.9025" pitch="N" intensity="N">tʉŋ</syllabe>
+      <syllabe time="3.059" pitch="N" intensity="N">mʲɪ</syllabe>
+      <syllabe time="3.2324" pitch="L" intensity="N">tɘ</syllabe>
+    </syntagm>
+    <syntagm time="3.3302" text="">
+      <syllabe time="3.3302" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="31">
+    <syntagm time="0.0321" text="">
+      <syllabe time="0.0321" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="0.6469" text="кӧрöсте ">
+      <syllabe time="0.1487" pitch="N" intensity="N">kʲʏ</syllabe>
+      <syllabe time="0.4261" pitch="H!" intensity="H!">rʲʏs</syllabe>
+      <syllabe time="0.6469" pitch="L" intensity="H!">tɘ</syllabe>
+    </syntagm>
+    <syntagm time="1.1349" text="йалаңда ">
+      <syllabe time="0.8027" pitch="H" intensity="N">jʌ</syllabe>
+      <syllabe time="1.0326" pitch="N" intensity="N">lʌŋ</syllabe>
+      <syllabe time="1.1349" pitch="N" intensity="H">dʌ</syllabe>
+    </syntagm>
+    <syntagm time="1.9574" text="кöрдең еди мӓ">
+      <syllabe time="1.369" pitch="N" intensity="N">ɢor</syllabe>
+      <syllabe time="1.5031" pitch="N" intensity="N">tɯŋ</syllabe>
+      <syllabe time="1.7073" pitch="N" intensity="N">mʲɪ</syllabe>
+      <syllabe time="1.9574" pitch="L!" intensity="L">tɘ</syllabe>
+    </syntagm>
+    <syntagm time="2.0632" text="">
+      <syllabe time="2.0632" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="32">
+    <syntagm time="0.2582" text="">
+      <syllabe time="0.2582" pitch="H" intensity="H!" />
+    </syntagm>
+    <syntagm time="1.5887" text="тордымыйдым Қошкульда">
+      <syllabe time="0.4238" pitch="N" intensity="N">tor</syllabe>
+      <syllabe time="0.5336" pitch="N!" intensity="N">tɵ</syllabe>
+      <syllabe time="0.7275" pitch="N" intensity="N">mʲej</syllabe>
+      <syllabe time="0.8716" pitch="N" intensity="N">dɘm</syllabe>
+      <syllabe time="1.092" pitch="N" intensity="N">kʲøʃ</syllabe>
+      <syllabe time="1.3039" pitch="N" intensity="H!">kʲølʲ</syllabe>
+      <syllabe time="1.5887" pitch="N" intensity="L">dɛ</syllabe>
+    </syntagm>
+    <syntagm time="1.6481" text="">
+      <syllabe time="1.6481" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="33">
+    <syntagm time="0.1126" text="">
+      <syllabe time="0.1126" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="1.0164" text="минеке ">
+      <syllabe time="0.329" pitch="N" intensity="N">mʲi</syllabe>
+      <syllabe time="0.5021" pitch="N" intensity="N">nʲe</syllabe>
+      <syllabe time="1.0164" pitch="H" intensity="H">kʲe</syllabe>
+    </syntagm>
+    <syntagm time="1.1465" text="-">
+      <syllabe time="1.1465" pitch="H" intensity="H">-</syllabe>
+    </syntagm>
+    <syntagm time="1.9903" text="бабайым ">
+      <syllabe time="1.3684" pitch="N" intensity="N">pʌ</syllabe>
+      <syllabe time="1.6064" pitch="L" intensity="H">bʌ</syllabe>
+      <syllabe time="1.9903" pitch="H" intensity="N">jim</syllabe>
+    </syntagm>
+    <syntagm time="2.4289" text="-">
+      <syllabe time="2.4289" pitch="H" intensity="H">-</syllabe>
+    </syntagm>
+    <syntagm time="3.2498" text="кел йöреде">
+      <syllabe time="2.6726" pitch="N" intensity="N">kʲelʲ</syllabe>
+      <syllabe time="2.79" pitch="H" intensity="N">jʏ</syllabe>
+      <syllabe time="3.2498" pitch="L" intensity="H">rɛt</syllabe>
+    </syntagm>
+    <syntagm time="4.4165" text="-">
+      <syllabe time="4.4165" pitch="H!" intensity="H!">-</syllabe>
+    </syntagm>
+    <syntagm time="4.9093" text="қыш, ">
+      <syllabe time="4.9093" pitch="H" intensity="H!">kʌʃʲ</syllabe>
+    </syntagm>
+    <syntagm time="5.5799" text="йӓй,">
+      <syllabe time="5.5799" pitch="H" intensity="H">jej</syllabe>
+    </syntagm>
+    <syntagm time="6.0827" text="-">
+      <syllabe time="6.0827" pitch="H" intensity="H">-</syllabe>
+    </syntagm>
+    <syntagm time="6.442" text="кöс, ">
+      <syllabe time="6.442" pitch="H" intensity="H">kʲʏsʲ</syllabe>
+    </syntagm>
+    <syntagm time="6.9265" text="йӓс">
+      <syllabe time="6.9265" pitch="H" intensity="H">jʌs</syllabe>
+    </syntagm>
+    <syntagm time="6.9577" text="">
+      <syllabe time="6.9577" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="34">
+    <syntagm time="0.1123" text="">
+      <syllabe time="0.1123" pitch="H" intensity="H!" />
+    </syntagm>
+    <syntagm time="0.3152" text="йӓ">
+      <syllabe time="0.3152" pitch="H" intensity="H">jɛ</syllabe>
+    </syntagm>
+    <syntagm time="1.4185" text="сморчок бар">
+      <syllabe time="0.4171" pitch="N" intensity="N">ɜ</syllabe>
+      <syllabe time="0.8491" pitch="N" intensity="N">smʌr</syllabe>
+      <syllabe time="1.0913" pitch="N" intensity="N">tʃøk</syllabe>
+      <syllabe time="1.4185" pitch="H" intensity="H!">pʌr</syllabe>
+    </syntagm>
+    <syntagm time="1.659" text="">
+      <syllabe time="1.659" pitch="H" intensity="H!" />
+    </syntagm>
+  </file>
+  <file id="35">
+    <syntagm time="0.065" text="">
+      <syllabe time="0.065" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="0.4814" text="мин">
+      <syllabe time="0.4814" pitch="H" intensity="H">mʲenʲ</syllabe>
+    </syntagm>
+    <syntagm time="0.7868" text="-">
+      <syllabe time="0.7868" pitch="H" intensity="H">-</syllabe>
+    </syntagm>
+    <syntagm time="2.7336" text="сöзнең тöрсен ӓйткӓндӓ">
+      <syllabe time="1.0041" pitch="N" intensity="N">sʲø</syllabe>
+      <syllabe time="1.2821" pitch="N" intensity="N">sʲen</syllabe>
+      <syllabe time="1.3957" pitch="N" intensity="N">tø</syllabe>
+      <syllabe time="1.5571" pitch="N" intensity="N">rʲø</syllabe>
+      <syllabe time="1.7831" pitch="N" intensity="N">zʲin</syllabe>
+      <syllabe time="1.8681" pitch="N" intensity="N">ɘ</syllabe>
+      <syllabe time="2.1349" pitch="N" intensity="H">ɛjt</syllabe>
+      <syllabe time="2.3728" pitch="N" intensity="N">kʲɛn</syllabe>
+      <syllabe time="2.7336" pitch="H" intensity="L">tʌ</syllabe>
+    </syntagm>
+    <syntagm time="3.1565" text="-">
+      <syllabe time="3.1565" pitch="H" intensity="H">-</syllabe>
+    </syntagm>
+    <syntagm time="3.5899" text="эй">
+      <syllabe time="3.5899" pitch="H" intensity="H">ʔɛj</syllabe>
+    </syntagm>
+    <syntagm time="4.2467" text="-">
+      <syllabe time="4.2467" pitch="H" intensity="H!">-</syllabe>
+    </syntagm>
+    <syntagm time="5.8337" text="тайҕадан қорҕадым мин">
+      <syllabe time="4.4628" pitch="N" intensity="H!">tʌj</syllabe>
+      <syllabe time="4.6217" pitch="N" intensity="N">ɢʌ</syllabe>
+      <syllabe time="4.8707" pitch="H" intensity="N">dʌn</syllabe>
+      <syllabe time="5.0639" pitch="N" intensity="N">qor</syllabe>
+      <syllabe time="5.3259" pitch="N" intensity="N">ɢʌ</syllabe>
+      <syllabe time="5.5219" pitch="N" intensity="L">tɘm</syllabe>
+      <syllabe time="5.8337" pitch="N" intensity="N">mʲenʲ</syllabe>
+    </syntagm>
+    <syntagm time="6.2889" text="">
+      <syllabe time="6.2889" pitch="H!" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="36">
+    <syntagm time="0.0683" text="">
+      <syllabe time="0.0683" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="0.7717" text="ӓли инди">
+      <syllabe time="0.217" pitch="N" intensity="N">ʔʌ</syllabe>
+      <syllabe time="0.3575" pitch="N" intensity="H!">lɯ</syllabe>
+      <syllabe time="0.6115" pitch="H!" intensity="H!">in</syllabe>
+      <syllabe time="0.7717" pitch="N!" intensity="L">dɘ</syllabe>
+    </syntagm>
+    <syntagm time="1.1135" text="">
+      <syllabe time="1.1135" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="37">
+    <syntagm time="0.0301" text="">
+      <syllabe time="0.0301" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="0.7058" text="йаратыдым">
+      <syllabe time="0.1603" pitch="N" intensity="H!">jʌ</syllabe>
+      <syllabe time="0.3299" pitch="N" intensity="N">rʌ</syllabe>
+      <syllabe time="0.4772" pitch="N!" intensity="L">tɯ</syllabe>
+      <syllabe time="0.7058" pitch="N" intensity="N">tɯm</syllabe>
+    </syntagm>
+    <syntagm time="0.9082" text="">
+      <syllabe time="0.9082" pitch="H" intensity="H!" />
+    </syntagm>
+  </file>
+  <file id="38">
+    <syntagm time="0.2496" text="">
+      <syllabe time="0.2496" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="0.5612" text="ӓ мин ">
+      <syllabe time="0.3556" pitch="L" intensity="N">ʔɛ</syllabe>
+      <syllabe time="0.5612" pitch="H" intensity="H!">mʲinʲ</syllabe>
+    </syntagm>
+    <syntagm time="1.2123" text="бер-ике йума">
+      <syllabe time="0.6471" pitch="H!" intensity="N">bʲirʲ</syllabe>
+      <syllabe time="0.7534" pitch="N" intensity="N">ɪ</syllabe>
+      <syllabe time="0.8686" pitch="N" intensity="N">kʲʏ</syllabe>
+      <syllabe time="0.9563" pitch="N" intensity="H!">jʏ</syllabe>
+      <syllabe time="1.2123" pitch="L" intensity="L">mʌ</syllabe>
+    </syntagm>
+    <syntagm time="1.3452" text="-">
+      <syllabe time="1.3452" pitch="H" intensity="H">-</syllabe>
+    </syntagm>
+    <syntagm time="1.7631" text="осты">
+      <syllabe time="1.5898" pitch="N" intensity="H">ɵs</syllabe>
+      <syllabe time="1.7631" pitch="L" intensity="N">tɘ</syllabe>
+    </syntagm>
+    <syntagm time="2.2023" text="">
+      <syllabe time="2.2023" pitch="H" intensity="H!" />
+    </syntagm>
+  </file>
+  <file id="39">
+    <syntagm time="0.1696" text="">
+      <syllabe time="0.1696" pitch="H" intensity="H!" />
+    </syntagm>
+    <syntagm time="1.251" text="кöндӓ йöредегӓн">
+      <syllabe time="0.3834" pitch="N" intensity="H!">kʲʏn</syllabe>
+      <syllabe time="0.4784" pitch="N" intensity="H!">dʲø</syllabe>
+      <syllabe time="0.6013" pitch="H!" intensity="N">jʏ</syllabe>
+      <syllabe time="0.7657" pitch="N" intensity="H!">rʲɛ</syllabe>
+      <syllabe time="0.8648" pitch="N" intensity="N">dɯ</syllabe>
+      <syllabe time="1.251" pitch="N" intensity="N">ɣɛn</syllabe>
+    </syntagm>
+    <syntagm time="1.6829" text="-">
+      <syllabe time="1.6829" pitch="H" intensity="H">-</syllabe>
+    </syntagm>
+    <syntagm time="2.4943" text="каждый кöн">
+      <syllabe time="2.0059" pitch="L!" intensity="H">kʌʒ</syllabe>
+      <syllabe time="2.1496" pitch="N" intensity="H">dɯj</syllabe>
+      <syllabe time="2.4943" pitch="N" intensity="H">gʲʏn</syllabe>
+    </syntagm>
+    <syntagm time="2.6051" text="">
+      <syllabe time="2.6051" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="40">
+    <syntagm time="0.0595" text="">
+      <syllabe time="0.0595" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="1.7342" text="йаратым бик гинӓ ашкере балықны">
+      <syllabe time="0.198" pitch="H" intensity="N">jʌ</syllabe>
+      <syllabe time="0.4074" pitch="N" intensity="H!">rʌ</syllabe>
+      <syllabe time="0.6061" pitch="N" intensity="N">tɯm</syllabe>
+      <syllabe time="0.7496" pitch="N" intensity="N">bɨk</syllabe>
+      <syllabe time="0.9156" pitch="N" intensity="N">kʲinʲ</syllabe>
+      <syllabe time="1.0589" pitch="N" intensity="N">ʌʃ</syllabe>
+      <syllabe time="1.1814" pitch="N" intensity="N">kʲe</syllabe>
+      <syllabe time="1.2908" pitch="N" intensity="N">rʲɛ</syllabe>
+      <syllabe time="1.4286" pitch="N" intensity="N">pʌ</syllabe>
+      <syllabe time="1.6026" pitch="L!" intensity="L">lɯq</syllabe>
+      <syllabe time="1.7342" pitch="N" intensity="N">nɯ</syllabe>
+    </syntagm>
+    <syntagm time="2.0479" text="">
+      <syllabe time="2.0479" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="41">
+    <syntagm time="0.077" text="">
+      <syllabe time="0.077" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="1.0403" text="аны тос тотым">
+      <syllabe time="0.2921" pitch="N" intensity="N">ʔʌ</syllabe>
+      <syllabe time="0.419" pitch="N!" intensity="N">nɯ</syllabe>
+      <syllabe time="0.6774" pitch="N" intensity="N">tʉs</syllabe>
+      <syllabe time="0.8457" pitch="N" intensity="H">tʉ</syllabe>
+      <syllabe time="1.0403" pitch="N" intensity="N">tɯn</syllabe>
+    </syntagm>
+    <syntagm time="2.2574" text="аны мариновать итедем">
+      <syllabe time="1.1662" pitch="N" intensity="N">ʌ</syllabe>
+      <syllabe time="1.2541" pitch="N" intensity="N">nɯ</syllabe>
+      <syllabe time="1.4284" pitch="N" intensity="H">mʌ</syllabe>
+      <syllabe time="1.5407" pitch="N" intensity="N">rʲi</syllabe>
+      <syllabe time="1.6607" pitch="N" intensity="N">nʌ</syllabe>
+      <syllabe time="1.8086" pitch="N" intensity="N">waj</syllabe>
+      <syllabe time="1.8923" pitch="N" intensity="N">ɪ</syllabe>
+      <syllabe time="2.0505" pitch="N" intensity="N">tɘ</syllabe>
+      <syllabe time="2.2574" pitch="L" intensity="N">dɯm</syllabe>
+    </syntagm>
+    <syntagm time="3.1232" text="йаратым грибы">
+      <syllabe time="2.4178" pitch="H" intensity="H">jʌ</syllabe>
+      <syllabe time="2.6272" pitch="N" intensity="N">rʌ</syllabe>
+      <syllabe time="2.806" pitch="N" intensity="L">tɘm</syllabe>
+      <syllabe time="2.8871" pitch="N" intensity="N">ɣɯ</syllabe>
+      <syllabe time="2.9902" pitch="N" intensity="N">rʲi</syllabe>
+      <syllabe time="3.1232" pitch="L!" intensity="N">βɯ</syllabe>
+    </syntagm>
+    <syntagm time="3.6908" text="йӓдем">
+      <syllabe time="3.2746" pitch="N" intensity="N">i</syllabe>
+      <syllabe time="3.4664" pitch="H" intensity="H">jɛ</syllabe>
+      <syllabe time="3.6908" pitch="N" intensity="L">tɯm</syllabe>
+    </syntagm>
+    <syntagm time="3.8675" text="">
+      <syllabe time="3.8675" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="42">
+    <syntagm time="0.0971" text="">
+      <syllabe time="0.0971" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="1.9755" text="ӓ син бöген городқа китесең мӓ">
+      <syllabe time="0.2335" pitch="N!" intensity="N">ʔɛ</syllabe>
+      <syllabe time="0.4582" pitch="N" intensity="N">sʲinʲ</syllabe>
+      <syllabe time="0.5514" pitch="N" intensity="N">bʉ</syllabe>
+      <syllabe time="0.7553" pitch="N" intensity="N">ɣʉn</syllabe>
+      <syllabe time="0.9334" pitch="N" intensity="H!">go</syllabe>
+      <syllabe time="1.0566" pitch="N" intensity="N">rt</syllabe>
+      <syllabe time="1.1947" pitch="N" intensity="N">qʌ</syllabe>
+      <syllabe time="1.3088" pitch="N" intensity="N">ɣi</syllabe>
+      <syllabe time="1.4622" pitch="N" intensity="N">tʲɛ</syllabe>
+      <syllabe time="1.6486" pitch="N" intensity="N">sʲɪn</syllabe>
+      <syllabe time="1.9755" pitch="H!" intensity="L">mʌ</syllabe>
+    </syntagm>
+    <syntagm time="2.0068" text="">
+      <syllabe time="2.0068" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="43">
+    <syntagm time="0.1085" text="">
+      <syllabe time="0.1085" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="0.3732" text="бöгӱн">
+      <syllabe time="0.2151" pitch="L" intensity="L">pɵ</syllabe>
+      <syllabe time="0.3732" pitch="H" intensity="H">ɣʉn</syllabe>
+    </syntagm>
+    <syntagm time="1.5606" text="аш пешересең мӓ син">
+      <syllabe time="0.5525" pitch="N" intensity="N">ʌʃ</syllabe>
+      <syllabe time="0.6344" pitch="N" intensity="N">pʲe</syllabe>
+      <syllabe time="0.7822" pitch="N" intensity="N">ʒʲe</syllabe>
+      <syllabe time="0.9221" pitch="N" intensity="H!">rʲɛ</syllabe>
+      <syllabe time="1.0802" pitch="N" intensity="N">sɪn</syllabe>
+      <syllabe time="1.1954" pitch="N" intensity="N">mʌ</syllabe>
+      <syllabe time="1.5606" pitch="H" intensity="L">sʲinʲ</syllabe>
+    </syntagm>
+    <syntagm time="1.8416" text="">
+      <syllabe time="1.8416" pitch="H" intensity="H!" />
+    </syntagm>
+  </file>
+  <file id="44">
+    <syntagm time="0.1446" text="">
+      <syllabe time="0.1446" pitch="H" intensity="H!" />
+    </syntagm>
+    <syntagm time="1.2415" text="син чичӓклӓреңне">
+      <syllabe time="0.3524" pitch="N" intensity="N">sʲinʲ</syllabe>
+      <syllabe time="0.5132" pitch="N" intensity="N">tʃi</syllabe>
+      <syllabe time="0.7368" pitch="N" intensity="N">tʃɛk</syllabe>
+      <syllabe time="0.9012" pitch="N" intensity="H">lʲɛ</syllabe>
+      <syllabe time="0.9967" pitch="N" intensity="N">rəŋ</syllabe>
+      <syllabe time="1.2415" pitch="L" intensity="N">nɘ</syllabe>
+    </syntagm>
+    <syntagm time="1.7854" text="кöнде ">
+      <syllabe time="1.4585" pitch="N" intensity="L">kʲʏnʲ</syllabe>
+      <syllabe time="1.7854" pitch="N" intensity="H!">dɘ</syllabe>
+    </syntagm>
+    <syntagm time="2.7132" text="су қойадың ма">
+      <syllabe time="1.9731" pitch="N" intensity="N">sʉ</syllabe>
+      <syllabe time="2.0896" pitch="N" intensity="N">ʁu</syllabe>
+      <syllabe time="2.2554" pitch="N" intensity="H">jʌ</syllabe>
+      <syllabe time="2.4081" pitch="N" intensity="N">dɘŋ</syllabe>
+      <syllabe time="2.7132" pitch="N" intensity="N">mʌ</syllabe>
+    </syntagm>
+    <syntagm time="2.9194" text="">
+      <syllabe time="2.9194" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="45">
+    <syntagm time="0.2202" text="">
+      <syllabe time="0.2202" pitch="H" intensity="H!" />
+    </syntagm>
+    <syntagm time="1.0679" text="теги йумада">
+      <syllabe time="0.3154" pitch="H" intensity="N">tɯ</syllabe>
+      <syllabe time="0.5005" pitch="N" intensity="N">gʲi</syllabe>
+      <syllabe time="0.5794" pitch="N" intensity="N">jʉ</syllabe>
+      <syllabe time="0.7511" pitch="N" intensity="N">mʌ</syllabe>
+      <syllabe time="1.0679" pitch="L" intensity="H!">dʌ</syllabe>
+    </syntagm>
+    <syntagm time="2.3905" text="қартошка отыстың ма сен">
+      <syllabe time="1.2607" pitch="N" intensity="H!">qʌr</syllabe>
+      <syllabe time="1.4688" pitch="N" intensity="N">tʉʃq</syllabe>
+      <syllabe time="1.7389" pitch="N" intensity="N">ɔts</syllabe>
+      <syllabe time="1.8536" pitch="N" intensity="N">tʌŋ</syllabe>
+      <syllabe time="2.0205" pitch="N" intensity="N">mʌ</syllabe>
+      <syllabe time="2.3905" pitch="N" intensity="N">sʲenʲ</syllabe>
+    </syntagm>
+    <syntagm time="2.675" text="">
+      <syllabe time="2.675" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="46">
+    <syntagm time="0.024" text="">
+      <syllabe time="0.024" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="0.3031" text="син">
+      <syllabe time="0.3031" pitch="H" intensity="H">sʲin</syllabe>
+    </syntagm>
+    <syntagm time="0.5943" text="-">
+      <syllabe time="0.5943" pitch="H" intensity="H">-</syllabe>
+    </syntagm>
+    <syntagm time="1.7224" text="йалаңҕа бардың ма йади">
+      <syllabe time="0.7116" pitch="N" intensity="N">jʌ</syllabe>
+      <syllabe time="0.9196" pitch="N" intensity="H!">lʌŋ</syllabe>
+      <syllabe time="0.9909" pitch="N" intensity="N">ʁʌ</syllabe>
+      <syllabe time="1.1917" pitch="N" intensity="N">bʌr</syllabe>
+      <syllabe time="1.401" pitch="N" intensity="N">tɯŋ</syllabe>
+      <syllabe time="1.7224" pitch="L" intensity="L">mɘɪt</syllabe>
+    </syntagm>
+    <syntagm time="2.1777" text="">
+      <syllabe time="2.1777" pitch="H" intensity="H!" />
+    </syntagm>
+  </file>
+  <file id="47">
+    <syntagm time="0.3071" text="">
+      <syllabe time="0.3071" pitch="H" intensity="H!" />
+    </syntagm>
+    <syntagm time="1.5797" text="таўмашқалар">
+      <syllabe time="0.4596" pitch="N" intensity="H">tʌʉ</syllabe>
+      <syllabe time="0.6894" pitch="N" intensity="N">mɯʃ</syllabe>
+      <syllabe time="0.7665" pitch="N" intensity="N">qʌ</syllabe>
+      <syllabe time="0.936" pitch="N" intensity="N">lʌr</syllabe>
+      <syllabe time="1.5797" pitch="H" intensity="L">ɘː</syllabe>
+    </syntagm>
+    <syntagm time="1.8601" text="-">
+      <syllabe time="1.8601" pitch="H" intensity="H">-</syllabe>
+    </syntagm>
+    <syntagm time="2.5482" text="кöрдең мӓ">
+      <syllabe time="2.1297" pitch="N" intensity="H!">kʏr</syllabe>
+      <syllabe time="2.3426" pitch="H" intensity="N">tɯŋ</syllabe>
+      <syllabe time="2.5482" pitch="L" intensity="N">mɛ</syllabe>
+    </syntagm>
+    <syntagm time="3.4004" text="таптың ма">
+      <syllabe time="2.8337" pitch="N" intensity="H">tʌp</syllabe>
+      <syllabe time="3.043" pitch="N" intensity="L">tɘŋ</syllabe>
+      <syllabe time="3.4004" pitch="L" intensity="N">mʌ</syllabe>
+    </syntagm>
+    <syntagm time="3.8123" text="">
+      <syllabe time="3.8123" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="48">
+    <syntagm time="0.0526" text="">
+      <syllabe time="0.0526" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="0.645" text="син">
+      <syllabe time="0.3108" pitch="H" intensity="H">sʲinʲ</syllabe>
+      <syllabe time="0.645" pitch="N" intensity="N">nʲe</syllabe>
+    </syntagm>
+    <syntagm time="1.1144" text="-">
+      <syllabe time="1.1144" pitch="H" intensity="H!">-</syllabe>
+    </syntagm>
+    <syntagm time="2.8406" text="таў башына аҕынып пақтымады ">
+      <syllabe time="1.3561" pitch="N" intensity="N">tʌw</syllabe>
+      <syllabe time="1.6697" pitch="N" intensity="H!">βʌʃ</syllabe>
+      <syllabe time="1.8136" pitch="N" intensity="N">nʌ</syllabe>
+      <syllabe time="2.0303" pitch="N" intensity="N">ʌŋ</syllabe>
+      <syllabe time="2.3123" pitch="N" intensity="L">pʌχ</syllabe>
+      <syllabe time="2.5021" pitch="N" intensity="N">tɯn</syllabe>
+      <syllabe time="2.6599" pitch="N" intensity="N">mɘ</syllabe>
+      <syllabe time="2.8406" pitch="N" intensity="N">dʲe</syllabe>
+    </syntagm>
+    <syntagm time="3.6514" text="бербер чақны">
+      <syllabe time="2.9504" pitch="H" intensity="H">pɯr</syllabe>
+      <syllabe time="3.1315" pitch="N" intensity="N">βɘr</syllabe>
+      <syllabe time="3.4843" pitch="N" intensity="N">tʃʌq</syllabe>
+      <syllabe time="3.6514" pitch="N" intensity="N">nɘ</syllabe>
+    </syntagm>
+    <syntagm time="3.969" text="">
+      <syllabe time="3.969" pitch="H" intensity="H!" />
+    </syntagm>
+  </file>
+  <file id="49">
+    <syntagm time="0.0781" text="">
+      <syllabe time="0.0781" pitch="H" intensity="H!" />
+    </syntagm>
+    <syntagm time="2.5174" text="син кичӓӱн кöршелӓренгӓ инде мӓ">
+      <syllabe time="0.2575" pitch="N" intensity="N">sʲi</syllabe>
+      <syllabe time="0.5636" pitch="N" intensity="N">nʲiŋ</syllabe>
+      <syllabe time="0.6987" pitch="N" intensity="N">kʲi</syllabe>
+      <syllabe time="1.0626" pitch="N" intensity="H!">tʃʌʉn</syllabe>
+      <syllabe time="1.2368" pitch="N" intensity="N">kʲʏrʲ</syllabe>
+      <syllabe time="1.3928" pitch="N" intensity="N">ʃʲi</syllabe>
+      <syllabe time="1.5809" pitch="N" intensity="N">lʲɛr</syllabe>
+      <syllabe time="1.7285" pitch="N" intensity="N">ɘŋ</syllabe>
+      <syllabe time="1.8663" pitch="N" intensity="N">gʲɛ</syllabe>
+      <syllabe time="2.0413" pitch="N" intensity="N">ɪn</syllabe>
+      <syllabe time="2.2017" pitch="N" intensity="N">dɯn</syllabe>
+      <syllabe time="2.5174" pitch="N" intensity="N">mʌ</syllabe>
+    </syntagm>
+    <syntagm time="2.5362" text="">
+      <syllabe time="2.5362" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="50">
+    <syntagm time="0.0186" text="">
+      <syllabe time="0.0186" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="1.6563" text="сöйлӓштӓн мӓ бер-бер нимӓне">
+      <syllabe time="0.1465" pitch="N" intensity="N">sʲøj</syllabe>
+      <syllabe time="0.3874" pitch="N" intensity="H!">lʲɛʃʲ</syllabe>
+      <syllabe time="0.5312" pitch="N" intensity="N">tɯm</syllabe>
+      <syllabe time="0.672" pitch="N" intensity="N">mʌ</syllabe>
+      <syllabe time="0.8543" pitch="N" intensity="N">βɘr</syllabe>
+      <syllabe time="0.9959" pitch="N" intensity="N">βɛr</syllabe>
+      <syllabe time="1.1673" pitch="N" intensity="N">nʲɛ</syllabe>
+      <syllabe time="1.3814" pitch="N" intensity="N">mʲɛ</syllabe>
+      <syllabe time="1.6563" pitch="N" intensity="N">nʲɛ</syllabe>
+    </syntagm>
+    <syntagm time="1.9136" text="">
+      <syllabe time="1.9136" pitch="H" intensity="H!" />
+    </syntagm>
+  </file>
+  <file id="51">
+    <syntagm time="0.3462" text="">
+      <syllabe time="0.3462" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="1.1315" text="син бурун">
+      <syllabe time="0.6288" pitch="H" intensity="H!">sʲɪn</syllabe>
+      <syllabe time="0.7203" pitch="H" intensity="N">bʉ</syllabe>
+      <syllabe time="1.1315" pitch="L" intensity="L">rʉn</syllabe>
+    </syntagm>
+    <syntagm time="1.4598" text="-">
+      <syllabe time="1.4598" pitch="H" intensity="H">-</syllabe>
+    </syntagm>
+    <syntagm time="2.9632" text="кöнде йöредегӓндең эшке">
+      <syllabe time="1.6093" pitch="N" intensity="H">kʉn</syllabe>
+      <syllabe time="1.6791" pitch="N" intensity="N">dɘ</syllabe>
+      <syllabe time="1.8023" pitch="N" intensity="N">jʏ</syllabe>
+      <syllabe time="1.9246" pitch="N" intensity="N">rʌ</syllabe>
+      <syllabe time="2.0836" pitch="N" intensity="N">dɯ</syllabe>
+      <syllabe time="2.4065" pitch="N" intensity="N">gɛn</syllabe>
+      <syllabe time="2.5652" pitch="N" intensity="N">mʲɪd</syllabe>
+      <syllabe time="2.7268" pitch="L" intensity="N">ɯʃ</syllabe>
+      <syllabe time="2.9632" pitch="N" intensity="N">kʲɛ</syllabe>
+    </syntagm>
+    <syntagm time="3.1864" text="">
+      <syllabe time="3.1864" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="52">
+    <syntagm time="0.1883" text="">
+      <syllabe time="0.1883" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="1.3651" text="син картошкаңны">
+      <syllabe time="0.4195" pitch="N" intensity="H!">sʲinʲ</syllabe>
+      <syllabe time="0.5759" pitch="N" intensity="N">kʌr</syllabe>
+      <syllabe time="0.7481" pitch="N" intensity="N">tɵʃ</syllabe>
+      <syllabe time="0.972" pitch="N" intensity="N">qʌŋ</syllabe>
+      <syllabe time="1.3651" pitch="N" intensity="N">nɘ</syllabe>
+    </syntagm>
+    <syntagm time="1.7344" text="-">
+      <syllabe time="1.7344" pitch="H" intensity="H">-</syllabe>
+    </syntagm>
+    <syntagm time="2.4419" text="бер йума-">
+      <syllabe time="1.8991" pitch="N" intensity="H">pɪrʲ</syllabe>
+      <syllabe time="2.0383" pitch="N" intensity="N">jʉ</syllabe>
+      <syllabe time="2.4419" pitch="N" intensity="H">mʌ</syllabe>
+    </syntagm>
+    <syntagm time="2.6644" text="-">
+      <syllabe time="2.6644" pitch="H" intensity="H">-</syllabe>
+    </syntagm>
+    <syntagm time="3.6165" text="-дан соң отыстың ма">
+      <syllabe time="2.8738" pitch="N" intensity="H">dʌn</syllabe>
+      <syllabe time="3.2061" pitch="L!" intensity="N">sots</syllabe>
+      <syllabe time="3.3398" pitch="N" intensity="N">tɯŋ</syllabe>
+      <syllabe time="3.6165" pitch="N" intensity="N">mʌ</syllabe>
+    </syntagm>
+    <syntagm time="3.8004" text="">
+      <syllabe time="3.8004" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="53">
+    <syntagm time="0.2725" text="">
+      <syllabe time="0.2725" pitch="H" intensity="H!" />
+    </syntagm>
+    <syntagm time="1.3234" text="ӓ синеке болҕан ма">
+      <syllabe time="0.3626" pitch="N" intensity="N">ʔɜ</syllabe>
+      <syllabe time="0.5061" pitch="N" intensity="N">sʲi</syllabe>
+      <syllabe time="0.602" pitch="N" intensity="N">nʲi</syllabe>
+      <syllabe time="0.7103" pitch="L!" intensity="N">kɪ</syllabe>
+      <syllabe time="0.8893" pitch="N" intensity="H!">bol</syllabe>
+      <syllabe time="1.0511" pitch="H" intensity="N">ɣʌn</syllabe>
+      <syllabe time="1.3234" pitch="N" intensity="L">mʌ</syllabe>
+    </syntagm>
+    <syntagm time="1.3508" text="">
+      <syllabe time="1.3508" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="54">
+    <syntagm time="0.149" text="">
+      <syllabe time="0.149" pitch="H" intensity="H!" />
+    </syntagm>
+    <syntagm time="1.1154" text="син йараты ма ит">
+      <syllabe time="0.3479" pitch="H" intensity="N">sʲinʲ</syllabe>
+      <syllabe time="0.43" pitch="N" intensity="N">jʌ</syllabe>
+      <syllabe time="0.6359" pitch="N" intensity="H!">rʌ</syllabe>
+      <syllabe time="0.7043" pitch="N" intensity="N">tɯ</syllabe>
+      <syllabe time="0.8774" pitch="L" intensity="N">mʌ</syllabe>
+      <syllabe time="1.1154" pitch="N" intensity="L">ɪt</syllabe>
+    </syntagm>
+    <syntagm time="1.2085" text="">
+      <syllabe time="1.2085" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="55">
+    <syntagm time="0.2562" text="">
+      <syllabe time="0.2562" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="1.0899" text="син чичӓклӓреңне">
+      <syllabe time="0.433" pitch="N" intensity="H!">sʲinʲ</syllabe>
+      <syllabe time="0.5331" pitch="N" intensity="N">tʃi</syllabe>
+      <syllabe time="0.7325" pitch="N" intensity="L">tʃɛk</syllabe>
+      <syllabe time="0.8629" pitch="N" intensity="N">lʲɛ</syllabe>
+      <syllabe time="0.9751" pitch="L" intensity="N">rɘn</syllabe>
+      <syllabe time="1.0899" pitch="L" intensity="N">nɘ</syllabe>
+    </syntagm>
+    <syntagm time="1.8802" text="кöнде қойадың ма">
+      <syllabe time="1.2487" pitch="H!" intensity="N">kʲʏnʲ</syllabe>
+      <syllabe time="1.3689" pitch="N" intensity="N">dʌ</syllabe>
+      <syllabe time="1.4821" pitch="N" intensity="N">χɵ</syllabe>
+      <syllabe time="1.5906" pitch="L" intensity="N">jʌ</syllabe>
+      <syllabe time="1.6986" pitch="N" intensity="N">dŋ</syllabe>
+      <syllabe time="1.8802" pitch="N" intensity="N">mʌ</syllabe>
+    </syntagm>
+    <syntagm time="1.9001" text="">
+      <syllabe time="1.9001" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="56">
+    <syntagm time="0.0795" text="">
+      <syllabe time="0.0795" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="0.5855" text="ӓ син">
+      <syllabe time="0.2092" pitch="N" intensity="H!">ʔɛ</syllabe>
+      <syllabe time="0.5855" pitch="N!" intensity="N">sʲinʲ</syllabe>
+    </syntagm>
+    <syntagm time="1.6042" text="йöредең мӓ балыққа">
+      <syllabe time="0.7961" pitch="N" intensity="N">jʏr</syllabe>
+      <syllabe time="0.9347" pitch="N" intensity="H!">gʲɛ</syllabe>
+      <syllabe time="1.0419" pitch="H" intensity="N">ɘm</syllabe>
+      <syllabe time="1.1794" pitch="N" intensity="N">mʌ</syllabe>
+      <syllabe time="1.2884" pitch="N" intensity="N">pʌ</syllabe>
+      <syllabe time="1.4282" pitch="L!" intensity="N">lɯq</syllabe>
+      <syllabe time="1.6042" pitch="N" intensity="N">qʌ</syllabe>
+    </syntagm>
+    <syntagm time="1.6248" text="">
+      <syllabe time="1.6248" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="57">
+    <syntagm time="0.2334" text="">
+      <syllabe time="0.2334" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="0.927" text="син хӓзӓр">
+      <syllabe time="0.4062" pitch="N" intensity="N">sʲinʲ</syllabe>
+      <syllabe time="0.5747" pitch="N" intensity="H!">χʌ</syllabe>
+      <syllabe time="0.6987" pitch="N" intensity="N">zɯ</syllabe>
+      <syllabe time="0.927" pitch="H" intensity="L">rɯ</syllabe>
+    </syntagm>
+    <syntagm time="0.9846" text="-">
+      <syllabe time="0.9846" pitch="H" intensity="H">-</syllabe>
+    </syntagm>
+    <syntagm time="1.9032" text="аш тергемӓйдең мӓ">
+      <syllabe time="1.1789" pitch="N" intensity="N">ʔʌʃ</syllabe>
+      <syllabe time="1.3255" pitch="N" intensity="H">tɘr</syllabe>
+      <syllabe time="1.4258" pitch="N" intensity="N">ɣe</syllabe>
+      <syllabe time="1.5644" pitch="N" intensity="N">mʲej</syllabe>
+      <syllabe time="1.6798" pitch="N" intensity="N">dɘŋ</syllabe>
+      <syllabe time="1.9032" pitch="L" intensity="N">mʲɛ</syllabe>
+    </syntagm>
+    <syntagm time="2.3097" text="">
+      <syllabe time="2.3097" pitch="H!" intensity="H!" />
+    </syntagm>
+  </file>
+  <file id="58">
+    <syntagm time="0.0907" text="">
+      <syllabe time="0.0907" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="0.6308" text="син городқа">
+      <syllabe time="0.304" pitch="N" intensity="N">sɪn</syllabe>
+      <syllabe time="0.427" pitch="H" intensity="N">go</syllabe>
+      <syllabe time="0.5481" pitch="N" intensity="N">rɵt</syllabe>
+      <syllabe time="0.6308" pitch="N" intensity="N">qʌ</syllabe>
+    </syntagm>
+    <syntagm time="1.304" text="китмӓстең мӓ">
+      <syllabe time="0.8136" pitch="N" intensity="N">git</syllabe>
+      <syllabe time="0.9842" pitch="H!" intensity="H">mʲɛsʲ</syllabe>
+      <syllabe time="1.1094" pitch="N" intensity="N">tɯŋ</syllabe>
+      <syllabe time="1.304" pitch="L!" intensity="N">mʌ</syllabe>
+    </syntagm>
+    <syntagm time="1.3294" text="">
+      <syllabe time="1.3294" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="59">
+    <syntagm time="0.0928" text="">
+      <syllabe time="0.0928" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="0.8758" text="син ойладың иде">
+      <syllabe time="0.3197" pitch="N" intensity="L">sʲin</syllabe>
+      <syllabe time="0.4163" pitch="N" intensity="N">ɵj</syllabe>
+      <syllabe time="0.5574" pitch="N" intensity="H!">lʲɛ</syllabe>
+      <syllabe time="0.7283" pitch="N" intensity="N">dɯŋ</syllabe>
+      <syllabe time="0.7876" pitch="N" intensity="N">ɵj</syllabe>
+      <syllabe time="0.8758" pitch="N" intensity="N">dɯ</syllabe>
+    </syntagm>
+    <syntagm time="2.0306" text="бöгӱн магазинга киткӓле">
+      <syllabe time="0.9754" pitch="N" intensity="N">bʉ</syllabe>
+      <syllabe time="1.0899" pitch="N" intensity="H">gʉn</syllabe>
+      <syllabe time="1.1973" pitch="N" intensity="N">mʌ</syllabe>
+      <syllabe time="1.3167" pitch="N" intensity="H">ɣʌ</syllabe>
+      <syllabe time="1.4759" pitch="N" intensity="N">zɪn</syllabe>
+      <syllabe time="1.7292" pitch="N" intensity="N">ɣɘjt</syllabe>
+      <syllabe time="1.8972" pitch="N" intensity="N">kʲɛ</syllabe>
+      <syllabe time="2.0306" pitch="N" intensity="N">lʲɘ</syllabe>
+    </syntagm>
+    <syntagm time="2.1821" text="">
+      <syllabe time="2.1821" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="60">
+    <syntagm time="0.0997" text="">
+      <syllabe time="0.0997" pitch="H" intensity="H!" />
+    </syntagm>
+    <syntagm time="1.1534" text="син қышқыда">
+      <syllabe time="0.3713" pitch="L" intensity="N">sʲin</syllabe>
+      <syllabe time="0.5618" pitch="N" intensity="N">χɯʃ</syllabe>
+      <syllabe time="0.6545" pitch="N" intensity="N">χʌ</syllabe>
+      <syllabe time="1.0771" pitch="H" intensity="N">dʌ</syllabe>
+      <syllabe time="1.1534" pitch="N" intensity="N">ɘ</syllabe>
+    </syntagm>
+    <syntagm time="1.6384" text="рыбалкаҕа">
+      <syllabe time="1.2647" pitch="L" intensity="N">rɯ</syllabe>
+      <syllabe time="1.39" pitch="H" intensity="H!">bʌl</syllabe>
+      <syllabe time="1.5365" pitch="N" intensity="L">qʌ</syllabe>
+      <syllabe time="1.6384" pitch="N" intensity="N">ɣʌ</syllabe>
+    </syntagm>
+    <syntagm time="2.6943" text="йöргӓн чаҕың болды ма">
+      <syllabe time="1.8039" pitch="N" intensity="N">jʏr</syllabe>
+      <syllabe time="1.9405" pitch="H" intensity="N">ɣʌn</syllabe>
+      <syllabe time="2.1104" pitch="N" intensity="H">tʃʌ</syllabe>
+      <syllabe time="2.2161" pitch="N" intensity="N">ɣn</syllabe>
+      <syllabe time="2.3824" pitch="N" intensity="N">bol</syllabe>
+      <syllabe time="2.4424" pitch="N" intensity="N">dɯ</syllabe>
+      <syllabe time="2.6943" pitch="N" intensity="L">mʌ</syllabe>
+    </syntagm>
+    <syntagm time="2.7193" text="">
+      <syllabe time="2.7193" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="61">
+    <syntagm time="0.2838" text="">
+      <syllabe time="0.2838" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="1.4644" text="син бöгӱн аш иден мӓ">
+      <syllabe time="0.4971" pitch="N" intensity="L">sʲinʲ</syllabe>
+      <syllabe time="0.5925" pitch="N" intensity="N">bʲʏ</syllabe>
+      <syllabe time="0.7293" pitch="N" intensity="H!">gʉn</syllabe>
+      <syllabe time="0.9297" pitch="N" intensity="N">ʌʃ</syllabe>
+      <syllabe time="1.0288" pitch="N" intensity="N">ɪ</syllabe>
+      <syllabe time="1.1979" pitch="N" intensity="N">dɘn</syllabe>
+      <syllabe time="1.4644" pitch="L!" intensity="N">mʌ</syllabe>
+    </syntagm>
+    <syntagm time="1.6976" text="">
+      <syllabe time="1.6976" pitch="H" intensity="H!" />
+    </syntagm>
+  </file>
+  <file id="62">
+    <syntagm time="0.0362" text="">
+      <syllabe time="0.0362" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="1.1861" text="син башқа аулда тор...">
+      <syllabe time="0.2865" pitch="H" intensity="N">sʲɪn</syllabe>
+      <syllabe time="0.5001" pitch="N" intensity="N">bʌʃ</syllabe>
+      <syllabe time="0.6522" pitch="N" intensity="N">χʌ</syllabe>
+      <syllabe time="0.759" pitch="N" intensity="N">ʌl</syllabe>
+      <syllabe time="0.8762" pitch="N" intensity="N">dʌ</syllabe>
+      <syllabe time="0.9375" pitch="N" intensity="N">tɵ</syllabe>
+      <syllabe time="1.1861" pitch="L" intensity="L">rʉpl</syllabe>
+    </syntagm>
+    <syntagm time="1.7805" text="торҕан ма">
+      <syllabe time="1.3317" pitch="N" intensity="N">tʉr</syllabe>
+      <syllabe time="1.5832" pitch="H!" intensity="N">ɣʌm</syllabe>
+      <syllabe time="1.7805" pitch="N" intensity="H!">mʌ</syllabe>
+    </syntagm>
+    <syntagm time="3.1964" text="Ом аулда торҕалақта">
+      <syllabe time="1.8773" pitch="N" intensity="N">ʌ</syllabe>
+      <syllabe time="2.1399" pitch="H" intensity="N">om</syllabe>
+      <syllabe time="2.3072" pitch="N" intensity="N">ɑl</syllabe>
+      <syllabe time="2.4487" pitch="N" intensity="N">lɯr</syllabe>
+      <syllabe time="2.6089" pitch="N" intensity="N">tʉr</syllabe>
+      <syllabe time="2.6881" pitch="N" intensity="N">ɣʌ</syllabe>
+      <syllabe time="2.8863" pitch="N" intensity="N">lɯχ</syllabe>
+      <syllabe time="3.1964" pitch="N" intensity="L">tʌ</syllabe>
+    </syntagm>
+    <syntagm time="3.3181" text="">
+      <syllabe time="3.3181" pitch="H" intensity="H!" />
+    </syntagm>
+  </file>
+  <file id="63">
+    <syntagm time="0.145" text="">
+      <syllabe time="0.145" pitch="H" intensity="H!" />
+    </syntagm>
+    <syntagm time="1.6587" text="айулардан қорҕадың ма">
+      <syllabe time="0.3378" pitch="N" intensity="L">ʔʌ</syllabe>
+      <syllabe time="0.4931" pitch="N" intensity="N">jʉ</syllabe>
+      <syllabe time="0.6833" pitch="N" intensity="N">lʌr</syllabe>
+      <syllabe time="0.8561" pitch="N" intensity="N">dɯŋ</syllabe>
+      <syllabe time="1.0155" pitch="N" intensity="N">gɵr</syllabe>
+      <syllabe time="1.1663" pitch="N" intensity="N">ɣʌ</syllabe>
+      <syllabe time="1.3616" pitch="L" intensity="N">zɯŋ</syllabe>
+      <syllabe time="1.6587" pitch="N" intensity="N">mʌ</syllabe>
+    </syntagm>
+    <syntagm time="1.8262" text="">
+      <syllabe time="1.8262" pitch="H" intensity="H!" />
+    </syntagm>
+  </file>
+  <file id="64">
+    <syntagm time="0.0562" text="">
+      <syllabe time="0.0562" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="0.5611" text="ӓ син ">
+      <syllabe time="0.2024" pitch="L" intensity="H">ʔɛ</syllabe>
+      <syllabe time="0.5611" pitch="H" intensity="H">sʲinʲ</syllabe>
+    </syntagm>
+    <syntagm time="0.7463" text="-">
+      <syllabe time="0.7463" pitch="H" intensity="H">-</syllabe>
+    </syntagm>
+    <syntagm time="1.6015" text="отпускыҕа">
+      <syllabe time="0.9739" pitch="L" intensity="N">ʔɵt</syllabe>
+      <syllabe time="1.1656" pitch="N" intensity="N">ps</syllabe>
+      <syllabe time="1.2953" pitch="N" intensity="N">qʌ</syllabe>
+      <syllabe time="1.6015" pitch="N" intensity="H!">ɣʌ</syllabe>
+    </syntagm>
+    <syntagm time="3.5505" text="киткӓдӓўсең мӓ йӓйгидӓ бер-бер йӓргӓ">
+      <syllabe time="1.8077" pitch="N" intensity="N">kʲit</syllabe>
+      <syllabe time="1.8944" pitch="N" intensity="N">kʲi</syllabe>
+      <syllabe time="2.093" pitch="N" intensity="H">dɛw</syllabe>
+      <syllabe time="2.2377" pitch="N" intensity="N">sɯŋ</syllabe>
+      <syllabe time="2.3346" pitch="N" intensity="N">mʲɛ</syllabe>
+      <syllabe time="2.5408" pitch="N" intensity="N">jɛj</syllabe>
+      <syllabe time="2.6384" pitch="N" intensity="N">ɣɘ</syllabe>
+      <syllabe time="2.8031" pitch="N" intensity="N">dɛ</syllabe>
+      <syllabe time="2.9693" pitch="N" intensity="N">βɯr</syllabe>
+      <syllabe time="3.0784" pitch="N" intensity="N">βɯr</syllabe>
+      <syllabe time="3.2902" pitch="N" intensity="N">jɛrʲ</syllabe>
+      <syllabe time="3.5505" pitch="N" intensity="L">gʲɛ</syllabe>
+    </syntagm>
+    <syntagm time="3.7425" text="">
+      <syllabe time="3.7425" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="65">
+    <syntagm time="0.1112" text="">
+      <syllabe time="0.1112" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="1.7234" text="ӓ син клубларҕа йӧрӓдең мӓ">
+      <syllabe time="0.2387" pitch="N" intensity="N">ʔɛ</syllabe>
+      <syllabe time="0.4123" pitch="N" intensity="N">sʲɪn</syllabe>
+      <syllabe time="0.6521" pitch="N!" intensity="N">qlʉb</syllabe>
+      <syllabe time="0.8119" pitch="N" intensity="H!">lʌr</syllabe>
+      <syllabe time="0.9341" pitch="N" intensity="N">ɣʌ</syllabe>
+      <syllabe time="1.0526" pitch="N" intensity="N">jʏ</syllabe>
+      <syllabe time="1.2214" pitch="N" intensity="N">rʌ</syllabe>
+      <syllabe time="1.3742" pitch="N" intensity="N">tɯŋ</syllabe>
+      <syllabe time="1.7234" pitch="L!" intensity="L">mʲɛ</syllabe>
+    </syntagm>
+    <syntagm time="1.8905" text="">
+      <syllabe time="1.8905" pitch="H" intensity="H!" />
+    </syntagm>
+  </file>
+  <file id="66">
+    <syntagm time="0.1635" text="">
+      <syllabe time="0.1635" pitch="H" intensity="H!" />
+    </syntagm>
+    <syntagm time="1.176" text="выступать иткӓле мӓ">
+      <syllabe time="0.3719" pitch="L" intensity="N">βɯs</syllabe>
+      <syllabe time="0.5326" pitch="N" intensity="N">tʉ</syllabe>
+      <syllabe time="0.8757" pitch="H!" intensity="H">pʌjt</syllabe>
+      <syllabe time="1.0423" pitch="N" intensity="N">gʲɜl</syllabe>
+      <syllabe time="1.176" pitch="N" intensity="N">mʲɘ</syllabe>
+    </syntagm>
+    <syntagm time="2.1464" text="йырлаҕалы ма">
+      <syllabe time="1.3042" pitch="N" intensity="N">ɪr</syllabe>
+      <syllabe time="1.4757" pitch="N" intensity="N">lʌ</syllabe>
+      <syllabe time="1.6723" pitch="N" intensity="N">ɢʌ</syllabe>
+      <syllabe time="1.7717" pitch="N" intensity="N">lɯ</syllabe>
+      <syllabe time="2.1464" pitch="N" intensity="H">mʌ</syllabe>
+    </syntagm>
+    <syntagm time="2.2506" text="">
+      <syllabe time="2.2506" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="67">
+    <syntagm time="0.0679" text="">
+      <syllabe time="0.0679" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="0.7257" text="ӓ синчӓ">
+      <syllabe time="0.2204" pitch="N" intensity="N">ʔɜ</syllabe>
+      <syllabe time="0.4728" pitch="H!" intensity="H!">sʲɪnʲ</syllabe>
+      <syllabe time="0.7257" pitch="N" intensity="L">tʃɘ</syllabe>
+    </syntagm>
+    <syntagm time="0.7969" text="">
+      <syllabe time="0.7969" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="68">
+    <syntagm time="0.2897" text="">
+      <syllabe time="0.2897" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="1.9092" text="ӓ синең атаң мына инӓң">
+      <syllabe time="0.4372" pitch="L" intensity="N">ʔɛ</syllabe>
+      <syllabe time="0.5824" pitch="N" intensity="N">sʲi</syllabe>
+      <syllabe time="0.7172" pitch="N" intensity="H">nʲiŋ</syllabe>
+      <syllabe time="0.8014" pitch="N" intensity="N">mɘ</syllabe>
+      <syllabe time="0.9675" pitch="N" intensity="N">nʲɛ</syllabe>
+      <syllabe time="1.1259" pitch="N" intensity="N">ʌ</syllabe>
+      <syllabe time="1.266" pitch="N" intensity="N">tɘŋ</syllabe>
+      <syllabe time="1.4313" pitch="N" intensity="N">mnɯ</syllabe>
+      <syllabe time="1.5255" pitch="N" intensity="N">ɪ</syllabe>
+      <syllabe time="1.9092" pitch="N" intensity="L">nʲɛŋ</syllabe>
+    </syntagm>
+    <syntagm time="2.441" text="-">
+      <syllabe time="2.441" pitch="H" intensity="H">-</syllabe>
+    </syntagm>
+    <syntagm time="3.4279" text="ээх">
+      <syllabe time="3.4279" pitch="H" intensity="H">ɜːʰ</syllabe>
+    </syntagm>
+    <syntagm time="4.7545" text="башка йӓрде торҕаннар ма">
+      <syllabe time="3.6342" pitch="N" intensity="L">pʌʃ</syllabe>
+      <syllabe time="3.7305" pitch="N" intensity="N">χʌ</syllabe>
+      <syllabe time="3.9052" pitch="N" intensity="H!">jɜr</syllabe>
+      <syllabe time="4.0395" pitch="N" intensity="N">tɘ</syllabe>
+      <syllabe time="4.1995" pitch="N" intensity="N">trʉ</syllabe>
+      <syllabe time="4.3152" pitch="N" intensity="N">ɣʌn</syllabe>
+      <syllabe time="4.4946" pitch="N" intensity="N">nʌr</syllabe>
+      <syllabe time="4.7545" pitch="L" intensity="N">mʌ</syllabe>
+    </syntagm>
+    <syntagm time="5.0108" text="-">
+      <syllabe time="5.0108" pitch="H" intensity="H">-</syllabe>
+    </syntagm>
+    <syntagm time="6.2522" text="аулҕа кöчеп килгӓнчӓ">
+      <syllabe time="5.3085" pitch="N" intensity="H">ʌʉl</syllabe>
+      <syllabe time="5.4684" pitch="N" intensity="N">ɢʌ</syllabe>
+      <syllabe time="5.6202" pitch="N" intensity="N">kʲø</syllabe>
+      <syllabe time="5.8063" pitch="N" intensity="N">tʃʏp</syllabe>
+      <syllabe time="5.916" pitch="N" intensity="N">ilʲ</syllabe>
+      <syllabe time="6.2522" pitch="L!" intensity="L">ɣɪntʃ</syllabe>
+    </syntagm>
+    <syntagm time="6.4375" text="">
+      <syllabe time="6.4375" pitch="H" intensity="H!" />
+    </syntagm>
+  </file>
+  <file id="69">
+    <syntagm time="0.0488" text="">
+      <syllabe time="0.0488" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="0.7093" text="ӓ син">
+      <syllabe time="0.2319" pitch="N" intensity="H">ʔɛ</syllabe>
+      <syllabe time="0.7093" pitch="N" intensity="H">sʲinʲʰ</syllabe>
+    </syntagm>
+    <syntagm time="1.0413" text="-">
+      <syllabe time="1.0413" pitch="H" intensity="H">-</syllabe>
+    </syntagm>
+    <syntagm time="2.3007" text="болды ма эндӓӱ вақытың">
+      <syllabe time="1.2534" pitch="N" intensity="H!">pol</syllabe>
+      <syllabe time="1.403" pitch="H" intensity="N">dɯm</syllabe>
+      <syllabe time="1.5298" pitch="N" intensity="N">ɜn</syllabe>
+      <syllabe time="1.6736" pitch="N" intensity="N">dʲɛʉ</syllabe>
+      <syllabe time="1.8218" pitch="N" intensity="N">wʌ</syllabe>
+      <syllabe time="1.9987" pitch="L" intensity="N">χɯt</syllabe>
+      <syllabe time="2.3007" pitch="N" intensity="N">tɯŋ</syllabe>
+    </syntagm>
+    <syntagm time="2.5259" text="-">
+      <syllabe time="2.5259" pitch="H" intensity="H">-</syllabe>
+    </syntagm>
+    <syntagm time="4.3654" text="қачан атаң мына инӓң таңнамадың">
+      <syllabe time="2.6913" pitch="H" intensity="H">qɑ</syllabe>
+      <syllabe time="2.8754" pitch="N" intensity="N">tʃʌn</syllabe>
+      <syllabe time="2.9961" pitch="N" intensity="N">ʌ</syllabe>
+      <syllabe time="3.1542" pitch="N" intensity="N">tʌŋ</syllabe>
+      <syllabe time="3.259" pitch="N" intensity="N">mn</syllabe>
+      <syllabe time="3.3549" pitch="N" intensity="N">ɪ</syllabe>
+      <syllabe time="3.5934" pitch="N" intensity="N">nʲɛŋ</syllabe>
+      <syllabe time="3.7148" pitch="N" intensity="N">tɯŋ</syllabe>
+      <syllabe time="3.8413" pitch="N" intensity="N">nʌ</syllabe>
+      <syllabe time="4.0022" pitch="N" intensity="N">mʌ</syllabe>
+      <syllabe time="4.3654" pitch="L" intensity="L">dɯŋ</syllabe>
+    </syntagm>
+    <syntagm time="4.7269" text="">
+      <syllabe time="4.7269" pitch="H" intensity="H!" />
+    </syntagm>
+  </file>
+  <file id="70">
+    <syntagm time="0.1496" text="">
+      <syllabe time="0.1496" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="1.3303" text="ӓ син ӱӱгӓ қайтмақсың ма">
+      <syllabe time="0.2736" pitch="N" intensity="N">ʔɛ</syllabe>
+      <syllabe time="0.4532" pitch="N" intensity="N">sʲinʲ</syllabe>
+      <syllabe time="0.55" pitch="N" intensity="N">ʏ</syllabe>
+      <syllabe time="0.6766" pitch="N" intensity="H!">ɣʌ</syllabe>
+      <syllabe time="0.8496" pitch="N" intensity="N">χʌjt</syllabe>
+      <syllabe time="0.964" pitch="N" intensity="N">mʌq</syllabe>
+      <syllabe time="1.1626" pitch="N" intensity="L">sɯŋ</syllabe>
+      <syllabe time="1.3303" pitch="N" intensity="N">mʌ</syllabe>
+    </syntagm>
+    <syntagm time="1.6008" text="">
+      <syllabe time="1.6008" pitch="H" intensity="H!" />
+    </syntagm>
+  </file>
+  <file id="71">
+    <syntagm time="0.0257" text="">
+      <syllabe time="0.0257" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="0.4716" text="син">
+      <syllabe time="0.4716" pitch="H" intensity="H">sʲinʲ</syllabe>
+    </syntagm>
+    <syntagm time="1.2005" text="наверное">
+      <syllabe time="0.7116" pitch="N" intensity="H!">nʌ</syllabe>
+      <syllabe time="0.9029" pitch="N" intensity="N">βɘr</syllabe>
+      <syllabe time="1.2005" pitch="N" intensity="N">nɵ</syllabe>
+    </syntagm>
+    <syntagm time="3.4223" text="балық тотқалы йаратқан йоқ кӱчӱ чақта">
+      <syllabe time="1.5145" pitch="N" intensity="N">pʌlχ</syllabe>
+      <syllabe time="1.7016" pitch="N" intensity="N">tʉt</syllabe>
+      <syllabe time="1.7962" pitch="N" intensity="N">qʌ</syllabe>
+      <syllabe time="1.9123" pitch="N" intensity="N">lɯ</syllabe>
+      <syllabe time="2.0371" pitch="N" intensity="N">jʌ</syllabe>
+      <syllabe time="2.1712" pitch="N" intensity="N">rt</syllabe>
+      <syllabe time="2.4316" pitch="N" intensity="N">qʌn</syllabe>
+      <syllabe time="2.6031" pitch="N" intensity="N">jɵq</syllabe>
+      <syllabe time="2.6453" pitch="N" intensity="N">ʏ</syllabe>
+      <syllabe time="2.7935" pitch="N" intensity="N">zʲʏ</syllabe>
+      <syllabe time="2.9356" pitch="N" intensity="N">tʃʌ</syllabe>
+      <syllabe time="3.0836" pitch="L" intensity="N">ɣɯn</syllabe>
+      <syllabe time="3.4223" pitch="N" intensity="L">dɘj</syllabe>
+    </syntagm>
+    <syntagm time="3.478" text="">
+      <syllabe time="3.478" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="72">
+    <syntagm time="0.0207" text="">
+      <syllabe time="0.0207" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="0.4261" text="син">
+      <syllabe time="0.4261" pitch="H" intensity="H">sʲinʲ</syllabe>
+    </syntagm>
+    <syntagm time="0.482" text="-">
+      <syllabe time="0.482" pitch="H" intensity="H">-</syllabe>
+    </syntagm>
+    <syntagm time="1.052" text="кöршең мына">
+      <syllabe time="0.6777" pitch="N" intensity="H!">kʲʏrʲ</syllabe>
+      <syllabe time="0.8636" pitch="N" intensity="N">ʃɪŋ</syllabe>
+      <syllabe time="0.9406" pitch="N" intensity="N">mɯ</syllabe>
+      <syllabe time="1.052" pitch="N" intensity="N">nʌ</syllabe>
+    </syntagm>
+    <syntagm time="2.223" text="сöйлӓштең миде кичӓӱн">
+      <syllabe time="1.2025" pitch="H" intensity="N">sʲʏj</syllabe>
+      <syllabe time="1.3835" pitch="N" intensity="H">lʲɛʃ</syllabe>
+      <syllabe time="1.5103" pitch="N" intensity="N">tɯŋ</syllabe>
+      <syllabe time="1.6433" pitch="N" intensity="N">mʲi</syllabe>
+      <syllabe time="1.7523" pitch="N" intensity="N">dɪ</syllabe>
+      <syllabe time="1.8729" pitch="N" intensity="N">ɣɪ</syllabe>
+      <syllabe time="2.223" pitch="N" intensity="L">tʃɛn</syllabe>
+    </syntagm>
+    <syntagm time="2.4037" text="">
+      <syllabe time="2.4037" pitch="H!" intensity="H!" />
+    </syntagm>
+  </file>
+  <file id="73">
+    <syntagm time="0.0216" text="">
+      <syllabe time="0.0216" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="0.3563" text="но">
+      <syllabe time="0.3563" pitch="H!" intensity="H!">no</syllabe>
+    </syntagm>
+    <syntagm time="1.7465" text="болыдыҕан қайсы чақны">
+      <syllabe time="0.7035" pitch="N" intensity="H">bol</syllabe>
+      <syllabe time="0.8207" pitch="N" intensity="N">dɯ</syllabe>
+      <syllabe time="1.007" pitch="N" intensity="N">ɣʌn</syllabe>
+      <syllabe time="1.3439" pitch="N" intensity="N">qʌjs</syllabe>
+      <syllabe time="1.5987" pitch="L" intensity="N">tʃʌq</syllabe>
+      <syllabe time="1.7465" pitch="N" intensity="N">nɯ</syllabe>
+    </syntagm>
+    <syntagm time="2.1632" text="-">
+      <syllabe time="2.1632" pitch="H" intensity="H!">-</syllabe>
+    </syntagm>
+    <syntagm time="2.7917" text="кӱчӱ чақта">
+      <syllabe time="2.7917" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="2.9175" text="">
+      <syllabe time="2.9175" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="74">
+    <syntagm time="0.084" text="">
+      <syllabe time="0.084" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="0.7124" text="кӱрӱстӓ">
+      <syllabe time="0.1672" pitch="N" intensity="N">kʲʏ</syllabe>
+      <syllabe time="0.341" pitch="L" intensity="N">rʏs</syllabe>
+      <syllabe time="0.7124" pitch="H" intensity="H">tɛ</syllabe>
+    </syntagm>
+    <syntagm time="1.4827" text="йоқ ӓли">
+      <syllabe time="1.0939" pitch="L!" intensity="N">joɣ</syllabe>
+      <syllabe time="1.2345" pitch="N" intensity="H!">ɛ</syllabe>
+      <syllabe time="1.4827" pitch="N" intensity="L">le</syllabe>
+    </syntagm>
+    <syntagm time="1.7053" text="">
+      <syllabe time="1.7053" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="75">
+    <syntagm time="0.197" text="">
+      <syllabe time="0.197" pitch="H" intensity="H!" />
+    </syntagm>
+    <syntagm time="1.1634" text="ӧскӓлӓкте ӓли ">
+      <syllabe time="0.4228" pitch="N" intensity="N">ʏsʲ</syllabe>
+      <syllabe time="0.6064" pitch="N" intensity="H!">kʲe</syllabe>
+      <syllabe time="0.8064" pitch="N" intensity="N">lʲek</syllabe>
+      <syllabe time="0.9212" pitch="N" intensity="N">tʌ</syllabe>
+      <syllabe time="1.1634" pitch="L" intensity="N">bʌn</syllabe>
+    </syntagm>
+    <syntagm time="1.6292" text="кӱрӱстӓ">
+      <syllabe time="1.2436" pitch="N" intensity="N">kʲø</syllabe>
+      <syllabe time="1.3901" pitch="N" intensity="N">rʲʏsʲ</syllabe>
+      <syllabe time="1.6292" pitch="H" intensity="H">tɛ</syllabe>
+    </syntagm>
+    <syntagm time="1.658" text="">
+      <syllabe time="1.658" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="76">
+    <syntagm time="0.1098" text="">
+      <syllabe time="0.1098" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="0.4287" text="мин дӓ ">
+      <syllabe time="0.3132" pitch="N" intensity="N">mʲinʲ</syllabe>
+      <syllabe time="0.4287" pitch="N" intensity="H!">dʲe</syllabe>
+    </syntagm>
+    <syntagm time="1.6346" text="йӧргем йоқ садикқа">
+      <syllabe time="0.5782" pitch="H" intensity="H">ørʲ</syllabe>
+      <syllabe time="0.7356" pitch="N" intensity="N">gʲʌm</syllabe>
+      <syllabe time="0.9537" pitch="N" intensity="N">jɵq</syllabe>
+      <syllabe time="0.9996" pitch="N" intensity="N">ʌ</syllabe>
+      <syllabe time="1.0913" pitch="N" intensity="N">jʌ</syllabe>
+      <syllabe time="1.296" pitch="N" intensity="N">sʌ</syllabe>
+      <syllabe time="1.4168" pitch="N" intensity="N">dʲi</syllabe>
+      <syllabe time="1.6346" pitch="N" intensity="L">kʌ</syllabe>
+    </syntagm>
+    <syntagm time="1.8102" text="">
+      <syllabe time="1.8102" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="77">
+    <syntagm time="0.058" text="">
+      <syllabe time="0.058" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="0.6435" text="мин клубта">
+      <syllabe time="0.2892" pitch="N" intensity="H">mʲinʲ</syllabe>
+      <syllabe time="0.5473" pitch="N!" intensity="N">klʉp</syllabe>
+      <syllabe time="0.6435" pitch="N" intensity="N">tʌ</syllabe>
+    </syntagm>
+    <syntagm time="1.138" text="эшледем">
+      <syllabe time="0.792" pitch="N" intensity="N">ɘʃ</syllabe>
+      <syllabe time="0.9499" pitch="N" intensity="H">lʲi</syllabe>
+      <syllabe time="1.138" pitch="N" intensity="H">tɘm</syllabe>
+    </syntagm>
+    <syntagm time="1.2441" text="">
+      <syllabe time="1.2441" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="78">
+    <syntagm time="0.1446" text="">
+      <syllabe time="0.1446" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="0.994" text="а, йӓ">
+      <syllabe time="0.5043" pitch="H" intensity="N">ɛ</syllabe>
+      <syllabe time="0.994" pitch="L" intensity="H">jɜ</syllabe>
+    </syntagm>
+    <syntagm time="2.0227" text="э мин йоқ ӓле">
+      <syllabe time="1.1897" pitch="N" intensity="H!">ɛ</syllabe>
+      <syllabe time="1.441" pitch="H" intensity="N">mʲinʲ</syllabe>
+      <syllabe time="1.6483" pitch="N" intensity="N">jo</syllabe>
+      <syllabe time="1.8282" pitch="N" intensity="N">ɣʌ</syllabe>
+      <syllabe time="2.0227" pitch="L" intensity="L">lʲe</syllabe>
+    </syntagm>
+    <syntagm time="2.8766" text="-">
+      <syllabe time="2.8766" pitch="H" intensity="H!">-</syllabe>
+    </syntagm>
+    <syntagm time="3.8075" text="соңрақ парам">
+      <syllabe time="3.2083" pitch="H" intensity="L/H!">sɵŋ</syllabe>
+      <syllabe time="3.4505" pitch="N" intensity="N">rʌq</syllabe>
+      <syllabe time="3.5712" pitch="N" intensity="N">pʌ</syllabe>
+      <syllabe time="3.8075" pitch="N!" intensity="N">rʌm</syllabe>
+    </syntagm>
+    <syntagm time="4.1412" text="">
+      <syllabe time="4.1412" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="79">
+    <syntagm time="0.0676" text="">
+      <syllabe time="0.0676" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="0.2418" text="йӓ">
+      <syllabe time="0.2418" pitch="H!" intensity="H">jɛ</syllabe>
+    </syntagm>
+    <syntagm time="2.0561" text="мин эш бöтсе тоже пешерӓрем">
+      <syllabe time="0.4804" pitch="H" intensity="N">mʲinʲ</syllabe>
+      <syllabe time="0.747" pitch="N" intensity="H">eʃ</syllabe>
+      <syllabe time="0.952" pitch="N" intensity="N">pʲʏtʲ</syllabe>
+      <syllabe time="1.1049" pitch="N" intensity="N">sʲe</syllabe>
+      <syllabe time="1.2833" pitch="N" intensity="N">tɵ</syllabe>
+      <syllabe time="1.415" pitch="N" intensity="N">ʒɘ</syllabe>
+      <syllabe time="1.5053" pitch="N" intensity="N">pʲi</syllabe>
+      <syllabe time="1.6878" pitch="N" intensity="N">ʒʲɪ</syllabe>
+      <syllabe time="1.8679" pitch="N" intensity="N">rʲɛ</syllabe>
+      <syllabe time="2.0561" pitch="N" intensity="N">rɘm</syllabe>
+    </syntagm>
+    <syntagm time="2.2377" text="">
+      <syllabe time="2.2377" pitch="H" intensity="H!" />
+    </syntagm>
+  </file>
+  <file id="80">
+    <syntagm time="0.283" text="">
+      <syllabe time="0.283" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="0.7355" text="о">
+      <syllabe time="0.7355" pitch="H" intensity="H">oː</syllabe>
+    </syntagm>
+    <syntagm time="1.7383" text="мин балықны">
+      <syllabe time="0.9312" pitch="N" intensity="N">mʲinʲ</syllabe>
+      <syllabe time="1.161" pitch="N" intensity="N">pʌ</syllabe>
+      <syllabe time="1.3723" pitch="N" intensity="N">lʌq</syllabe>
+      <syllabe time="1.7383" pitch="N" intensity="N">nɘ</syllabe>
+    </syntagm>
+    <syntagm time="1.8691" text="-">
+      <syllabe time="1.8691" pitch="H" intensity="H">-</syllabe>
+    </syntagm>
+    <syntagm time="2.8145" text="тотқалы тур">
+      <syllabe time="2.1111" pitch="N" intensity="N">tɵt</syllabe>
+      <syllabe time="2.4682" pitch="L" intensity="H">qʌl</syllabe>
+      <syllabe time="2.8145" pitch="H" intensity="N">tʉr</syllabe>
+    </syntagm>
+    <syntagm time="3.124" text="-">
+      <syllabe time="3.124" pitch="H" intensity="H">-</syllabe>
+    </syntagm>
+    <syntagm time="4.6058" text="йегӓле дӓ йаратмайдым">
+      <syllabe time="3.3157" pitch="H" intensity="N">jɪ</syllabe>
+      <syllabe time="3.6247" pitch="N" intensity="H!">gɛlʲ</syllabe>
+      <syllabe time="3.7453" pitch="N" intensity="N">kʲɛ</syllabe>
+      <syllabe time="3.8772" pitch="N" intensity="N">jʌ</syllabe>
+      <syllabe time="4.1063" pitch="N" intensity="N">rʌt</syllabe>
+      <syllabe time="4.3462" pitch="N" intensity="N">mʌj</syllabe>
+      <syllabe time="4.6058" pitch="N" intensity="L">tɯm</syllabe>
+    </syntagm>
+    <syntagm time="4.8614" text="">
+      <syllabe time="4.8614" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="81">
+    <syntagm time="0.0916" text="">
+      <syllabe time="0.0916" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="1.1707" text="хӓзӓр эш бöтсе">
+      <syllabe time="0.2539" pitch="L" intensity="N">kʲɛ</syllabe>
+      <syllabe time="0.4439" pitch="N" intensity="N">zʲer</syllabe>
+      <syllabe time="0.7849" pitch="N" intensity="N">eʃ</syllabe>
+      <syllabe time="0.9914" pitch="N" intensity="N">pʲʏt</syllabe>
+      <syllabe time="1.1707" pitch="N" intensity="H!">sʲɛ</syllabe>
+    </syntagm>
+    <syntagm time="1.5871" text="қайтам">
+      <syllabe time="1.3654" pitch="N" intensity="H">qʌj</syllabe>
+      <syllabe time="1.5871" pitch="H" intensity="N">tʌm</syllabe>
+    </syntagm>
+    <syntagm time="2.0063" text="">
+      <syllabe time="2.0063" pitch="H" intensity="H!" />
+    </syntagm>
+  </file>
+  <file id="82">
+    <syntagm time="0.2389" text="">
+      <syllabe time="0.2389" pitch="H" intensity="H!" />
+    </syntagm>
+    <syntagm time="1.9468" text="чӱӓлӓрем килеп болышты">
+      <syllabe time="0.379" pitch="N" intensity="N">tʃʏ</syllabe>
+      <syllabe time="0.5139" pitch="N" intensity="N">wʌ</syllabe>
+      <syllabe time="0.7186" pitch="N" intensity="H!">lɛ</syllabe>
+      <syllabe time="0.883" pitch="N" intensity="N">rɨm</syllabe>
+      <syllabe time="1.0642" pitch="N" intensity="N">gʲelʲ</syllabe>
+      <syllabe time="1.2505" pitch="N" intensity="N">ɪp</syllabe>
+      <syllabe time="1.3975" pitch="N" intensity="N">po</syllabe>
+      <syllabe time="1.7038" pitch="N" intensity="N">lʌʃ</syllabe>
+      <syllabe time="1.9468" pitch="N" intensity="L">tʌ</syllabe>
+    </syntagm>
+    <syntagm time="2.9405" text="отызыштылар">
+      <syllabe time="2.1467" pitch="N" intensity="N">o</syllabe>
+      <syllabe time="2.2866" pitch="N" intensity="H">tʌ</syllabe>
+      <syllabe time="2.5877" pitch="N" intensity="N">zɯʃ</syllabe>
+      <syllabe time="2.9405" pitch="L" intensity="L">tlʌr</syllabe>
+    </syntagm>
+    <syntagm time="3.0562" text="">
+      <syllabe time="3.0562" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="83">
+    <syntagm time="0.1398" text="">
+      <syllabe time="0.1398" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="1.6114" text="ӱземнең кÿчем итмӓйде">
+      <syllabe time="0.2802" pitch="H!" intensity="H!">ʔʏ</syllabe>
+      <syllabe time="0.4715" pitch="N" intensity="N">zʲɪm</syllabe>
+      <syllabe time="0.6493" pitch="N" intensity="N">nʌŋ</syllabe>
+      <syllabe time="0.7381" pitch="N" intensity="N">gʲʏ</syllabe>
+      <syllabe time="0.9789" pitch="N" intensity="N">tʃɪm</syllabe>
+      <syllabe time="1.2289" pitch="N" intensity="N">it</syllabe>
+      <syllabe time="1.6114" pitch="N" intensity="L">mʲɛjt</syllabe>
+    </syntagm>
+  </file>
+  <file id="84">
+    <syntagm time="0.0793" text="">
+      <syllabe time="0.0793" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="1.6245" text="беренче ӓргӓ бардым">
+      <syllabe time="0.1848" pitch="N" intensity="N">pʲe</syllabe>
+      <syllabe time="0.4046" pitch="N" intensity="N">rʲin</syllabe>
+      <syllabe time="0.6986" pitch="N" intensity="N">tʃɘ</syllabe>
+      <syllabe time="0.9311" pitch="N" intensity="H">erʲ</syllabe>
+      <syllabe time="1.0825" pitch="N" intensity="H">ɣʌ</syllabe>
+      <syllabe time="1.3316" pitch="L" intensity="H">bʌr</syllabe>
+      <syllabe time="1.6245" pitch="N" intensity="N">dɯm</syllabe>
+    </syntagm>
+    <syntagm time="2.2482" text="-">
+      <syllabe time="2.2482" pitch="H" intensity="H">-</syllabe>
+    </syntagm>
+    <syntagm time="3.4102" text="анан соң">
+      <syllabe time="2.4098" pitch="N" intensity="N">ʔʌ</syllabe>
+      <syllabe time="2.6302" pitch="H" intensity="H">nɯn</syllabe>
+      <syllabe time="2.9268" pitch="N" intensity="N">soŋ</syllabe>
+      <syllabe time="3.4102" pitch="L" intensity="L">ɘː</syllabe>
+    </syntagm>
+    <syntagm time="3.6964" text="-">
+      <syllabe time="3.6964" pitch="H" intensity="H">-</syllabe>
+    </syntagm>
+    <syntagm time="5.2259" text="аны мына разводиться">
+      <syllabe time="3.8752" pitch="N" intensity="N">ʔʌ</syllabe>
+      <syllabe time="4.1488" pitch="N" intensity="N">nɯŋ</syllabe>
+      <syllabe time="4.4598" pitch="H" intensity="N">ʌː</syllabe>
+      <syllabe time="4.6798" pitch="N" intensity="H">rʌz</syllabe>
+      <syllabe time="4.918" pitch="N" intensity="H">βʌ</syllabe>
+      <syllabe time="5.1057" pitch="N" intensity="N">dʲitʲ</syllabe>
+      <syllabe time="5.2259" pitch="N" intensity="N">sɪ</syllabe>
+    </syntagm>
+    <syntagm time="6.6829" text="итеп айрылышып">
+      <syllabe time="5.3399" pitch="N" intensity="N">ɪ</syllabe>
+      <syllabe time="5.6386" pitch="N" intensity="L">tɘp</syllabe>
+      <syllabe time="5.8596" pitch="N" intensity="H">ɛ</syllabe>
+      <syllabe time="6.0461" pitch="N" intensity="N">ɘr</syllabe>
+      <syllabe time="6.2482" pitch="N" intensity="N">lʌ</syllabe>
+      <syllabe time="6.6829" pitch="N" intensity="N">ʃɪp</syllabe>
+    </syntagm>
+    <syntagm time="7.9972" text="-">
+      <syllabe time="7.9972" pitch="H" intensity="H">-</syllabe>
+    </syntagm>
+    <syntagm time="8.9367" text="қайра қайтып">
+      <syllabe time="8.2395" pitch="N" intensity="H!">qʌj</syllabe>
+      <syllabe time="8.3869" pitch="N" intensity="N">rʲɛ</syllabe>
+      <syllabe time="8.7191" pitch="L" intensity="N">χʌj</syllabe>
+      <syllabe time="8.9367" pitch="H" intensity="L">tɯp</syllabe>
+    </syntagm>
+    <syntagm time="9.5488" text="мында">
+      <syllabe time="9.129" pitch="N" intensity="N">mɯn</syllabe>
+      <syllabe time="9.5488" pitch="N" intensity="H">dʌː</syllabe>
+    </syntagm>
+    <syntagm time="10.2948" text="-">
+      <syllabe time="10.2948" pitch="H" intensity="H!">-</syllabe>
+    </syntagm>
+    <syntagm time="11.4607" text="башқаҕа барып қойдым">
+      <syllabe time="10.5007" pitch="H" intensity="H">pʌʃ</syllabe>
+      <syllabe time="10.6188" pitch="N" intensity="N">qʌ</syllabe>
+      <syllabe time="10.7628" pitch="N" intensity="N">ʁʌ</syllabe>
+      <syllabe time="10.9207" pitch="N" intensity="N">bʌ</syllabe>
+      <syllabe time="11.1042" pitch="N" intensity="N">rɯp</syllabe>
+      <syllabe time="11.2672" pitch="L" intensity="N">qɵj</syllabe>
+      <syllabe time="11.4607" pitch="N" intensity="N">tɯm</syllabe>
+    </syntagm>
+    <syntagm time="11.9348" text="">
+      <syllabe time="11.9348" pitch="H" intensity="H!" />
+    </syntagm>
+  </file>
+  <file id="85">
+    <syntagm time="0.0505" text="">
+      <syllabe time="0.0505" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="0.615" text="йӓ">
+      <syllabe time="0.615" pitch="H!" intensity="H!">jɛː</syllabe>
+    </syntagm>
+    <syntagm time="0.7073" text="">
+      <syllabe time="0.7073" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="86">
+    <syntagm time="0.0632" text="">
+      <syllabe time="0.0632" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="0.7209" text="торҕанмын">
+      <syllabe time="0.2386" pitch="H!" intensity="H!">tor</syllabe>
+      <syllabe time="0.4785" pitch="N" intensity="N">ʁʌn</syllabe>
+      <syllabe time="0.7209" pitch="N" intensity="L">mɯn</syllabe>
+    </syntagm>
+    <syntagm time="1.0229" text="">
+      <syllabe time="1.0229" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="87">
+    <syntagm time="0.0329" text="">
+      <syllabe time="0.0329" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="0.6994" text="Њағысқан">
+      <syllabe time="0.4425" pitch="L" intensity="H!">yas</syllabe>
+      <syllabe time="0.6994" pitch="H!" intensity="L">kan</syllabe>
+    </syntagm>
+    <syntagm time="2.1555" text="палларым қуштап чатчынар">
+      <syllabe time="0.7929" pitch="N" intensity="N">pa</syllabe>
+      <syllabe time="0.9049" pitch="N" intensity="H!">la</syllabe>
+      <syllabe time="1.1461" pitch="N" intensity="N">rъm</syllabe>
+      <syllabe time="1.3327" pitch="N" intensity="N">kuʃ</syllabe>
+      <syllabe time="1.5219" pitch="N" intensity="N">tap</syllabe>
+      <syllabe time="1.7338" pitch="N" intensity="N">ћ̮ҫat</syllabe>
+      <syllabe time="1.8917" pitch="N" intensity="N">ћ̮ҫъ</syllabe>
+      <syllabe time="2.1555" pitch="N!" intensity="L">nar</syllabe>
+    </syntagm>
+    <syntagm time="2.2093" text="">
+      <syllabe time="2.2093" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="88">
+    <syntagm time="0.0644" text="">
+      <syllabe time="0.0644" pitch="H" intensity="H!" />
+    </syntagm>
+    <syntagm time="3.0989" text="араа алар эдим, ақча пар ползa">
+      <syllabe time="0.168" pitch="N" intensity="N">a</syllabe>
+      <syllabe time="0.5203" pitch="N" intensity="N">ara</syllabe>
+      <syllabe time="1.0521" pitch="N" intensity="N">al</syllabe>
+      <syllabe time="1.234" pitch="N" intensity="N">ъr</syllabe>
+      <syllabe time="1.4113" pitch="N" intensity="N">ɛ</syllabe>
+      <syllabe time="1.9132" pitch="L!" intensity="N">dim</syllabe>
+      <syllabe time="2.1837" pitch="N" intensity="L">aχ</syllabe>
+      <syllabe time="2.2897" pitch="N" intensity="H">ћ̮ҫɪ</syllabe>
+      <syllabe time="2.5129" pitch="N" intensity="H">par</syllabe>
+      <syllabe time="2.6982" pitch="N" intensity="N">pul</syllabe>
+      <syllabe time="3.0989" pitch="N" intensity="N">za</syllabe>
+    </syntagm>
+    <syntagm time="3.3414" text="-">
+      <syllabe time="3.3414" pitch="H" intensity="H">-</syllabe>
+    </syntagm>
+    <syntagm time="5.6775" text="ақчам чоқта, араа да чоқ">
+      <syllabe time="3.5199" pitch="N" intensity="N">aχ</syllabe>
+      <syllabe time="3.8146" pitch="N" intensity="N">ћ̮ҫɪm</syllabe>
+      <syllabe time="4.0908" pitch="N" intensity="N">ћ̮ҫɔk</syllabe>
+      <syllabe time="4.3441" pitch="N" intensity="H!">ta</syllabe>
+      <syllabe time="4.6267" pitch="H" intensity="N">-</syllabe>
+      <syllabe time="4.8995" pitch="L" intensity="N">ara</syllabe>
+      <syllabe time="5.1165" pitch="N" intensity="N">da</syllabe>
+      <syllabe time="5.6775" pitch="N" intensity="L">ћ̮ҫɔk</syllabe>
+    </syntagm>
+    <syntagm time="5.8617" text="">
+      <syllabe time="5.8617" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="89">
+    <syntagm time="0.1112" text="">
+      <syllabe time="0.1112" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="1.1635" text="Пенсия кичееш">
+      <syllabe time="0.3346" pitch="N" intensity="H!">pen</syllabe>
+      <syllabe time="0.5295" pitch="N" intensity="N">si</syllabe>
+      <syllabe time="0.5871" pitch="N" intensity="N">kɪ</syllabe>
+      <syllabe time="1.1635" pitch="N" intensity="L">ћ̮ҫe:ʃ</syllabe>
+    </syntagm>
+    <syntagm time="1.3356" text="">
+      <syllabe time="1.3356" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="90">
+    <syntagm time="0.0428" text="">
+      <syllabe time="0.0428" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="1.615" text="Ийди бе, кыстар">
+      <syllabe time="0.2223" pitch="L!" intensity="N">ij</syllabe>
+      <syllabe time="0.3267" pitch="N" intensity="H!">di</syllabe>
+      <syllabe time="0.5558" pitch="N" intensity="H!">be</syllabe>
+      <syllabe time="1.0772" pitch="N" intensity="N">-</syllabe>
+      <syllabe time="1.2483" pitch="N" intensity="N">kъs</syllabe>
+      <syllabe time="1.615" pitch="N" intensity="N">tar</syllabe>
+    </syntagm>
+    <syntagm time="2.4479" text="ийди бе">
+      <syllabe time="1.8969" pitch="N" intensity="L">-</syllabe>
+      <syllabe time="2.0698" pitch="N" intensity="N">ij</syllabe>
+      <syllabe time="2.16" pitch="N" intensity="H">di</syllabe>
+      <syllabe time="2.325" pitch="N" intensity="H">be</syllabe>
+      <syllabe time="2.4479" pitch="N" intensity="N">-</syllabe>
+    </syntagm>
+    <syntagm time="2.483" text="">
+      <syllabe time="2.483" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="91">
+    <syntagm time="0.0381" text="">
+      <syllabe time="0.0381" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="2.1457" text="Пу қандый ағаҷ поон">
+      <syllabe time="0.3009" pitch="N" intensity="N">pu</syllabe>
+      <syllabe time="0.7572" pitch="N" intensity="L!">-</syllabe>
+      <syllabe time="0.9382" pitch="N" intensity="N">qan</syllabe>
+      <syllabe time="1.1142" pitch="N" intensity="H!">dъj</syllabe>
+      <syllabe time="1.4738" pitch="H" intensity="N">-</syllabe>
+      <syllabe time="1.6269" pitch="N" intensity="N">a</syllabe>
+      <syllabe time="1.8755" pitch="N" intensity="N">ɣaħç</syllabe>
+      <syllabe time="2.1457" pitch="N" intensity="N">pɔ:n</syllabe>
+    </syntagm>
+    <syntagm time="2.3847" text="">
+      <syllabe time="2.3847" pitch="H" intensity="H!" />
+    </syntagm>
+  </file>
+  <file id="92">
+    <syntagm time="0.1143" text="">
+      <syllabe time="0.1143" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="2.6262" text="Пу полза терек полар">
+      <syllabe time="0.2326" pitch="N" intensity="N">pu</syllabe>
+      <syllabe time="0.4219" pitch="N" intensity="H!">bɔl</syllabe>
+      <syllabe time="0.7692" pitch="H!" intensity="N">za</syllabe>
+      <syllabe time="1.8276" pitch="N" intensity="N">-</syllabe>
+      <syllabe time="1.9622" pitch="N" intensity="H!">te</syllabe>
+      <syllabe time="2.1681" pitch="N" intensity="N">rek</syllabe>
+      <syllabe time="2.3159" pitch="N" intensity="N">pu</syllabe>
+      <syllabe time="2.6262" pitch="N" intensity="N">lar</syllabe>
+    </syntagm>
+    <syntagm time="2.6577" text="">
+      <syllabe time="2.6577" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="93">
+    <syntagm time="0.4693" text="">
+      <syllabe time="0.4693" pitch="H" intensity="H!" />
+    </syntagm>
+    <syntagm time="3.8116" text="Кем отурсан ҷажыл абраҷта">
+      <syllabe time="0.7553" pitch="H!" intensity="H!">kem</syllabe>
+      <syllabe time="1.0303" pitch="N" intensity="N">otur</syllabe>
+      <syllabe time="1.4183" pitch="N" intensity="N">san</syllabe>
+      <syllabe time="2.5314" pitch="N" intensity="N!">-</syllabe>
+      <syllabe time="2.8138" pitch="N" intensity="N">ћʃa</syllabe>
+      <syllabe time="3.0096" pitch="N" intensity="N">ʒъl</syllabe>
+      <syllabe time="3.2119" pitch="N" intensity="N">ab</syllabe>
+      <syllabe time="3.5265" pitch="N" intensity="N">raћ̮ҫ</syllabe>
+      <syllabe time="3.8116" pitch="N" intensity="N">ta</syllabe>
+    </syntagm>
+    <syntagm time="4.2313" text="">
+      <syllabe time="4.2313" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="94">
+    <syntagm time="0.2801" text="">
+      <syllabe time="0.2801" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="5.3002" text="По чажыл абрачтын ичинде мысык уктапчыт">
+      <syllabe time="0.6796" pitch="N" intensity="N">pu</syllabe>
+      <syllabe time="1.0965" pitch="N" intensity="N">-</syllabe>
+      <syllabe time="1.4555" pitch="N" intensity="N">а</syllabe>
+      <syllabe time="1.7084" pitch="N" intensity="N">ћ̮ҫa</syllabe>
+      <syllabe time="1.9415" pitch="N" intensity="N">ʒъl</syllabe>
+      <syllabe time="2.19" pitch="N" intensity="N">ab</syllabe>
+      <syllabe time="2.4766" pitch="N" intensity="N">raћ̮ҫ</syllabe>
+      <syllabe time="2.7719" pitch="N" intensity="N">tъŋ</syllabe>
+      <syllabe time="3.0538" pitch="N" intensity="N">-</syllabe>
+      <syllabe time="3.4055" pitch="N" intensity="N">iћ̮ҫin</syllabe>
+      <syllabe time="3.6313" pitch="N" intensity="N!">de</syllabe>
+      <syllabe time="4.3253" pitch="N" intensity="L!">-</syllabe>
+      <syllabe time="4.4446" pitch="N" intensity="H">mъ</syllabe>
+      <syllabe time="4.6849" pitch="N" intensity="N">sъk</syllabe>
+      <syllabe time="4.8282" pitch="N" intensity="N">uk</syllabe>
+      <syllabe time="5.0266" pitch="N" intensity="N">tʌp</syllabe>
+      <syllabe time="5.3002" pitch="N" intensity="N">ћ̮ҫъt</syllabe>
+    </syntagm>
+    <syntagm time="5.5687" text="">
+      <syllabe time="5.5687" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="95">
+    <syntagm time="0.1952" text="">
+      <syllabe time="0.1952" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="5.6688" text="Пу мында уш черғе қандығ не шоқсанар">
+      <syllabe time="0.467" pitch="N" intensity="H!">pu</syllabe>
+      <syllabe time="0.7983" pitch="N" intensity="N">mъn</syllabe>
+      <syllabe time="1.0908" pitch="N" intensity="N">da</syllabe>
+      <syllabe time="1.4205" pitch="N" intensity="N">-</syllabe>
+      <syllabe time="1.7896" pitch="N" intensity="N">uʃ</syllabe>
+      <syllabe time="2.0555" pitch="N" intensity="N">ħçir</syllabe>
+      <syllabe time="2.3659" pitch="N" intensity="N">ɣe</syllabe>
+      <syllabe time="3.0066" pitch="N" intensity="L!">-</syllabe>
+      <syllabe time="3.2317" pitch="N" intensity="N">qan</syllabe>
+      <syllabe time="3.5104" pitch="N" intensity="H!">dъɣ</syllabe>
+      <syllabe time="4.4186" pitch="N" intensity="N">-</syllabe>
+      <syllabe time="4.7342" pitch="N" intensity="N">"fs"</syllabe>
+      <syllabe time="4.9612" pitch="N" intensity="N">ne</syllabe>
+      <syllabe time="5.2411" pitch="N" intensity="N">ʃok</syllabe>
+      <syllabe time="5.4417" pitch="N" intensity="N">sa</syllabe>
+      <syllabe time="5.6688" pitch="N" intensity="N">nar</syllabe>
+    </syntagm>
+    <syntagm time="5.9822" text="">
+      <syllabe time="5.9822" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="96">
+    <syntagm time="0.1217" text="">
+      <syllabe time="0.1217" pitch="H" intensity="H!" />
+    </syntagm>
+    <syntagm time="1.1263" text="Кызычақ полды ба">
+      <syllabe time="0.1962" pitch="N" intensity="N">qъ</syllabe>
+      <syllabe time="0.5544" pitch="N" intensity="H!">zћʃaχ</syllabe>
+      <syllabe time="0.7625" pitch="N" intensity="N">pul</syllabe>
+      <syllabe time="0.9141" pitch="L!" intensity="H!">dъ</syllabe>
+      <syllabe time="1.1263" pitch="H!" intensity="H!">ba</syllabe>
+    </syntagm>
+    <syntagm time="1.3253" text="">
+      <syllabe time="1.3253" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="97">
+    <syntagm time="0.1477" text="">
+      <syllabe time="0.1477" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="1.7183" text="Кызычақ полбады">
+      <syllabe time="0.4185" pitch="N" intensity="N!">qъz</syllabe>
+      <syllabe time="0.6796" pitch="H" intensity="N">ћʃaχ</syllabe>
+      <syllabe time="1.0897" pitch="N" intensity="N">-</syllabe>
+      <syllabe time="1.2676" pitch="N" intensity="H">pol</syllabe>
+      <syllabe time="1.463" pitch="N" intensity="N">va</syllabe>
+      <syllabe time="1.7183" pitch="L" intensity="N">dъ</syllabe>
+    </syntagm>
+    <syntagm time="1.8603" text="">
+      <syllabe time="1.8603" pitch="H" intensity="H!" />
+    </syntagm>
+  </file>
+  <file id="98">
+    <syntagm time="0.0217" text="">
+      <syllabe time="0.0217" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="1.6495" text="су куш полды ба">
+      <syllabe time="0.2953" pitch="N" intensity="N">sʊ</syllabe>
+      <syllabe time="0.7023" pitch="N" intensity="N">quʃ</syllabe>
+      <syllabe time="1.032" pitch="N" intensity="L">-</syllabe>
+      <syllabe time="1.2583" pitch="N" intensity="N">pol</syllabe>
+      <syllabe time="1.3864" pitch="N" intensity="H!">dъ</syllabe>
+      <syllabe time="1.6495" pitch="N" intensity="H!">ba</syllabe>
+    </syntagm>
+    <syntagm time="1.687" text="">
+      <syllabe time="1.687" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="99">
+    <syntagm time="0.0189" text="">
+      <syllabe time="0.0189" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="1.6401" text="су куш полбады">
+      <syllabe time="0.2633" pitch="N" intensity="N">sʏ</syllabe>
+      <syllabe time="0.6845" pitch="N" intensity="N">quʃ</syllabe>
+      <syllabe time="1.0" pitch="N" intensity="N">-</syllabe>
+      <syllabe time="1.2207" pitch="N" intensity="N">pol</syllabe>
+      <syllabe time="1.4322" pitch="N" intensity="H!">ba</syllabe>
+      <syllabe time="1.6401" pitch="N" intensity="H!">dъ</syllabe>
+    </syntagm>
+    <syntagm time="1.7539" text="">
+      <syllabe time="1.7539" pitch="H" intensity="H!" />
+    </syntagm>
+  </file>
+  <file id="100">
+    <syntagm time="0.0595" text="">
+      <syllabe time="0.0595" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="1.1225" text="по не болар">
+      <syllabe time="0.4051" pitch="N" intensity="H!">pɔ</syllabe>
+      <syllabe time="0.7206" pitch="N" intensity="H!">ne</syllabe>
+      <syllabe time="0.8976" pitch="N" intensity="N">po</syllabe>
+      <syllabe time="1.1225" pitch="L!" intensity="N">lar</syllabe>
+    </syntagm>
+    <syntagm time="1.3192" text="">
+      <syllabe time="1.3192" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="101">
+    <syntagm time="0.2412" text="">
+      <syllabe time="0.2412" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="1.2139" text="эм не бар анда">
+      <syllabe time="0.416" pitch="N" intensity="N">ɛm</syllabe>
+      <syllabe time="0.6168" pitch="N" intensity="H!">ne</syllabe>
+      <syllabe time="0.7674" pitch="N" intensity="N">bar</syllabe>
+      <syllabe time="0.9768" pitch="N" intensity="N">an</syllabe>
+      <syllabe time="1.2139" pitch="N" intensity="L">da</syllabe>
+    </syntagm>
+    <syntagm time="1.6646" text="">
+      <syllabe time="1.6646" pitch="H" intensity="H!" />
+    </syntagm>
+  </file>
+  <file id="102">
+    <syntagm time="0.1244" text="">
+      <syllabe time="0.1244" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="1.1742" text="Қанары парҷылар">
+      <syllabe time="0.274" pitch="N" intensity="H!">qa</syllabe>
+      <syllabe time="0.4421" pitch="H!" intensity="N">na</syllabe>
+      <syllabe time="0.5745" pitch="N" intensity="N">rъ</syllabe>
+      <syllabe time="0.7982" pitch="N" intensity="N">par</syllabe>
+      <syllabe time="0.9534" pitch="N" intensity="N">ћʃъ</syllabe>
+      <syllabe time="1.1742" pitch="N" intensity="N">lar</syllabe>
+    </syntagm>
+    <syntagm time="1.3699" text="">
+      <syllabe time="1.3699" pitch="H" intensity="H!" />
+    </syntagm>
+  </file>
+  <file id="103">
+    <syntagm time="0.0201" text="">
+      <syllabe time="0.0201" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="1.3385" text="Анна Гавриловна">
+      <syllabe time="0.4058" pitch="N!" intensity="N">ana</syllabe>
+      <syllabe time="0.5976" pitch="N" intensity="H">gav</syllabe>
+      <syllabe time="0.8491" pitch="N" intensity="H">ri</syllabe>
+      <syllabe time="1.1057" pitch="N" intensity="N">lav</syllabe>
+      <syllabe time="1.3385" pitch="N" intensity="L">na</syllabe>
+    </syntagm>
+    <syntagm time="1.5473" text="-">
+      <syllabe time="1.5473" pitch="H" intensity="H!">-</syllabe>
+    </syntagm>
+    <syntagm time="4.3934" text="мееӊ адым Белекова Анна Гавриловна">
+      <syllabe time="1.8884" pitch="N" intensity="H!">mɛŋ</syllabe>
+      <syllabe time="2.3706" pitch="N" intensity="N">adъm</syllabe>
+      <syllabe time="2.514" pitch="N" intensity="N">be</syllabe>
+      <syllabe time="2.692" pitch="N" intensity="H!">le</syllabe>
+      <syllabe time="2.8494" pitch="N" intensity="H!">ko</syllabe>
+      <syllabe time="3.0354" pitch="N" intensity="N">va</syllabe>
+      <syllabe time="3.3903" pitch="N" intensity="N">ana</syllabe>
+      <syllabe time="3.5805" pitch="N" intensity="N">gav</syllabe>
+      <syllabe time="3.8251" pitch="N" intensity="N">ri</syllabe>
+      <syllabe time="4.0823" pitch="N" intensity="N">lov</syllabe>
+      <syllabe time="4.3934" pitch="N" intensity="L">na</syllabe>
+    </syntagm>
+    <syntagm time="4.4181" text="">
+      <syllabe time="4.4181" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="104">
+    <syntagm time="0.0104" text="">
+      <syllabe time="0.0104" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="1.0006" text="Сееӊ адыӊ ким">
+      <syllabe time="0.2921" pitch="N" intensity="L">sɛŋ</syllabe>
+      <syllabe time="0.4231" pitch="L!" intensity="N">a</syllabe>
+      <syllabe time="0.7048" pitch="N" intensity="N">dъŋ</syllabe>
+      <syllabe time="1.0006" pitch="N" intensity="H!">kɪm</syllabe>
+    </syntagm>
+    <syntagm time="1.3547" text="">
+      <syllabe time="1.3547" pitch="H" intensity="H!" />
+    </syntagm>
+  </file>
+  <file id="105">
+    <syntagm time="0.021" text="">
+      <syllabe time="0.021" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="3.5407" text="мен иштеем автовокзалга 25 jыл">
+      <syllabe time="0.4214" pitch="N" intensity="N">mɛn</syllabe>
+      <syllabe time="0.7052" pitch="N" intensity="N">iʃ</syllabe>
+      <syllabe time="0.9425" pitch="H!" intensity="H!">tɛm</syllabe>
+      <syllabe time="1.0987" pitch="N" intensity="N">av</syllabe>
+      <syllabe time="1.3149" pitch="N" intensity="N">to</syllabe>
+      <syllabe time="1.5184" pitch="N" intensity="N">vɔk</syllabe>
+      <syllabe time="1.816" pitch="N" intensity="N">zal</syllabe>
+      <syllabe time="2.1792" pitch="N" intensity="N">qa</syllabe>
+      <syllabe time="2.3925" pitch="N" intensity="N">ћe</syllabe>
+      <syllabe time="2.5412" pitch="N" intensity="N">bir</syllabe>
+      <syllabe time="2.8403" pitch="N" intensity="N">me</syllabe>
+      <syllabe time="3.1026" pitch="N" intensity="N">pɛʃ</syllabe>
+      <syllabe time="3.5407" pitch="N" intensity="L">ћъl</syllabe>
+    </syntagm>
+    <syntagm time="3.7642" text="">
+      <syllabe time="3.7642" pitch="H" intensity="H!" />
+    </syntagm>
+  </file>
+  <file id="106">
+    <syntagm time="0.0063" text="">
+      <syllabe time="0.0063" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="1.3813" text="сегзен беш jаш меең">
+      <syllabe time="0.1835" pitch="N" intensity="H!">seg</syllabe>
+      <syllabe time="0.4004" pitch="N!" intensity="N">zin</syllabe>
+      <syllabe time="0.6641" pitch="N" intensity="N">peʃ</syllabe>
+      <syllabe time="0.8886" pitch="N" intensity="N">ћaʃ</syllabe>
+      <syllabe time="1.3813" pitch="L!" intensity="L">m'ɛɛŋ</syllabe>
+    </syntagm>
+    <syntagm time="1.3934" text="">
+      <syllabe time="1.3934" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="107">
+    <syntagm time="0.0067" text="">
+      <syllabe time="0.0067" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="1.0072" text="Қайда тӧреен">
+      <syllabe time="0.2774" pitch="N" intensity="N">qaj</syllabe>
+      <syllabe time="0.4202" pitch="N" intensity="N">da</syllabe>
+      <syllabe time="0.5863" pitch="N" intensity="N">tø</syllabe>
+      <syllabe time="1.0072" pitch="L!" intensity="H!">rɛn</syllabe>
+    </syntagm>
+    <syntagm time="1.0171" text="">
+      <syllabe time="1.0171" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="108">
+    <syntagm time="0.0318" text="">
+      <syllabe time="0.0318" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="5.6455" text="Меен тӧреем Старобординский район деремне Тайнадай">
+      <syllabe time="0.2327" pitch="N" intensity="N">mɛn</syllabe>
+      <syllabe time="0.4116" pitch="N" intensity="N">tø</syllabe>
+      <syllabe time="1.0121" pitch="N" intensity="N">rɛm</syllabe>
+      <syllabe time="1.08" pitch="N" intensity="N">-</syllabe>
+      <syllabe time="1.2175" pitch="N" intensity="N">sta</syllabe>
+      <syllabe time="1.3137" pitch="N" intensity="N">ro</syllabe>
+      <syllabe time="1.5231" pitch="N" intensity="N">bor</syllabe>
+      <syllabe time="1.7633" pitch="N" intensity="N">din</syllabe>
+      <syllabe time="2.5484" pitch="N" intensity="N">ski</syllabe>
+      <syllabe time="2.8819" pitch="N" intensity="N!">ra</syllabe>
+      <syllabe time="3.5936" pitch="N" intensity="N">jon</syllabe>
+      <syllabe time="3.7489" pitch="N" intensity="N">-</syllabe>
+      <syllabe time="3.8376" pitch="N" intensity="H!">te</syllabe>
+      <syllabe time="4.0776" pitch="N" intensity="N">re</syllabe>
+      <syllabe time="4.5456" pitch="N" intensity="N">ne</syllabe>
+      <syllabe time="4.8678" pitch="N" intensity="N">taj</syllabe>
+      <syllabe time="5.0453" pitch="N" intensity="N">nъ</syllabe>
+      <syllabe time="5.6455" pitch="N" intensity="N">daj</syllabe>
+    </syntagm>
+    <syntagm time="5.6892" text="">
+      <syllabe time="5.6892" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="109">
+    <syntagm time="0.0096" text="">
+      <syllabe time="0.0096" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="0.8845" text="Қайда чаткан">
+      <syllabe time="0.2067" pitch="N" intensity="H!">qaj</syllabe>
+      <syllabe time="0.3871" pitch="N" intensity="N">da</syllabe>
+      <syllabe time="0.6214" pitch="N" intensity="N">ћat</syllabe>
+      <syllabe time="0.8845" pitch="H" intensity="N">kan</syllabe>
+    </syntagm>
+    <syntagm time="0.8941" text="">
+      <syllabe time="0.8941" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="110">
+    <syntagm time="0.1036" text="">
+      <syllabe time="0.1036" pitch="H" intensity="H!" />
+    </syntagm>
+    <syntagm time="2.5805" text="ағамныӊ ады Сандра болгон">
+      <syllabe time="0.203" pitch="N" intensity="H!">a</syllabe>
+      <syllabe time="0.3458" pitch="N" intensity="H!">ƣъm</syllabe>
+      <syllabe time="0.5857" pitch="N" intensity="N">nъŋ</syllabe>
+      <syllabe time="1.0725" pitch="N" intensity="N">adъ</syllabe>
+      <syllabe time="1.2834" pitch="N" intensity="N">-</syllabe>
+      <syllabe time="1.68" pitch="N" intensity="H!">san</syllabe>
+      <syllabe time="1.8901" pitch="N" intensity="N">dra</syllabe>
+      <syllabe time="2.1744" pitch="N" intensity="N">bol</syllabe>
+      <syllabe time="2.5805" pitch="L" intensity="L">ƣon</syllabe>
+    </syntagm>
+    <syntagm time="2.6676" text="">
+      <syllabe time="2.6676" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="111">
+    <syntagm time="0.0051" text="">
+      <syllabe time="0.0051" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="3.5454" text="Анам, анам полгон ады Сырға">
+      <syllabe time="0.5024" pitch="N" intensity="N">anam</syllabe>
+      <syllabe time="0.9676" pitch="N" intensity="N">-</syllabe>
+      <syllabe time="1.3155" pitch="N!" intensity="N">anam</syllabe>
+      <syllabe time="1.5486" pitch="N" intensity="N">pol</syllabe>
+      <syllabe time="1.8098" pitch="N" intensity="N">ƣon</syllabe>
+      <syllabe time="2.3936" pitch="N" intensity="N">adъ</syllabe>
+      <syllabe time="2.8075" pitch="N" intensity="H!">sъr</syllabe>
+      <syllabe time="3.5454" pitch="L!" intensity="N">ƣa</syllabe>
+    </syntagm>
+    <syntagm time="3.5879" text="">
+      <syllabe time="3.5879" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="112">
+    <syntagm time="0.0336" text="">
+      <syllabe time="0.0336" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="2.0429" text="Мееӊ кичееште ок анам ӱл каан">
+      <syllabe time="0.2459" pitch="N" intensity="N">mɛŋ</syllabe>
+      <syllabe time="0.5261" pitch="H" intensity="N">kʃe</syllabe>
+      <syllabe time="0.7034" pitch="N" intensity="N">ʃt</syllabe>
+      <syllabe time="0.9792" pitch="N" intensity="N">ɔq</syllabe>
+      <syllabe time="1.3053" pitch="N" intensity="N">anam</syllabe>
+      <syllabe time="1.6358" pitch="N" intensity="N">ʏl</syllabe>
+      <syllabe time="2.0429" pitch="N!" intensity="N">qan</syllabe>
+    </syntagm>
+    <syntagm time="2.105" text="">
+      <syllabe time="2.105" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="113">
+    <syntagm time="0.0091" text="">
+      <syllabe time="0.0091" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="3.6788" text="Мен эки класска кӧтимде ағам пир кӱн тоже ӧл паан">
+      <syllabe time="0.265" pitch="N" intensity="N">min</syllabe>
+      <syllabe time="0.5192" pitch="N" intensity="H!">ɛkɪ</syllabe>
+      <syllabe time="0.8715" pitch="N" intensity="N">klas</syllabe>
+      <syllabe time="0.9946" pitch="N" intensity="N">ka</syllabe>
+      <syllabe time="1.2067" pitch="N" intensity="N">kø</syllabe>
+      <syllabe time="1.5237" pitch="N" intensity="N">tim</syllabe>
+      <syllabe time="1.7612" pitch="N" intensity="N">te</syllabe>
+      <syllabe time="2.0744" pitch="N" intensity="N">agam</syllabe>
+      <syllabe time="2.3964" pitch="N!" intensity="N">pir</syllabe>
+      <syllabe time="2.6293" pitch="N" intensity="N">ƣʏn</syllabe>
+      <syllabe time="2.8049" pitch="N" intensity="N">to</syllabe>
+      <syllabe time="3.0279" pitch="N" intensity="N">ʒe</syllabe>
+      <syllabe time="3.2237" pitch="N" intensity="N">øl</syllabe>
+      <syllabe time="3.6788" pitch="N" intensity="L!">pan</syllabe>
+    </syntagm>
+    <syntagm time="3.7034" text="">
+      <syllabe time="3.7034" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="114">
+    <syntagm time="0.0272" text="">
+      <syllabe time="0.0272" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="1.4827" text="Эми пенсия парем">
+      <syllabe time="0.3648" pitch="N!" intensity="N">ɛmɪ</syllabe>
+      <syllabe time="0.7012" pitch="N" intensity="H!">pen</syllabe>
+      <syllabe time="0.9376" pitch="N" intensity="L!">sia</syllabe>
+      <syllabe time="1.1544" pitch="N" intensity="N">par</syllabe>
+      <syllabe time="1.4827" pitch="N" intensity="N">em</syllabe>
+    </syntagm>
+    <syntagm time="1.5052" text="">
+      <syllabe time="1.5052" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="115">
+    <syntagm time="0.015" text="">
+      <syllabe time="0.015" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="1.3812" text="внугым кел парчыт">
+      <syllabe time="0.3931" pitch="N" intensity="N">vnu</syllabe>
+      <syllabe time="0.6959" pitch="N" intensity="N">ƣъm</syllabe>
+      <syllabe time="0.9596" pitch="N" intensity="H!">kel</syllabe>
+      <syllabe time="1.1755" pitch="N" intensity="N">par</syllabe>
+      <syllabe time="1.3812" pitch="N" intensity="L">ћъt</syllabe>
+    </syntagm>
+    <syntagm time="1.3934" text="">
+      <syllabe time="1.3934" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="116">
+    <syntagm time="0.0036" text="">
+      <syllabe time="0.0036" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="1.4767" text="мени кел кӧрчилер">
+      <syllabe time="0.3375" pitch="H" intensity="L!">mɛn</syllabe>
+      <syllabe time="0.6837" pitch="N" intensity="N">qɛl</syllabe>
+      <syllabe time="0.9079" pitch="N!" intensity="N">ƣør</syllabe>
+      <syllabe time="1.098" pitch="N" intensity="N">ħçɪ</syllabe>
+      <syllabe time="1.4767" pitch="N" intensity="H!">ler</syllabe>
+    </syntagm>
+    <syntagm time="1.4865" text="">
+      <syllabe time="1.4865" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="117">
+    <syntagm time="0.056" text="">
+      <syllabe time="0.056" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="0.9587" text="пис анда полгобыс">
+      <syllabe time="0.1776" pitch="N" intensity="N">ps</syllabe>
+      <syllabe time="0.3157" pitch="N" intensity="N">an</syllabe>
+      <syllabe time="0.3991" pitch="N" intensity="N">da</syllabe>
+      <syllabe time="0.63" pitch="N" intensity="N">pɔl</syllabe>
+      <syllabe time="0.7433" pitch="N" intensity="N">ƣɔ</syllabe>
+      <syllabe time="0.9587" pitch="N" intensity="N">bъs</syllabe>
+    </syntagm>
+    <syntagm time="0.991" text="">
+      <syllabe time="0.991" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="118">
+    <syntagm time="0.0044" text="">
+      <syllabe time="0.0044" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="3.0186" text="Евдокиевтиӊ ле мееӊ фотографиям пар ">
+      <syllabe time="0.1649" pitch="N" intensity="H!">ɛv</syllabe>
+      <syllabe time="0.3132" pitch="N" intensity="H!">dɑ</syllabe>
+      <syllabe time="0.4437" pitch="N" intensity="N">kɪ</syllabe>
+      <syllabe time="0.6307" pitch="N" intensity="N">ev</syllabe>
+      <syllabe time="0.9433" pitch="N" intensity="N">tъŋ</syllabe>
+      <syllabe time="1.3972" pitch="N" intensity="H!">le</syllabe>
+      <syllabe time="1.7469" pitch="N" intensity="N">mɛ:ŋ</syllabe>
+      <syllabe time="1.9361" pitch="N" intensity="N">fa</syllabe>
+      <syllabe time="2.0747" pitch="N" intensity="H!">tɔ</syllabe>
+      <syllabe time="2.2911" pitch="N" intensity="N">ƣra</syllabe>
+      <syllabe time="2.4254" pitch="N" intensity="N">fi</syllabe>
+      <syllabe time="2.6343" pitch="N" intensity="N">ъm</syllabe>
+      <syllabe time="3.0186" pitch="N" intensity="N">pɑr</syllabe>
+    </syntagm>
+    <syntagm time="3.0998" text="">
+      <syllabe time="3.0998" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="119">
+    <syntagm time="0.0085" text="">
+      <syllabe time="0.0085" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="2.4274" text="ӱргенчик ещё,  йакшы ӱргенчит">
+      <syllabe time="0.2291" pitch="N" intensity="H!">ør</syllabe>
+      <syllabe time="0.3914" pitch="N" intensity="N">ƣen</syllabe>
+      <syllabe time="0.612" pitch="N" intensity="N">ħçik</syllabe>
+      <syllabe time="1.2205" pitch="N!" intensity="N">ɛʃɔ</syllabe>
+      <syllabe time="1.4537" pitch="N" intensity="N">-</syllabe>
+      <syllabe time="1.6421" pitch="N" intensity="N">jak</syllabe>
+      <syllabe time="1.7891" pitch="N" intensity="N">ʃъ</syllabe>
+      <syllabe time="1.9985" pitch="N" intensity="N">ʏr</syllabe>
+      <syllabe time="2.2009" pitch="N" intensity="N">ƣʏn</syllabe>
+      <syllabe time="2.4274" pitch="N" intensity="N">ћ̮ҫе</syllabe>
+    </syntagm>
+    <syntagm time="2.4385" text="">
+      <syllabe time="2.4385" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="120">
+    <syntagm time="0.0052" text="">
+      <syllabe time="0.0052" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="1.1381" text="Қайдаӊ келген ">
+      <syllabe time="0.3159" pitch="L!" intensity="L!">qaj</syllabe>
+      <syllabe time="0.5956" pitch="N" intensity="N">dаn</syllabe>
+      <syllabe time="0.8035" pitch="N" intensity="N">kel</syllabe>
+      <syllabe time="1.1381" pitch="N" intensity="H!">ƣen</syllabe>
+    </syntagm>
+    <syntagm time="1.1493" text="">
+      <syllabe time="1.1493" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="121">
+    <syntagm time="0.0082" text="">
+      <syllabe time="0.0082" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="3.3061" text="Правнучка только школе парар первый класска">
+      <syllabe time="0.3212" pitch="N" intensity="N">pra</syllabe>
+      <syllabe time="0.7387" pitch="N" intensity="N">vnuħç</syllabe>
+      <syllabe time="0.9526" pitch="N" intensity="H!">tɔ</syllabe>
+      <syllabe time="1.2992" pitch="N" intensity="H!">kɔ</syllabe>
+      <syllabe time="1.4681" pitch="N" intensity="N" />
+      <syllabe time="1.7829" pitch="N" intensity="N">ʃko</syllabe>
+      <syllabe time="1.9255" pitch="N" intensity="N">le</syllabe>
+      <syllabe time="2.1024" pitch="N" intensity="N">pa</syllabe>
+      <syllabe time="2.346" pitch="N" intensity="N">rar</syllabe>
+      <syllabe time="2.5338" pitch="N" intensity="N">per</syllabe>
+      <syllabe time="2.6872" pitch="N" intensity="N">vъj</syllabe>
+      <syllabe time="3.0347" pitch="N" intensity="N">klas</syllabe>
+      <syllabe time="3.3061" pitch="N" intensity="N">ka</syllabe>
+    </syntagm>
+    <syntagm time="3.3457" text="">
+      <syllabe time="3.3457" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="122">
+    <syntagm time="0.016" text="">
+      <syllabe time="0.016" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="1.8226" text="эки палам пар">
+      <syllabe time="0.2033" pitch="N" intensity="N">ɛ</syllabe>
+      <syllabe time="0.4194" pitch="N" intensity="N">ki</syllabe>
+      <syllabe time="0.7214" pitch="L!" intensity="N">ba</syllabe>
+      <syllabe time="1.1363" pitch="N" intensity="N">lam</syllabe>
+      <syllabe time="1.8226" pitch="N" intensity="H!">bar</syllabe>
+    </syntagm>
+    <syntagm time="1.8386" text="">
+      <syllabe time="1.8386" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="123">
+    <syntagm time="0.0051" text="">
+      <syllabe time="0.0051" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="1.3062" text="Палар эки палы">
+      <syllabe time="0.1704" pitch="N" intensity="N">pa</syllabe>
+      <syllabe time="0.4419" pitch="N" intensity="N">lar</syllabe>
+      <syllabe time="0.7332" pitch="N" intensity="L">ɛkɪ</syllabe>
+      <syllabe time="0.9506" pitch="N" intensity="N">pa</syllabe>
+      <syllabe time="1.3062" pitch="N" intensity="N">lъ</syllabe>
+    </syntagm>
+    <syntagm time="1.843" text="-">
+      <syllabe time="1.843" pitch="H" intensity="H">-</syllabe>
+    </syntagm>
+    <syntagm time="3.5682" text="кысым и оолым">
+      <syllabe time="1.9061" pitch="N" intensity="N">kъ</syllabe>
+      <syllabe time="2.2068" pitch="H" intensity="H!">sъm</syllabe>
+      <syllabe time="2.552" pitch="N" intensity="N">i</syllabe>
+      <syllabe time="2.9998" pitch="N" intensity="L!">-</syllabe>
+      <syllabe time="3.5682" pitch="L!" intensity="N">ɔlъm</syllabe>
+    </syntagm>
+    <syntagm time="3.6147" text="">
+      <syllabe time="3.6147" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="124">
+    <syntagm time="0.0255" text="">
+      <syllabe time="0.0255" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="1.0902" text="Ӱч айға">
+      <syllabe time="0.4151" pitch="N" intensity="H!">ʏħç</syllabe>
+      <syllabe time="0.6587" pitch="N" intensity="N">ɑj</syllabe>
+      <syllabe time="1.0902" pitch="H!" intensity="L">ƣɑ</syllabe>
+    </syntagm>
+    <syntagm time="1.9774" text="каникулға">
+      <syllabe time="1.2095" pitch="N" intensity="N">ka</syllabe>
+      <syllabe time="1.3379" pitch="N" intensity="H!">ni</syllabe>
+      <syllabe time="1.5696" pitch="N" intensity="H!">kul</syllabe>
+      <syllabe time="1.9774" pitch="L!" intensity="L">qa</syllabe>
+    </syntagm>
+    <syntagm time="4.5266" text="паллар куманды тилле унанар">
+      <syllabe time="2.461" pitch="N" intensity="N" />
+      <syllabe time="2.5862" pitch="N" intensity="N">pa</syllabe>
+      <syllabe time="2.8037" pitch="N" intensity="N">lar</syllabe>
+      <syllabe time="3.2687" pitch="N" intensity="L!">-</syllabe>
+      <syllabe time="3.338" pitch="N" intensity="N">ku</syllabe>
+      <syllabe time="3.51" pitch="N" intensity="H!">man</syllabe>
+      <syllabe time="3.6395" pitch="H" intensity="N">dъ</syllabe>
+      <syllabe time="3.8141" pitch="N" intensity="H!">til</syllabe>
+      <syllabe time="3.8884" pitch="N" intensity="N">le</syllabe>
+      <syllabe time="4.1378" pitch="N" intensity="H!">una</syllabe>
+      <syllabe time="4.5266" pitch="L" intensity="N">nar</syllabe>
+    </syntagm>
+    <syntagm time="4.5712" text="">
+      <syllabe time="4.5712" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="125">
+    <syntagm time="0.0304" text="">
+      <syllabe time="0.0304" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="1.852" text="Маға 68 чаш">
+      <syllabe time="0.2779" pitch="N" intensity="L">ma</syllabe>
+      <syllabe time="0.561" pitch="H!" intensity="H!">ƣa</syllabe>
+      <syllabe time="0.7967" pitch="N" intensity="L">al</syllabe>
+      <syllabe time="0.965" pitch="N" intensity="N">tan</syllabe>
+      <syllabe time="1.1531" pitch="N" intensity="N">se</syllabe>
+      <syllabe time="1.3887" pitch="N" intensity="N">qis</syllabe>
+      <syllabe time="1.852" pitch="N" intensity="N">jaʃ </syllabe>
+    </syntagm>
+    <syntagm time="1.9042" text="">
+      <syllabe time="1.9042" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="126">
+    <syntagm time="0.0371" text="">
+      <syllabe time="0.0371" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="0.6644" text="ийде бе">
+      <syllabe time="0.2436" pitch="L!" intensity="N">ij</syllabe>
+      <syllabe time="0.3598" pitch="N" intensity="H!">dɛ</syllabe>
+      <syllabe time="0.6644" pitch="N" intensity="H!">bɛ</syllabe>
+    </syntagm>
+    <syntagm time="1.0775" text="-">
+      <syllabe time="1.0775" pitch="H" intensity="H">-</syllabe>
+    </syntagm>
+    <syntagm time="1.6223" text="кыстар">
+      <syllabe time="1.1866" pitch="N" intensity="N">qъs</syllabe>
+      <syllabe time="1.6223" pitch="N" intensity="H!">tar</syllabe>
+    </syntagm>
+    <syntagm time="1.8882" text="-">
+      <syllabe time="1.8882" pitch="H" intensity="H">-</syllabe>
+    </syntagm>
+    <syntagm time="2.451" text="ийде бе">
+      <syllabe time="2.01" pitch="L" intensity="N">ij</syllabe>
+      <syllabe time="2.1727" pitch="N" intensity="H">dɛ</syllabe>
+      <syllabe time="2.451" pitch="H!" intensity="H">bɛ</syllabe>
+    </syntagm>
+    <syntagm time="2.483" text="">
+      <syllabe time="2.483" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="127">
+    <syntagm time="0.0512" text="">
+      <syllabe time="0.0512" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="1.4201" text="Орус тилле ӱректештибис">
+      <syllabe time="0.209" pitch="N" intensity="H!">ɔ</syllabe>
+      <syllabe time="0.3939" pitch="N" intensity="N">rus</syllabe>
+      <syllabe time="0.5285" pitch="N" intensity="N">til</syllabe>
+      <syllabe time="0.6482" pitch="N" intensity="N">le</syllabe>
+      <syllabe time="0.7531" pitch="N" intensity="N">ur</syllabe>
+      <syllabe time="0.8928" pitch="N" intensity="N">ek</syllabe>
+      <syllabe time="1.0979" pitch="N" intensity="N">tʃ</syllabe>
+      <syllabe time="1.1664" pitch="N" intensity="N">tɪ</syllabe>
+      <syllabe time="1.4201" pitch="N" intensity="N">bɪs</syllabe>
+    </syntagm>
+    <syntagm time="1.476" text="">
+      <syllabe time="1.476" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="128">
+    <syntagm time="0.0108" text="">
+      <syllabe time="0.0108" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="1.1644" text="городто чаткелип">
+      <syllabe time="0.1445" pitch="N" intensity="H!">qɔ</syllabe>
+      <syllabe time="0.3728" pitch="N" intensity="N">rdo</syllabe>
+      <syllabe time="0.6872" pitch="N" intensity="N">ћʃat</syllabe>
+      <syllabe time="0.8864" pitch="N" intensity="L">ke</syllabe>
+      <syllabe time="1.1644" pitch="N" intensity="N">lep</syllabe>
+    </syntagm>
+    <syntagm time="1.3406" text="-">
+      <syllabe time="1.3406" pitch="H" intensity="H!">-</syllabe>
+    </syntagm>
+    <syntagm time="3.0358" text="бойыны тилини таштыйсанар">
+      <syllabe time="1.4928" pitch="N" intensity="H">po</syllabe>
+      <syllabe time="1.6554" pitch="N" intensity="N">jъ</syllabe>
+      <syllabe time="1.7745" pitch="N" intensity="N">nъ</syllabe>
+      <syllabe time="1.8669" pitch="N" intensity="N">til</syllabe>
+      <syllabe time="1.9994" pitch="N" intensity="N">li</syllabe>
+      <syllabe time="2.1158" pitch="H" intensity="N">ni</syllabe>
+      <syllabe time="2.2842" pitch="N" intensity="N">taʃ</syllabe>
+      <syllabe time="2.5878" pitch="N" intensity="L">tъj</syllabe>
+      <syllabe time="2.7933" pitch="N" intensity="N">sa</syllabe>
+      <syllabe time="3.0358" pitch="L!" intensity="L">nar</syllabe>
+    </syntagm>
+    <syntagm time="3.0819" text="">
+      <syllabe time="3.0819" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="129">
+    <syntagm time="0.0453" text="">
+      <syllabe time="0.0453" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="2.1415" text="Эме палар бойынын тилин оӊнабанчынар">
+      <syllabe time="0.3154" pitch="N" intensity="N!">ɛme</syllabe>
+      <syllabe time="0.4711" pitch="N" intensity="H">pa</syllabe>
+      <syllabe time="0.7058" pitch="N" intensity="N">lar</syllabe>
+      <syllabe time="0.8409" pitch="N" intensity="N">pɔ</syllabe>
+      <syllabe time="0.9077" pitch="N" intensity="N">jъ</syllabe>
+      <syllabe time="1.0863" pitch="N" intensity="N">nъn</syllabe>
+      <syllabe time="1.2261" pitch="N" intensity="N">tɪ</syllabe>
+      <syllabe time="1.3092" pitch="N" intensity="N">lin</syllabe>
+      <syllabe time="1.4199" pitch="N" intensity="N">uŋ</syllabe>
+      <syllabe time="1.5511" pitch="N" intensity="N">na</syllabe>
+      <syllabe time="1.7218" pitch="N" intensity="N">ban</syllabe>
+      <syllabe time="1.8633" pitch="N" intensity="N"> ͜tʃɪ</syllabe>
+      <syllabe time="2.1415" pitch="N" intensity="N">nar</syllabe>
+    </syntagm>
+    <syntagm time="2.2524" text="">
+      <syllabe time="2.2524" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="130">
+    <syntagm time="0.0453" text="">
+      <syllabe time="0.0453" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="2.0579" text="тилди чымчадар керек">
+      <syllabe time="0.2279" pitch="N" intensity="H!">tɪl</syllabe>
+      <syllabe time="0.5485" pitch="N" intensity="N">di</syllabe>
+      <syllabe time="1.065" pitch="N" intensity="L!">-</syllabe>
+      <syllabe time="1.218" pitch="N" intensity="N">͜ћʃъm</syllabe>
+      <syllabe time="1.3833" pitch="N" intensity="N">͜ћʃʌ</syllabe>
+      <syllabe time="1.5614" pitch="N" intensity="N">dʌ</syllabe>
+      <syllabe time="1.7395" pitch="N" intensity="N">ke</syllabe>
+      <syllabe time="2.0579" pitch="N" intensity="N">rek</syllabe>
+    </syntagm>
+    <syntagm time="2.1411" text="">
+      <syllabe time="2.1411" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="131">
+    <syntagm time="0.0076" text="">
+      <syllabe time="0.0076" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="3.0579" text="Аӊ соонда сағышка келчыт ол сӱс">
+      <syllabe time="0.2814" pitch="N" intensity="N">ɑŋ</syllabe>
+      <syllabe time="0.7034" pitch="N!" intensity="N">sɔ:n</syllabe>
+      <syllabe time="0.9771" pitch="N" intensity="H!">da</syllabe>
+      <syllabe time="1.2485" pitch="N" intensity="N">-</syllabe>
+      <syllabe time="1.5215" pitch="N" intensity="N">sa</syllabe>
+      <syllabe time="1.6978" pitch="N" intensity="N">ƣъʃ</syllabe>
+      <syllabe time="1.8685" pitch="N" intensity="N">qa</syllabe>
+      <syllabe time="2.154" pitch="N" intensity="N">kel</syllabe>
+      <syllabe time="2.4105" pitch="N" intensity="N">͜ћʃъt</syllabe>
+      <syllabe time="2.5941" pitch="L" intensity="N">ɔl</syllabe>
+      <syllabe time="3.0579" pitch="N" intensity="N">sʏs</syllabe>
+    </syntagm>
+    <syntagm time="3.0978" text="">
+      <syllabe time="3.0978" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="132">
+    <syntagm time="0.0147" text="">
+      <syllabe time="0.0147" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="2.0974" text="Сарнап келип ӱректешер керек">
+      <syllabe time="0.3763" pitch="N" intensity="L">sar</syllabe>
+      <syllabe time="0.6113" pitch="H!" intensity="N">nap</syllabe>
+      <syllabe time="0.89" pitch="N" intensity="H!">ke</syllabe>
+      <syllabe time="1.0927" pitch="N" intensity="H!">lip</syllabe>
+      <syllabe time="1.2171" pitch="N" intensity="N">ø</syllabe>
+      <syllabe time="1.3944" pitch="N" intensity="N">røk</syllabe>
+      <syllabe time="1.471" pitch="N" intensity="N">tø</syllabe>
+      <syllabe time="1.7192" pitch="N" intensity="H!">ʃør</syllabe>
+      <syllabe time="1.8943" pitch="N" intensity="H!">ke</syllabe>
+      <syllabe time="2.0974" pitch="N" intensity="N">rek</syllabe>
+    </syntagm>
+    <syntagm time="2.2153" text="">
+      <syllabe time="2.2153" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="133">
+    <syntagm time="0.002" text="">
+      <syllabe time="0.002" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="2.8123" text="Сарнанда кишинин тили йакшы чыхчыт">
+      <syllabe time="0.2053" pitch="N" intensity="H!">sar</syllabe>
+      <syllabe time="0.5042" pitch="N" intensity="N">nan</syllabe>
+      <syllabe time="0.7498" pitch="N" intensity="N">da</syllabe>
+      <syllabe time="0.9658" pitch="N" intensity="N">kʃ</syllabe>
+      <syllabe time="1.176" pitch="N" intensity="N">nin</syllabe>
+      <syllabe time="1.2592" pitch="N" intensity="N">ti</syllabe>
+      <syllabe time="1.3676" pitch="N" intensity="N">li</syllabe>
+      <syllabe time="1.5411" pitch="N" intensity="N">jaχ</syllabe>
+      <syllabe time="1.9127" pitch="L" intensity="N">ʃъ</syllabe>
+      <syllabe time="2.2412" pitch="N" intensity="L!">-</syllabe>
+      <syllabe time="2.5815" pitch="H!" intensity="N">ʃъχ</syllabe>
+      <syllabe time="2.8123" pitch="L" intensity="N">͜ћʃъt</syllabe>
+    </syntagm>
+    <syntagm time="2.846" text="">
+      <syllabe time="2.846" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="134">
+    <syntagm time="0.2008" text="">
+      <syllabe time="0.2008" pitch="H" intensity="H!" />
+    </syntagm>
+    <syntagm time="2.2487" text="Нина, қандый ҷадын парҷыт?">
+      <syllabe time="0.3829" pitch="N" intensity="H!">ni</syllabe>
+      <syllabe time="0.7226" pitch="L!" intensity="N">na</syllabe>
+      <syllabe time="0.9272" pitch="N" intensity="N">-</syllabe>
+      <syllabe time="1.0565" pitch="N" intensity="N">kaj</syllabe>
+      <syllabe time="1.2348" pitch="N" intensity="N">dɪ</syllabe>
+      <syllabe time="1.4051" pitch="N" intensity="N">ћ̮ҫa</syllabe>
+      <syllabe time="1.6785" pitch="N" intensity="N">tъn</syllabe>
+      <syllabe time="1.8872" pitch="N" intensity="N">par</syllabe>
+      <syllabe time="2.2487" pitch="N" intensity="N">ћ̮ҫъt</syllabe>
+    </syntagm>
+    <syntagm time="2.3894" text="">
+      <syllabe time="2.3894" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="135">
+    <syntagm time="0.0304" text="">
+      <syllabe time="0.0304" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="1.4345" text="Сен њағысқан ҷатсың мы">
+      <syllabe time="0.2968" pitch="L" intensity="L">sen</syllabe>
+      <syllabe time="0.4145" pitch="N" intensity="N">n'a</syllabe>
+      <syllabe time="0.5736" pitch="N" intensity="N">qъs</syllabe>
+      <syllabe time="0.7953" pitch="N" intensity="H!">kan</syllabe>
+      <syllabe time="1.0032" pitch="N" intensity="H!">ћ̮ҫat</syllabe>
+      <syllabe time="1.2173" pitch="N" intensity="H!">sъn</syllabe>
+      <syllabe time="1.4345" pitch="N" intensity="N">mъn</syllabe>
+    </syntagm>
+    <syntagm time="1.5943" text="">
+      <syllabe time="1.5943" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="136">
+    <syntagm time="0.1359" text="">
+      <syllabe time="0.1359" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="0.9662" text="Mен њағысқан">
+      <syllabe time="0.3035" pitch="N" intensity="H!">mɪn</syllabe>
+      <syllabe time="0.4749" pitch="N" intensity="N">n'a</syllabe>
+      <syllabe time="0.6894" pitch="N" intensity="N">ƣъs</syllabe>
+      <syllabe time="0.9662" pitch="H" intensity="N">kan</syllabe>
+    </syntagm>
+    <syntagm time="1.219" text="">
+      <syllabe time="1.219" pitch="H" intensity="H!" />
+    </syntagm>
+  </file>
+  <file id="137">
+    <syntagm time="0.0969" text="">
+      <syllabe time="0.0969" pitch="H" intensity="H!" />
+    </syntagm>
+    <syntagm time="1.0859" text="А сахыр қайда не">
+      <syllabe time="0.1896" pitch="N" intensity="N">a</syllabe>
+      <syllabe time="0.3818" pitch="N" intensity="H!">sa</syllabe>
+      <syllabe time="0.5758" pitch="N" intensity="N">χr</syllabe>
+      <syllabe time="0.7438" pitch="N" intensity="N">kaj</syllabe>
+      <syllabe time="1.0859" pitch="N" intensity="H!">dъn</syllabe>
+    </syntagm>
+    <syntagm time="1.1024" text="">
+      <syllabe time="1.1024" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="138">
+    <syntagm time="0.1269" text="">
+      <syllabe time="0.1269" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="1.8564" text="Че, Галя, амыр ҷат">
+      <syllabe time="0.3298" pitch="N" intensity="H!">ћ̮ҫe</syllabe>
+      <syllabe time="0.5954" pitch="N!" intensity="H!">qa</syllabe>
+      <syllabe time="0.8329" pitch="N" intensity="N">l'a</syllabe>
+      <syllabe time="1.0721" pitch="H" intensity="N">-</syllabe>
+      <syllabe time="1.2782" pitch="N" intensity="N">a</syllabe>
+      <syllabe time="1.5389" pitch="N" intensity="H!">pr</syllabe>
+      <syllabe time="1.8564" pitch="N" intensity="H!">ћ̮ҫat</syllabe>
+    </syntagm>
+    <syntagm time="2.0997" text="">
+      <syllabe time="2.0997" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="139">
+    <syntagm time="0.0076" text="">
+      <syllabe time="0.0076" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="1.6614" text="Қайда ҷатқан пистиӊ қумандылар?">
+      <syllabe time="0.1585" pitch="H" intensity="N">kɑj</syllabe>
+      <syllabe time="0.2981" pitch="N" intensity="N">dɪ</syllabe>
+      <syllabe time="0.52" pitch="N" intensity="H!">ħçɑt</syllabe>
+      <syllabe time="0.7146" pitch="N" intensity="N">kɑn</syllabe>
+      <syllabe time="0.8805" pitch="N" intensity="N">ps</syllabe>
+      <syllabe time="0.9789" pitch="N" intensity="N">tъŋ</syllabe>
+      <syllabe time="1.116" pitch="N!" intensity="N">qu</syllabe>
+      <syllabe time="1.2983" pitch="N" intensity="N">mɑn</syllabe>
+      <syllabe time="1.4373" pitch="N" intensity="N">dъ</syllabe>
+      <syllabe time="1.6614" pitch="N" intensity="L!">lɑr</syllabe>
+    </syntagm>
+    <syntagm time="1.6743" text="">
+      <syllabe time="1.6743" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="140">
+    <syntagm time="0.0186" text="">
+      <syllabe time="0.0186" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="1.7335" text="Қумандылар ҷатқан ҷерғе мындығ">
+      <syllabe time="0.1722" pitch="N" intensity="H!">qu</syllabe>
+      <syllabe time="0.3195" pitch="N" intensity="N">mɑn</syllabe>
+      <syllabe time="0.4224" pitch="N" intensity="N">dъ</syllabe>
+      <syllabe time="0.5643" pitch="N" intensity="N">lɑr</syllabe>
+      <syllabe time="0.7031" pitch="N" intensity="N">ħçɑt</syllabe>
+      <syllabe time="0.9456" pitch="N" intensity="H!">qɑn</syllabe>
+      <syllabe time="1.1052" pitch="N" intensity="N">ħçɛr</syllabe>
+      <syllabe time="1.3276" pitch="N" intensity="H!">ƣɛ</syllabe>
+      <syllabe time="1.4778" pitch="N" intensity="N">mъn</syllabe>
+      <syllabe time="1.7335" pitch="N" intensity="L">dъƣ</syllabe>
+    </syntagm>
+    <syntagm time="2.7782" text="деремне тӧзӧлгӧн">
+      <syllabe time="1.8198" pitch="N" intensity="N">tɛ </syllabe>
+      <syllabe time="1.9805" pitch="N" intensity="N">rɛm</syllabe>
+      <syllabe time="2.2229" pitch="N!" intensity="N">nɛ </syllabe>
+      <syllabe time="2.3372" pitch="N" intensity="N">t\o-</syllabe>
+      <syllabe time="2.5457" pitch="N" intensity="N">z\o-l</syllabe>
+      <syllabe time="2.7782" pitch="H" intensity="H!">ƣ\o-n</syllabe>
+    </syntagm>
+    <syntagm time="2.8145" text="">
+      <syllabe time="2.8145" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="141">
+    <syntagm time="0.0985" text="">
+      <syllabe time="0.0985" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="1.9358" text="Қӧп чатран (ч)ер куманды кишилер">
+      <syllabe time="0.3715" pitch="N" intensity="H!">q\o-p</syllabe>
+      <syllabe time="0.6797" pitch="N" intensity="L">ħçat</syllabe>
+      <syllabe time="0.8399" pitch="N" intensity="N">ran</syllabe>
+      <syllabe time="1.0762" pitch="N" intensity="L">er</syllabe>
+      <syllabe time="1.1867" pitch="N" intensity="N">qu</syllabe>
+      <syllabe time="1.3817" pitch="L!" intensity="N">man</syllabe>
+      <syllabe time="1.5122" pitch="N" intensity="N">dъ</syllabe>
+      <syllabe time="1.7118" pitch="N" intensity="N">kʃ</syllabe>
+      <syllabe time="1.9358" pitch="N" intensity="N">ler</syllabe>
+    </syntagm>
+    <syntagm time="1.959" text="">
+      <syllabe time="1.959" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="142">
+    <syntagm time="0.0121" text="">
+      <syllabe time="0.0121" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="1.2155" text="Эм ол район jок">
+      <syllabe time="0.2157" pitch="N" intensity="N">ɛm</syllabe>
+      <syllabe time="0.5217" pitch="N" intensity="N">ɔl</syllabe>
+      <syllabe time="0.6994" pitch="N" intensity="H!">rɑ</syllabe>
+      <syllabe time="0.9665" pitch="N" intensity="N">jɔn</syllabe>
+      <syllabe time="1.2155" pitch="N" intensity="H!">ћɔk</syllabe>
+    </syntagm>
+    <syntagm time="1.2471" text="">
+      <syllabe time="1.2471" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="143">
+    <syntagm time="0.0285" text="">
+      <syllabe time="0.0285" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="1.5407" text="Қырнаӊ тӧзинеӊ тӱшкенер">
+      <syllabe time="0.2985" pitch="N" intensity="H">qъr</syllabe>
+      <syllabe time="0.5546" pitch="N" intensity="N">nɑŋ</syllabe>
+      <syllabe time="0.8404" pitch="N" intensity="L!">t\o-z</syllabe>
+      <syllabe time="1.0459" pitch="N" intensity="N">neŋ</syllabe>
+      <syllabe time="1.2515" pitch="N" intensity="N">tʏʃ</syllabe>
+      <syllabe time="1.3665" pitch="N" intensity="N">ke</syllabe>
+      <syllabe time="1.5407" pitch="N" intensity="N">ner</syllabe>
+    </syntagm>
+    <syntagm time="1.6756" text="">
+      <syllabe time="1.6756" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="144">
+    <syntagm time="0.0617" text="">
+      <syllabe time="0.0617" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="1.086" text="кӧдӱре ичпезеӊ">
+      <syllabe time="0.2006" pitch="N" intensity="H">k\o-</syllabe>
+      <syllabe time="0.3354" pitch="N" intensity="N">t\yc</syllabe>
+      <syllabe time="0.4607" pitch="N" intensity="H">re</syllabe>
+      <syllabe time="0.6375" pitch="N" intensity="N">is</syllabe>
+      <syllabe time="0.748" pitch="N" intensity="N">pe</syllabe>
+      <syllabe time="1.086" pitch="N" intensity="N">seŋ</syllabe>
+    </syntagm>
+    <syntagm time="1.2823" text="-">
+      <syllabe time="1.2823" pitch="H" intensity="H!">-</syllabe>
+    </syntagm>
+    <syntagm time="2.2853" text="айыкта чайна">
+      <syllabe time="1.3721" pitch="H" intensity="H">ɑj</syllabe>
+      <syllabe time="1.5556" pitch="N" intensity="N">ъχ</syllabe>
+      <syllabe time="1.8668" pitch="N" intensity="N">ta</syllabe>
+      <syllabe time="2.0768" pitch="N" intensity="N">ħçaj</syllabe>
+      <syllabe time="2.2853" pitch="L" intensity="N">nɑ</syllabe>
+    </syntagm>
+    <syntagm time="2.6603" text="-">
+      <syllabe time="2.6603" pitch="H" intensity="H!">-</syllabe>
+    </syntagm>
+    <syntagm time="3.4386" text="йаман киши сен">
+      <syllabe time="2.8105" pitch="N" intensity="N">jɑ</syllabe>
+      <syllabe time="3.0001" pitch="N" intensity="N">mɑn</syllabe>
+      <syllabe time="3.0981" pitch="N" intensity="N">ki</syllabe>
+      <syllabe time="3.2204" pitch="N" intensity="H">ʃi</syllabe>
+      <syllabe time="3.4386" pitch="N" intensity="N">sen</syllabe>
+    </syntagm>
+    <syntagm time="3.458" text="">
+      <syllabe time="3.458" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="145">
+    <syntagm time="0.0965" text="">
+      <syllabe time="0.0965" pitch="H" intensity="H!" />
+    </syntagm>
+    <syntagm time="1.7138" text="Алтай кишилер ҷакшы болан анда">
+      <syllabe time="0.2787" pitch="N" intensity="H!">ɑl</syllabe>
+      <syllabe time="0.4665" pitch="N" intensity="N">tɑj</syllabe>
+      <syllabe time="0.6675" pitch="N" intensity="N">kiʃ</syllabe>
+      <syllabe time="0.8028" pitch="N" intensity="N">ler</syllabe>
+      <syllabe time="0.9807" pitch="N" intensity="N">ħçɑk</syllabe>
+      <syllabe time="1.0942" pitch="N" intensity="N">ʃъ</syllabe>
+      <syllabe time="1.3102" pitch="N" intensity="N">\bfɔn</syllabe>
+      <syllabe time="1.483" pitch="N" intensity="N">ɑn</syllabe>
+      <syllabe time="1.7138" pitch="N" intensity="L">dɑ</syllabe>
+    </syntagm>
+    <syntagm time="1.8066" text="">
+      <syllabe time="1.8066" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="146">
+    <syntagm time="0.0106" text="">
+      <syllabe time="0.0106" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="1.3643" text="Қаран кишилер ӧл қалды">
+      <syllabe time="0.1498" pitch="N" intensity="N">qɑ</syllabe>
+      <syllabe time="0.3573" pitch="N" intensity="N">rɑn</syllabe>
+      <syllabe time="0.5335" pitch="N" intensity="N">kɪʃ</syllabe>
+      <syllabe time="0.691" pitch="N" intensity="N">lɛr</syllabe>
+      <syllabe time="0.8745" pitch="N" intensity="N">øl</syllabe>
+      <syllabe time="1.1035" pitch="N" intensity="H!">kɑl</syllabe>
+      <syllabe time="1.3643" pitch="N" intensity="N">dъ</syllabe>
+    </syntagm>
+    <syntagm time="1.3836" text="">
+      <syllabe time="1.3836" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="147">
+    <syntagm time="0.0117" text="">
+      <syllabe time="0.0117" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="0.9919" text="Ағаш чана полгон.">
+      <syllabe time="0.1208" pitch="N" intensity="H!">ɑ</syllabe>
+      <syllabe time="0.3165" pitch="N" intensity="N!">ƣɑʃ</syllabe>
+      <syllabe time="0.5399" pitch="N" intensity="H!">ħçɑ</syllabe>
+      <syllabe time="0.6464" pitch="N" intensity="N">nɑ</syllabe>
+      <syllabe time="0.8288" pitch="N" intensity="N">pɔl</syllabe>
+      <syllabe time="0.9919" pitch="L!" intensity="N">ƣɔn</syllabe>
+    </syntagm>
+    <syntagm time="0.9943" text="">
+      <syllabe time="0.9943" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="148">
+    <syntagm time="0.0357" text="">
+      <syllabe time="0.0357" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="1.2427" text="Ҷочқаӊ эдин ҷиптибис">
+      <syllabe time="0.2388" pitch="N" intensity="H!">ħçɔħç</syllabe>
+      <syllabe time="0.4328" pitch="N!" intensity="N">qaŋ</syllabe>
+      <syllabe time="0.5296" pitch="N" intensity="N">ɛ </syllabe>
+      <syllabe time="0.7133" pitch="N" intensity="N">din</syllabe>
+      <syllabe time="0.841" pitch="N" intensity="N">ħçp</syllabe>
+      <syllabe time="1.0053" pitch="N" intensity="N">ti</syllabe>
+      <syllabe time="1.2427" pitch="N" intensity="N">pis</syllabe>
+    </syntagm>
+    <syntagm time="1.2563" text="">
+      <syllabe time="1.2563" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="149">
+    <syntagm time="0.0232" text="">
+      <syllabe time="0.0232" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="1.523" text="Ол мындығ қушақтар">
+      <syllabe time="0.1461" pitch="N" intensity="N">ɔl</syllabe>
+      <syllabe time="0.263" pitch="L!" intensity="N">mъn</syllabe>
+      <syllabe time="0.4908" pitch="N" intensity="N">dъƣ</syllabe>
+      <syllabe time="0.9791" pitch="N" intensity="L!">kuʃ </syllabe>
+      <syllabe time="1.1681" pitch="N" intensity="N">ak</syllabe>
+      <syllabe time="1.523" pitch="H" intensity="H!">tar</syllabe>
+    </syntagm>
+    <syntagm time="1.556" text="">
+      <syllabe time="1.556" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="150">
+    <syntagm time="0.0523" text="">
+      <syllabe time="0.0523" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="1.9477" text="Ол тиши кишилериӊ мындығ бон">
+      <syllabe time="0.3739" pitch="N" intensity="H!">ɔl</syllabe>
+      <syllabe time="0.7842" pitch="N" intensity="L!">ti</syllabe>
+      <syllabe time="0.9886" pitch="N" intensity="N">ʃi</syllabe>
+      <syllabe time="1.0515" pitch="N" intensity="N">ki</syllabe>
+      <syllabe time="1.1451" pitch="N" intensity="N">ʃi</syllabe>
+      <syllabe time="1.2615" pitch="N" intensity="N">le</syllabe>
+      <syllabe time="1.366" pitch="H!" intensity="N">riŋ</syllabe>
+      <syllabe time="1.5914" pitch="N" intensity="N">mъn</syllabe>
+      <syllabe time="1.714" pitch="N" intensity="N">dъƣ</syllabe>
+      <syllabe time="1.9477" pitch="N" intensity="N">bon</syllabe>
+    </syntagm>
+    <syntagm time="2.3057" text="-">
+      <syllabe time="2.3057" pitch="H" intensity="H">-</syllabe>
+    </syntagm>
+    <syntagm time="3.1785" text="кызыл ҷикпе ">
+      <syllabe time="2.3998" pitch="N" intensity="N">kъ</syllabe>
+      <syllabe time="2.6071" pitch="H" intensity="N">zъl</syllabe>
+      <syllabe time="2.862" pitch="N" intensity="H">ħçik</syllabe>
+      <syllabe time="3.1785" pitch="N" intensity="L">pɛ</syllabe>
+    </syntagm>
+    <syntagm time="3.4127" text="-">
+      <syllabe time="3.4127" pitch="H" intensity="H!">-</syllabe>
+    </syntagm>
+    <syntagm time="3.8388" text="қӧспӧқ">
+      <syllabe time="3.6422" pitch="H" intensity="H">qøs</syllabe>
+      <syllabe time="3.8388" pitch="N" intensity="L">pøq</syllabe>
+    </syntagm>
+    <syntagm time="4.0688" text="">
+      <syllabe time="4.0688" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="151">
+    <syntagm time="0.0286" text="">
+      <syllabe time="0.0286" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="0.6303" text="Ҷылғаш ">
+      <syllabe time="0.192" pitch="N" intensity="H">ħçъl</syllabe>
+      <syllabe time="0.6303" pitch="N" intensity="H">ƣɑʃ</syllabe>
+    </syntagm>
+    <syntagm time="0.8833" text="-" />
+    <syntagm time="1.8691" text="ҷана болган ана ">
+      <syllabe time="1.086" pitch="H" intensity="H">ʃɑ</syllabe>
+      <syllabe time="1.2262" pitch="N" intensity="N">nɑ</syllabe>
+      <syllabe time="1.3695" pitch="N" intensity="N">bɔl</syllabe>
+      <syllabe time="1.5645" pitch="L!" intensity="N">ƣɔn</syllabe>
+      <syllabe time="1.8691" pitch="N" intensity="N">ɑnɑ</syllabe>
+    </syntagm>
+    <syntagm time="3.2558" text="қапшай ҷӱртен чана">
+      <syllabe time="2.2748" pitch="H" intensity="H!">kɑp</syllabe>
+      <syllabe time="2.4902" pitch="N" intensity="N">ʃɑj</syllabe>
+      <syllabe time="2.6862" pitch="N" intensity="N">ћʃʏr</syllabe>
+      <syllabe time="2.8935" pitch="N" intensity="N">tɪn</syllabe>
+      <syllabe time="3.0935" pitch="N" intensity="N">ħçɑ</syllabe>
+      <syllabe time="3.2558" pitch="N" intensity="N">nɑ</syllabe>
+    </syntagm>
+    <syntagm time="3.2879" text="">
+      <syllabe time="3.2879" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="152">
+    <syntagm time="0.1045" text="">
+      <syllabe time="0.1045" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="2.2837" text="Кушактар койныӊ тӱгӱнден">
+      <syllabe time="0.1936" pitch="N" intensity="N">ku</syllabe>
+      <syllabe time="0.6115" pitch="N" intensity="N">ʃak</syllabe>
+      <syllabe time="0.8716" pitch="H" intensity="H!">tar</syllabe>
+      <syllabe time="1.3055" pitch="N" intensity="N">ɔj</syllabe>
+      <syllabe time="1.5605" pitch="N!" intensity="N">nɔŋ</syllabe>
+      <syllabe time="1.74" pitch="N" intensity="N">tʏ</syllabe>
+      <syllabe time="1.9761" pitch="N" intensity="N">ƣʏn</syllabe>
+      <syllabe time="2.2837" pitch="N" intensity="N">dɛn</syllabe>
+    </syntagm>
+    <syntagm time="2.4286" text="">
+      <syllabe time="2.4286" pitch="H" intensity="H!" />
+    </syntagm>
+  </file>
+  <file id="153">
+    <syntagm time="0.0775" text="">
+      <syllabe time="0.0775" pitch="H" intensity="H!" />
+    </syntagm>
+    <syntagm time="1.0911" text="Кичик шарық">
+      <syllabe time="0.2001" pitch="N" intensity="L">kɪ</syllabe>
+      <syllabe time="0.3587" pitch="N" intensity="H!">ћʃi</syllabe>
+      <syllabe time="0.6457" pitch="N" intensity="N">ʃa</syllabe>
+      <syllabe time="1.0911" pitch="L" intensity="N">rъk</syllabe>
+    </syntagm>
+    <syntagm time="1.7203" text="-">
+      <syllabe time="1.7203" pitch="H" intensity="H">-</syllabe>
+    </syntagm>
+    <syntagm time="2.4321" text="иштептем">
+      <syllabe time="1.9246" pitch="N" intensity="N">ɪʃ</syllabe>
+      <syllabe time="2.1221" pitch="N" intensity="L">tep</syllabe>
+      <syllabe time="2.4321" pitch="L" intensity="N">tɪm</syllabe>
+    </syntagm>
+    <syntagm time="2.4556" text="">
+      <syllabe time="2.4556" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="154">
+    <syntagm time="0.0116" text="">
+      <syllabe time="0.0116" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="1.4511" text="Мал тутчын чер полтыр бу">
+      <syllabe time="0.3009" pitch="H!" intensity="H!">mal</syllabe>
+      <syllabe time="0.4647" pitch="N" intensity="L">tut</syllabe>
+      <syllabe time="0.644" pitch="H!" intensity="N">ћʃъn </syllabe>
+      <syllabe time="0.8514" pitch="N" intensity="N">ћʃɪr</syllabe>
+      <syllabe time="1.0257" pitch="N" intensity="N">pɔl</syllabe>
+      <syllabe time="1.2205" pitch="N" intensity="H!">tъr</syllabe>
+      <syllabe time="1.4511" pitch="N" intensity="N">bu</syllabe>
+    </syntagm>
+    <syntagm time="1.7503" text="">
+      <syllabe time="1.7503" pitch="H" intensity="H!" />
+    </syntagm>
+  </file>
+  <file id="155">
+    <syntagm time="0.0398" text="">
+      <syllabe time="0.0398" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="1.0022" text="Паллар ойноп ҷыт">
+      <syllabe time="0.1706" pitch="L!" intensity="N">pɑl</syllabe>
+      <syllabe time="0.3664" pitch="H!" intensity="N">lar</syllabe>
+      <syllabe time="0.5376" pitch="N" intensity="H!">ɔj</syllabe>
+      <syllabe time="0.7775" pitch="N" intensity="L">nɔp</syllabe>
+      <syllabe time="1.0022" pitch="N" intensity="N">ћʃъt</syllabe>
+    </syntagm>
+    <syntagm time="1.1138" text="">
+      <syllabe time="1.1138" pitch="H" intensity="H!" />
+    </syntagm>
+  </file>
+  <file id="156">
+    <syntagm time="0.0308" text="">
+      <syllabe time="0.0308" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="1.8887" text="орустыӊ тилбиле уӊнабыс">
+      <syllabe time="0.1594" pitch="N" intensity="N">ɔ</syllabe>
+      <syllabe time="0.4024" pitch="N" intensity="N">rɪs</syllabe>
+      <syllabe time="0.6997" pitch="N" intensity="N">tɪŋ</syllabe>
+      <syllabe time="0.8177" pitch="N" intensity="N">tɪl</syllabe>
+      <syllabe time="0.9904" pitch="N" intensity="N">bi</syllabe>
+      <syllabe time="1.1501" pitch="N" intensity="N">le</syllabe>
+      <syllabe time="1.3629" pitch="N" intensity="L!">uŋ</syllabe>
+      <syllabe time="1.5979" pitch="N" intensity="N">na</syllabe>
+      <syllabe time="1.8887" pitch="N" intensity="N">bъs</syllabe>
+    </syntagm>
+    <syntagm time="1.9317" text="">
+      <syllabe time="1.9317" pitch="H" intensity="H" />
+    </syntagm>
+  </file>
+  <file id="157">
+    <syntagm time="0.0062" text="">
+      <syllabe time="0.0062" pitch="H" intensity="H" />
+    </syntagm>
+    <syntagm time="1.7551" text="Кичи шарық иштептым">
+      <syllabe time="0.1278" pitch="N" intensity="L!">ki</syllabe>
+      <syllabe time="0.2937" pitch="N" intensity="H!">ћi</syllabe>
+      <syllabe time="0.5775" pitch="N" intensity="N">ʃa</syllabe>
+      <syllabe time="1.0216" pitch="N" intensity="N">rъk</syllabe>
+      <syllabe time="1.2538" pitch="N" intensity="N">ɪʃ</syllabe>
+      <syllabe time="1.4104" pitch="N" intensity="N">tep</syllabe>
+      <syllabe time="1.7551" pitch="N" intensity="N">tъm</syllabe>
+    </syntagm>
+    <syntagm time="1.7724" text="">
+      <syllabe time="1.7724" pitch="H" intensity="H" />
     </syntagm>
   </file>
 </data>

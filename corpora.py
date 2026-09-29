@@ -1,6 +1,7 @@
 import mytextgrid as mtg
 from sqlalchemy.orm import Session
-from models import engine, Files, GraphicsData
+from models import engine, Files, GraphicsData, Dictors, Types, Subtypes
+from sqlalchemy import desc
 import xml.etree.ElementTree as ET
 import parselmouth
 
@@ -18,7 +19,6 @@ class TextGridReader():
             self.accuracy = True
         else:
            self.accuracy = False
-        self.new_filename = self.get_filename()
 
     def split_ann(self, text):
         splitted_text = text.split('//')
@@ -34,13 +34,9 @@ class TextGridReader():
                 break
         try:
             self.text, self.transl, self.dictor, self.type, self.subtype = self.split_ann(self.meta_ann)
-        except TypeError:
+        except:
             return False
         return True
-
-    def get_filename(self):
-        id = session.query(Files).filter(Files.dictor == self.dictor).count() + 1
-        return self.dictor + '_' + str(id)
 
 class Interval():
     def __init__(self, path, snd, tier=0, text=None, parent=None):
@@ -60,14 +56,20 @@ class Interval():
         self.get_chars()
 
     def get_chars(self):
-        self.raw_pitch = self.snd.to_pitch_ac(pitch_floor=50, pitch_ceiling=800, silence_threshold=0.09, voicing_threshold=0.45, octave_cost=0.055).selected_array['frequency']
+        try:
+            self.raw_pitch = self.snd.to_pitch_ac(pitch_floor=50, pitch_ceiling=800, silence_threshold=0.09, voicing_threshold=0.45, octave_cost=0.055).selected_array['frequency']
+        except:
+            self.raw_pitch = [0]
         self.pitch = []
         self.pitch_for_graph = []
         for point in self.raw_pitch:
             self.pitch_for_graph.append(int(point))
             if point != 0:
                 self.pitch.append(int(point))
-        self.raw_intensity = self.snd.to_intensity().values.T
+        try:
+            self.raw_intensity = self.snd.to_intensity().values.T
+        except:
+            self.raw_intensity = [[0]]
         self.intensity = []
         for point in self.raw_intensity:
             self.intensity.append(int(point[0]))
@@ -120,14 +122,20 @@ class Upload():
         snd = parselmouth.Sound(path.removesuffix('.TextGrid') + '.wav')
         self.metadata = TextGridReader(path)
         self.file = Interval(path, snd)
+        self.id = session.query(Files.id).order_by(Files.id.desc()).first()
+        if not self.id:
+            self.id = 1
+        else:
+            self.id = self.id[0] + 1
         if not self.metadata.accuracy:
+            self.upl_str = 'Не удалось загрузить файл ' + path + '! Пожалуйста, перепроверьте наличие всех пунктов в метаразметке, а также - наличие двойных косых черт.'
+            return None
+        if not self.upload_metadata():
             self.upl_str = 'Не удалось загрузить файл ' + path + '! Пожалуйста, перепроверьте метаразметку.'
-            return False
-        self.filename = self.metadata.new_filename
+            return None
         self.upload_data()
-        self.upload_metadata()
         self.upload_graphics_data()
-        snd.save('static/audio/' + self.filename + '.wav', 'WAV')
+        snd.save('static/audio/' + str(self.id)  + '.wav', 'WAV')
         self.upl_str = 'Загружен файл ' + path
 
     def __str__(self):
@@ -137,7 +145,7 @@ class Upload():
         tree = ET.parse('annotation.xml')
         root = tree.getroot()
         file = ET.SubElement(root, 'file')
-        file.set('id', self.metadata.new_filename)
+        file.set('id', str(self.id))
         for syntagm in self.file:
             synt = ET.SubElement(file, 'syntagm')
             synt.set('time', str(syntagm.boundary))
@@ -152,20 +160,42 @@ class Upload():
         tree.write('annotation.xml', encoding='utf-8', xml_declaration=True) 
         
     def upload_metadata(self):
+        dictor_id = self.get_dictor_id(self.metadata.dictor)
+        type_id = self.get_type_id(self.metadata.type)
+        subtype_id = self.get_subtype_id(self.metadata.subtype)
+        if not(dictor_id and type_id and subtype_id):
+            return False
         file = Files(
-            file = self.filename,
-            dictor = self.metadata.dictor,
-            type = self.metadata.type,
-            subtype = self.metadata.subtype,
+            dictor = dictor_id,
+            type = type_id,
+            subtype = subtype_id,
             text = self.metadata.text,
             translation = self.metadata.transl
             )
         session.add(file)
         session.commit()
+        return True
 
+    def get_dictor_id(self, name):
+        try:
+            return session.query(Dictors.id).filter(Dictors.name == name).one()[0]
+        except:
+            return False
+
+    def get_type_id(self, type):
+        try:
+            return session.query(Types.id).filter(Types.type.like(f'{type[0:2]}%')).one()[0]
+        except:
+            return False
+
+    def get_subtype_id(self, subtype):
+        try:
+            return session.query(Subtypes.id).filter(Subtypes.subtype.like(f'{subtype[0:2]}%')).one()[0]
+        except:
+            return False
+    
     def upload_graphics_data(self):
         graphic = GraphicsData(
-            file = self.filename,
             pitch = str(self.file.pitch_for_graph),
             intensity = str(self.file.intensity)
         )
