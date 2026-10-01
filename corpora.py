@@ -1,6 +1,6 @@
 import mytextgrid as mtg
 from sqlalchemy.orm import Session
-from models import engine, Files, GraphicsData, Dictors, Types, Subtypes
+from models import engine, Files, GraphicsData, Dictors, Types, Subtypes, FullDialogs
 from sqlalchemy import desc
 import xml.etree.ElementTree as ET
 import parselmouth
@@ -122,11 +122,7 @@ class Upload():
         snd = parselmouth.Sound(path.removesuffix('.TextGrid') + '.wav')
         self.metadata = TextGridReader(path)
         self.file = Interval(path, snd)
-        self.id = session.query(Files.id).order_by(Files.id.desc()).first()
-        if not self.id:
-            self.id = 1
-        else:
-            self.id = self.id[0] + 1
+        self.id = get_id(Files)
         if not self.metadata.accuracy:
             self.upl_str = 'Не удалось загрузить файл ' + path + '! Пожалуйста, перепроверьте наличие всех пунктов в метаразметке, а также - наличие двойных косых черт.'
             return None
@@ -201,3 +197,29 @@ class Upload():
         )
         session.add(graphic)
         session.commit()
+
+class UploadDialog():
+    def __init__(self, wav_file, text_file, transl_file, theme, first_dictor, second_dictor, lang):
+        self.id = get_id(FullDialogs)
+        wav_file.save('static/full_dialogs/wav/' + str(self.id))
+        text_file.save('static/full_dialogs/texts/' + str(self.id))
+        transl_file.save('static/full_dialogs/translations/' + str(self.id))
+        dialog = FullDialogs(
+            lang = lang,
+            theme = theme,
+            dictor1 = first_dictor,
+            dictor2 = second_dictor
+            )
+        session.add(dialog)
+        session.commit()
+
+    def __str__(self):
+        return 'Диалог успешно загружен'
+
+
+def get_id(table):
+    last_id = session.query(table.id).order_by(table.id.desc()).first()
+    if not last_id:
+        return 1
+    else:
+        return last_id[0] + 1

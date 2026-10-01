@@ -8,30 +8,41 @@
 <body>
   {% include "top.html" %}
   <div class="title">Результаты поиска</div>
-  <div class="main">
+  <div class="results">
     <div class="pagination justify-content-center">
       {{ pagination.links }}<br>
     </div>    
   {% for id, lang, theme, dictor1, dictor2, text, transl in result: %}
-  <div class="res-elem-two">
-    <audio controls>
-        <source src="static/full_dialogs/wav/{{id}}.wav" type="audio/wav">
-    </audio><br>
-    Язык: {{ lang }}; Тема: {{ theme }}; Дикторы: {{ dictor1 }}, {{ dictor2 }}<br>
-    <div class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#{{ 'text_' + id|string }}">Текст</div>
-    <div class="collapse" id="{{ 'text_' + id|string }}">
-        {% for str in text %}
-            {{ str }}<br>
-        {% endfor %}
-    </div>
-    <br>
-    <div class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#{{ 'translation_' + id|string }}">Перевод</div>
-    <div class="collapse" id="{{ 'translation_' + id|string }}">
-        {% for str in transl %}
-            {{ str }}<br>
-        {% endfor %}
+    <div class="res-elem-two">
+      <audio controls>
+          <source src="static/full_dialogs/wav/{{id}}.wav" type="audio/wav">
+      </audio><br>
+      Язык: {{ lang }}; Тема: {{ theme }}<br>
+      <div class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#{{ 'text_' + id|string }}">Текст и перевод</div>
+      <div class="modal-dialog modal-dialog-centered modal-fullscreen">
+        <div class="modal fade" id="{{ 'text_' + id|string }}" tabindex="-1" aria-label="{{ 'translation_' + id|string }}Label" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="{{ 'translation_' + id|string }}Label">Текст и перевод</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+              </div>
+              <div class="modal-body">
+                <b>Текст:</b><br>
+                {% for str in text %}
+                    {{ str }}<br>
+                {% endfor %}
+                <b>Перевод:</b><br>
+                {% for str in transl %}
+                    {{ str }}<br>
+                {% endfor %}
+              </div>
+            </div>
+          </div>
+        </div>
     </div>
   </div>
 {% endfor %}
+</div>
 </body>
 </html>

@@ -13,7 +13,12 @@
 <body>
 {% block navbar %}
     <nav class="navbar navbar-expand-lg sticky-top">
-        <span class="navbar-brand">Корпус "Интонация диалогической речи миноритарных народов Новосибирской области и сопредельных регионов"</span><br>
+        <div class="navbar-upper">
+            <div class="navbar-brand">Корпус "Интонация диалогической речи миноритарных народов Новосибирской области и сопредельных регионов"</div>
+            <div class="auth-button">
+                <a class="btn btn-primary" href="{{ url_for('form_authorization') }}">Вход</a>
+            </div>
+        </div>
         <div class="container-fluid">
             <ul class="navbar-nav d-flex flex-row align-items-center justify-content-between w-100">
                 <li class="nav-item">
@@ -45,9 +50,6 @@
                         <li><a class="dropdown-item" href="{{ url_for('info_plotd') }}">Плотдич</a></li>
                         <li><a class="dropdown-item" href="{{ url_for('info_teleut') }}">Телеутский язык</a></li>
                     </ul>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ url_for('form_authorization') }}">Вход</a>
                 </li>
             </ul>
         </div>

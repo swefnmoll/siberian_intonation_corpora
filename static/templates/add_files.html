@@ -5,9 +5,65 @@
     <title>Загрузка файлов</title>
 </head>
 <body>
-<form method="post" action="{{ url_for('upload') }}" enctype="multipart/form-data">
-    <input type="file" name="files" multiple>
-    <button type="submit">Загрузить</button>
+{% include "top.html" %}
+<form class="form-upload" method="post" action="{{ url_for('upload') }}" enctype="multipart/form-data">
+    <div class="title">Загрузить файлы высказываний</div><br>
+    <div class="upload-form-row">
+        <input type="file" name="files" multiple>
+    </div>
+    <button type="submit" class="btn btn-primary">Загрузить</button>
+</form>
+<form class="form-upload" method="post" action="{{ url_for('upload_dialog') }}" enctype="multipart/form-data">
+    <div class="title">Загрузить диалог</div>
+    <div class="upload-form-row">
+        <label class="form-label">WAV</label>
+        <input type="file" name="wav_file">
+    </div>
+    <div class="upload-form-row">
+        <label class="form-label">Текст</label>
+        <input type="file" name="text_file">
+    </div>
+    <div class="upload-form-row">
+        <label class="form-label">Перевод</label>
+        <input type="file" name="transl_file">
+    </div>
+    <div class="upload-form-row">
+        <label class="form-label">Тематика</label>
+        <select name="theme">
+            <option value="" selected></option>
+            {% for theme in themes: %}
+                <option value="{{ theme }}">{{ theme }}</option>
+            {% endfor %}
+        </select>
+    </div>
+    <div class="upload-form-row">
+        <label class="form-label">Диктор 1</label>
+        <select name="dictor1">
+            <option value="" selected></option>
+            {% for dictor in dictors: %}
+                <option value="{{ dictor }}">{{ dictor }}</option>
+            {% endfor %}
+        </select>
+    </div>
+    <div class="upload-form-row">
+        <label class="form-label">Диктор 2</label>
+        <select name="dictor2">
+            <option value="" selected></option>
+            {% for dictor in dictors: %}
+                <option value="{{ dictor }}">{{ dictor }}</option>
+            {% endfor %}
+        </select>
+    </div>
+    <div class="upload-form-row">
+        <label class="form-label">Язык</label>
+        <select name="lang">
+            <option value="" selected></option>
+            {% for lang in languages: %}
+                <option value="{{ lang }}">{{ lang }}</option>
+            {% endfor %}
+        </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Загрузить</button>
 </form>
 </body>
 </html>

@@ -3,7 +3,7 @@ from flask_cors import CORS, cross_origin
 from sqlalchemy.orm import Session, aliased
 from sqlalchemy import and_
 from models import engine, Files, GraphicsData, Languages, Education, Settlements, Dictors, Themes, Types, Subtypes, FullDialogs
-from corpora import trunc, TextGridReader, Interval, Upload
+from corpora import trunc, TextGridReader, Interval, Upload, UploadDialog
 from werkzeug.utils import secure_filename
 from flask_paginate import Pagination, get_page_parameter
 import xml.etree.ElementTree as ET
@@ -15,40 +15,26 @@ CORS(app)
 CORS(app, resources={r"/api/*": {"origins": "*", "allow_headers" : ['Access-Control-Allow-Origin']}})
 session = Session(bind=engine)
 
+def get_rows(table, column_name):
+    table_rows = session.query(table.__table__.c[column_name]).all()
+    results = []
+    for row in table_rows:
+        results.append(row[0])
+    return results
+
 @app.route('/')
 def main_page():
     return render_template('main_page.html')
 
 @app.route('/search', methods=['POST', 'GET'])
 def search():
-    lang_rows = session.query(Languages.lang).all()
-    languages = []
-    for lang in lang_rows:
-        languages.append(lang[0])
-    levels_rows = session.query(Education.name).all()
-    levels = []
-    for level in levels_rows:
-        levels.append(level[0])
-    settlements_rows = session.query(Settlements.settlement).all()
-    settlements = []
-    for settlement in settlements_rows:
-        settlements.append(settlement[0])
-    dictors_rows = session.query(Dictors.name).all()
-    dictors = []
-    for dictor in dictors_rows:
-        dictors.append(dictor[0])
-    themes_rows = session.query(Themes.theme).all()
-    themes = []
-    for theme in themes_rows:
-        themes.append(theme[0]) 
-    types_rows = session.query(Types.type).all()
-    types = []
-    for type in types_rows:
-        types.append(type[0])    
-    subtypes_rows = session.query(Subtypes.subtype).all()
-    subtypes = []
-    for subtype in subtypes_rows:
-        subtypes.append(subtype[0])    
+    languages = get_rows(Languages, 'lang')
+    levels = get_rows(Education, 'name')
+    settlements = get_rows(Settlements, 'settlement')
+    dictors = get_rows(Dictors, 'name')
+    themes = get_rows(Themes, 'theme')
+    types = get_rows(Types, 'type')
+    subtypes = get_rows(Subtypes, 'subtype')
     return render_template('corpora.html', languages=languages, levels=levels, settlements=settlements, dictors=dictors, themes=themes, types=types, subtypes=subtypes)
 
 @app.route('/results', methods=['POST', 'GET'])
@@ -59,29 +45,32 @@ def results():
     query = session.query(Files.id, Dictors.name, Types.type, Subtypes.subtype, Files.text, Files.translation, GraphicsData.pitch, GraphicsData.intensity).join(
         GraphicsData, Files.id==GraphicsData.id).join(
             Dictors, Files.dictor==Dictors.id).join(
-                Types, Files.type == Types.type
-                ).join(
-                Subtypes, Files.subtype == Subtypes.subtype
-                ).filter(and_(
-            Files.type.like(f'{request.args.get('type')}%'),
-            Files.subtype.like(f'{request.args.get('subtype')}%'),
+                Types, Files.type == Types.id
+                ).join(Subtypes, Files.subtype == Subtypes.id
+                ).join(Settlements, Dictors.settlement == Settlements.id
+                       ).join(Education, Dictors.education == Education.id
+                              ).join(Languages, Dictors.lang == Languages.id).filter(and_(
+            Types.type.like(f'{request.args.get('type')}%'),
+            Subtypes.subtype.like(f'{request.args.get('subtype')}%'),
             Dictors.name.like(f'{request.args.get('dictor')}%'),
-            Dictors.lang.like(f'{request.args.get('lang')}%'),
-            Dictors.education.like(f'{request.args.get('education')}%'),
-            Dictors.settlement.like(f'{request.args.get('settlement')}%'),
+            Languages.lang.like(f'{request.args.get('lang')}%'),
+            Education.name.like(f'{request.args.get('education')}%'),
+            Settlements.settlement.like(f'{request.args.get('settlement')}%'),
             Dictors.gender.like(f'{request.args.get('gender')}%'),
             Dictors.dob >= request.args.get('dob').split(',')[0],
             Dictors.dob <= request.args.get('dob').split(',')[1]
         ))
     total = len(query.all())
     raw_results = query.offset(offset).limit(per_page).all()
-    tree = ET.parse('annotation.xml')
-    root = tree.getroot()
+
     results = []
     annotations = []
     id_files = []
     for result in raw_results:
         id_files.append(result[0])
+        print(result)
+    tree = ET.parse('annotation.xml')
+    root = tree.getroot()
     for file in root:
         syll_bound = [0]
         syll_texts = []
@@ -182,25 +171,30 @@ def for_citation():
 @app.route('/authorization', methods=['GET', 'POST'])
 def form_authorization():
    if request.method == 'POST':
-       login = request.form.get('login')
-       password = request.form.get('password')
+        login = request.form.get('login')
+        password = request.form.get('password')
 
-       db = sqlite3.connect('users.db')
-       cursor = db.cursor()
-       cursor.execute(('''SELECT password FROM passwords
-                            WHERE login = '{}';
-                            ''').format(login))
-       pas = cursor.fetchall()
+        db = sqlite3.connect('users.db')
+        cursor = db.cursor()
+        cursor.execute(('''SELECT password FROM passwords
+                                WHERE login = '{}';
+                                ''').format(login))
+        pas = cursor.fetchall()
 
-       cursor.close()
-       try:
-           if pas[0][0] != password:
-               return render_template('badauth.html')
-       except:
-           return render_template('badauth.html')
+        cursor.close()
+        try:
+            if pas[0][0] != password:
+                return render_template('badauth.html')
+        except:
+            return render_template('badauth.html')
 
-       db.close()
-       return render_template('add_files.html')
+        languages = get_rows(Languages, 'lang')
+        dictors = get_rows(Dictors, 'name')
+        themes = get_rows(Themes, 'theme')
+
+        db.close()
+        
+        return render_template('add_files.html', themes=themes, dictors=dictors, languages=languages)
 
    return render_template('authorization.html')
 
@@ -220,6 +214,18 @@ def upload():
         os.remove('static/tempfiles/' + flname)
     session.close()
     return render_template('upload.html', upl_files=upl_files)
+
+@app.route('/upload_dialog', methods=['GET', 'POST'])
+def upload_dialog():
+    wav_file = request.files('wav_file')
+    text_file = request.files('text_file')
+    transl_file = request.files('transl_file')
+    theme = request.args.get('theme')
+    first_dictor = request.args.get('dictor1')
+    second_dictor = request.args.get('dictor2')
+    lang = request.args.get('lang')
+    message = UploadDialog(wav_file, text_file, transl_file, theme, first_dictor, second_dictor, lang)
+    return render_template('upload_dialogs.html', message=message)
 
 if __name__ == '__main__':
     app.run(port=4444, debug=True)

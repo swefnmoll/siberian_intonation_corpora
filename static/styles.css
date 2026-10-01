@@ -13,11 +13,7 @@ display: flex;
 justify-content: space-between;
 width: .header.width;
 }
-.topimage {
-width: 14%;
-height: 14%;
-object-fit: cover;
-}
+
 .title {
 margin-top: 50px;
 text-align: center;
@@ -26,27 +22,32 @@ font-weight: bold;
 font-size: 30px;
 }
 .main {
-display: flex;
+  display: grid;
+  grid-template-columns: 2fr 1fr; 
+}
+.text {
+display: grid;
 justify-content: center;
 text-align: justify;
 margin-top: 50px;
 margin-left: auto;
 margin-right: auto;
-flex-direction: column;
+grid-template-rows: auto;
 width: 60%;
 font-family: helvetica;
 }
+
 .image {
-display: flex;
-justify-content: center;
-text-align: center;
+  display: flex;
+  justify-self: center;
+  margin-top: 50px;
+  margin-bottom: auto;
 }
+
 button:hover ~ .annimage {
   height: 100px;
 }
-.form {
-margin-left: 25px;
-}
+
 .dobslider {
 width: 25%;
 }
@@ -59,25 +60,77 @@ width: 25%;
 .res-elem-two {
   background-color: white;
 }
+
 .navbar-brand {
-background-color: lightblue;
-display: flex;
-text-align: justify;
-justify-content: center;
+max-width: 600px;
+margin-left: auto;
+margin-right: auto;
 }
+
 .navbar {
 background-color: lightblue;
 justify-content: center;
 flex-direction: column;
 color: black;
 }
+
 .navbar .navbar-nav > li > a {
     color: rgb(99, 99, 99);
 }
-table {
-  font-size: 10;
+
+.navbar-upper {
+width: 100%;
+background-color: lightblue;
+display: grid;
+grid-template-columns: 1fr 1fr; 
+}
+
+.auth-button {
+justify-self: end;
 }
 
 .modal-dialog {
 min-width : 1080px; !important
+}
+
+select {
+  width: 300px;
+  margin-right: auto;
+}
+
+.login-form {
+  display: grid;
+  grid-template-rows: auto;
+  gap: 10px;
+  justify-content: center;
+}
+
+.form {
+margin-left: 25px;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+}
+
+.form-upload {
+  display: grid;
+  place-content: center;
+  gap: 10px;
+}
+
+.upload-form-row {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+}
+
+.results {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+}
+
+.collapse {
+  width: 512px;
 }

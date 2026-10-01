@@ -2,61 +2,75 @@
 {% include "top.html" %}
 <div class="title">Поиск по фразам</div><br>
 <form class="form" method="get" action="{{ url_for('results') }}">
-<div>
-    <label class="form-label">Язык</label>
-    <select name="lang">
-        <option></option>
-        {% for lang in languages: %}
-            <option>{{ lang }}</option>
-        {% endfor %}
-    </select><br>
-    Тип фразы:
-    <select name="type">
-        <option></option>
-        {% for type in types: %}
-            <option>{{ type }}</option>
-        {% endfor %}
-    </select><br>
-    Подтип фразы:
-    <select name="subtype">
-        <option></option>
-        {% for subtype in subtypes: %}
-            <option>{{ subtype }}</option>
-        {% endfor %}
-    </select><br>
-    Образование:
-    <select name="education">
-        <option></option>
-        {% for level in levels: %}
-            <option>{{ level }}</option>
-        {% endfor %}
-    </select><br>
-    Населённый пункт:
-    <select name="settlement">
-        <option></option>
-        {% for settlement in settlements: %}
-            <option>{{ settlement }}</option>
-        {% endfor %}
-    </select><br>
-    Диктор:
-    <select name="dictor">
-        <option></option>
-        {% for dictor in dictors: %}
-            <option>{{ dictor }}</option>
-        {% endfor %}
-    </select><br>
-    Пол:
-    <select name="gender">
-        <option></option>
-        <option>м</option>
-        <option>ж</option>
-    </select><br>
+<form class="filter-form">
+    <div class="form-row">
+        <label class="form-label">Язык</label>
+        <select name="lang">
+            <option value="" selected></option>
+            {% for lang in languages: %}
+                <option value="{{ lang }}">{{ lang }}</option>
+            {% endfor %}
+        </select>
+    </div>
+    <div class="form-row">
+        <label class="form-label">Тип фразы</label>
+        <select name="type">
+            <option value="" selected></option>
+            {% for type in types: %}
+                <option value="{{ type }}">{{ type }}</option>
+            {% endfor %}
+        </select>
+    </div>
+    <div class="form-row">
+        <label class="form-label">Подтип фразы</label>
+        <select name="subtype">
+            <option value="" selected></option>
+            {% for subtype in subtypes: %}
+                <option value="{{ subtype }}">{{ subtype }}</option>
+            {% endfor %}
+        </select>
+    </div>
+    <div class="form-row">
+        <label class="form-label">Образование</label>
+        <select name="education">
+            <option value="" selected></option>
+            {% for level in levels: %}
+                <option value="{{ level }}">{{ level }}</option>
+            {% endfor %}
+        </select>
+    </div>
+    <div class="form-row">
+        <label class="form-label">Населённый пункт</label>
+        <select name="settlement">
+            <option value="" selected></option>
+            {% for settlement in settlements: %}
+                <option value="{{ settlement }}">{{ settlement }}</option>
+            {% endfor %}
+        </select>
+    </div>
+    <div class="form-row">
+        <label class="form-label">Диктор</label>
+        <select name="dictor">
+            <option value="" selected></option>
+            {% for dictor in dictors: %}
+                <option value="{{ dictor }}">{{ dictor }}</option>
+            {% endfor %}
+        </select>
+    </div>
+    <div class="form-row">
+        <label class="form-label">Пол</label>
+        <select name="gender">
+            <option value="" selected></option>
+            <option value="м">м</option>
+            <option value="ж">ж</option>
+        </select>
+    </div>
     Год рождения:
-    <div id="dobslider" class="dobslider"</div>
+    <div id="dobslider" class="dobslider"></div>
     <input type="hidden" name="dob" id="dob" /><br>
     <span id="result"></span><br>
-    <button type="submit" class="btn btn-primary">Поиск</button><br>
-<script type="text/javascript">
+    <button type="submit" class="btn btn-primary">Поиск</button>
+    <script type="text/javascript">
     $("#dobslider").slider({
         animate: "slow",
         range: "true",
@@ -70,28 +84,30 @@
     });
     $( "#result" ).text("от " + $("#dobslider").slider("values", 0) + " до " + $("#dobslider").slider("values", 1));
     $("#dob").val($("#dobslider").slider("values"));
-</script><br>
-</div><br><br>
-</form><br>
+</script>
+</form>
 <div class="title">Поиск по диалогам</div><br>
 <form class="form" form method="get" action="{{ url_for('results_dialogs') }}">
-    <div>
-    <label class="form-label">Язык</label>
-    <select name="lang">
-        <option></option>
-        {% for lang in languages: %}
-            <option>{{ lang }}</option>
-        {% endfor %}
-    </select><br>
-    <label class="form-label">Тема</label>
-    <select name="theme">
-        <option></option>
-        {% for theme in themes: %}
-            <option>{{ theme }}</option>
-        {% endfor %}
-    </select><br>
-    <button type="submit" class="btn btn-primary">Поиск</button>
+    <div class="form-row">
+        <label for="lang-select" class="form-label">Язык</label>
+        <select name="lang">
+            <option value="" selected></option>
+            {% for lang in languages: %}
+                <option value="{{ lang }}">{{ lang }}</option>
+            {% endfor %}
+        </select>
     </div>
+
+    <div class="form-row">
+        <label for="theme-select" class="form-label">Тематика</label>
+        <select name="theme">
+            <option value="" selected></option>
+            {% for theme in themes: %}
+                <option value="{{ theme }}">{{ theme }}</option>
+            {% endfor %}
+        </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Поиск</button>
 </form>
 </body>
 </html>

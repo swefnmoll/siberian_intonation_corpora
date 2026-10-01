@@ -14,7 +14,7 @@
 <body>
   {% include "top.html" %}
   <div class="title">Результаты поиска</div>
-  <div class="main">
+  <div class="results">
     <div class="pagination justify-content-center">
       {{ pagination.links }}<br>
     </div>
@@ -29,7 +29,7 @@
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
-              <h1 class="modal-title fs-5" id="exampleModalLabel">Разметка</h1>
+              <h1 class="modal-title fs-5" id="static/audio/{{elem[0]}}.wavLabel">Разметка</h1>
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
             </div>
             <div class="modal-body">
@@ -204,19 +204,27 @@
                   anntbl.style.fontSize = '11px';
                   const pitch_tier = anntbl.insertRow();
                   for (let i = 1; i < syllbnd.length; i++) {
-                    pitch = '{{elem[12]}}'.slice(1, -1).split(', ')
+                    pitch = '{{elem[12]}}'.slice(1, -1).split(', ');
                     const td = pitch_tier.insertCell();
-                    td.appendChild(document.createTextNode(pitch[i - 1].slice(5, -5) + 'P '));
+                    cell_width = ((syllbnd[i] - syllbnd[i - 1]) * 1024);
+                    td.style.width = cell_width.toString() + 'px';
+                    if (cell_width >= 12) {
+                        td.appendChild(document.createTextNode(pitch[i - 1].slice(5, -5)));
+                    };
                     td.style.border = '1px solid black';
-                    td.style.width = ((syllbnd[i] - syllbnd[i - 1]) * 1024).toString() + 'px'
+                    td.style.backgroundColor = '#6495ed';
                   };
                   const intens_tier = anntbl.insertRow();
                   for (let i = 1; i < syllbnd.length; i++) {
-                    intens = '{{elem[13]}}'.slice(1, -1).split(', ')
+                    intens = '{{elem[13]}}'.slice(1, -1).split(', ');
                     const td = intens_tier.insertCell();
-                    td.appendChild(document.createTextNode(intens[i - 1].slice(5, -5) + 'I '));
+                    cell_width = ((syllbnd[i] - syllbnd[i - 1]) * 1024);
+                    td.style.width = cell_width.toString() + 'px';
+                    if (cell_width >= 12) {
+                        td.appendChild(document.createTextNode(intens[i - 1].slice(5, -5)));
+                    };
                     td.style.border = '1px solid black';
-                    td.style.width = ((syllbnd[i] - syllbnd[i - 1]) * 1024).toString() + 'px'
+                    td.style.backgroundColor = '#5da130';
                   };
                   
                   annbody.appendChild(anntbl);
